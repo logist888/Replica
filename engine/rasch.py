@@ -41,6 +41,8 @@ def calibrate_jml(responses, n_iter=60, tol=1e-4, adjust=0.3):
                         by_p[p] = [(j, y) for j, y in by_p[p] if j != i]
                 changed = True
 
+    if not by_p or not by_i:  # все данные крайние или пустые: калибровать нечего
+        return {}, {}, {}
     theta = {p: 0.0 for p in by_p}
     b = {i: 0.0 for i in by_i}
     for _ in range(n_iter):

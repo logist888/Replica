@@ -39,6 +39,10 @@ class RaschTests(unittest.TestCase):
         for i in range(5):
             self.assertGreater(se[i], 0)
 
+    def test_empty_or_all_extreme_data_returns_empty(self):
+        self.assertEqual(calibrate_jml([]), ({}, {}, {}))
+        self.assertEqual(calibrate_jml([(0, 0, 1), (1, 0, 1)]), ({}, {}, {}))
+
     def test_extreme_persons_are_dropped_not_crashing(self):
         resp = [(0, 0, 1), (0, 1, 1), (1, 0, 0), (1, 1, 0), (2, 0, 1), (2, 1, 0), (3, 0, 0), (3, 1, 1)]
         b, theta, _ = calibrate_jml(resp)

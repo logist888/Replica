@@ -1,0 +1,7 @@
+node_modules/
+.next/
+content/
+.env*
+next-env.d.ts
+tsconfig.tsbuildinfo
+e2e-shots/

@@ -1,0 +1,1178 @@
+[
+ {
+  "id": "R-B2-01",
+  "level": "B2",
+  "genre": "blog",
+  "title": "Starting Late",
+  "text": "I turned forty last spring, and I decided to learn something I had always avoided: cooking. Until then my kitchen had been a place for toast and tea. Friends would joke that my oven still had the plastic wrapping on it, and they were not entirely wrong.\n\nMy first attempts were embarrassing. I burned rice, cut onions so badly that I cried for two different reasons, and once set off the smoke alarm while making a simple omelette. I almost gave up in the second week. What kept me going was a neighbour, Mrs Okafor, who knocked on my door after hearing the alarm and offered to show me a few basics. She never made me feel foolish. \"Everyone ruins the first pan,\" she said.\n\nNow, eight months later, I can make about a dozen meals without a recipe. The surprising thing is not the food itself. It is how patient I have become. When something goes wrong, I no longer take it as proof that I am useless; I treat it as information. Next time I lower the heat, or I add the salt earlier. I wonder what else I have avoided for years simply because I was afraid of doing it badly.",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-B2-01-1",
+    "type": "detail",
+    "stem": "What helped the writer to continue after the difficult start?",
+    "options": [
+     "Jokes from friends about the unused oven in the kitchen",
+     "A first omelette that turned out well",
+     "Friendly help from a neighbour who heard the alarm",
+     "A decision to follow every recipe exactly"
+    ],
+    "answer": 2
+   },
+   {
+    "id": "R-B2-01-2",
+    "type": "main_idea",
+    "stem": "What is the main point of the text?",
+    "options": [
+     "Cooking is easy once the right basic skills are learned.",
+     "Neighbours are usually the best teachers of new skills.",
+     "Learning to cook changed how the writer reacts to mistakes.",
+     "Forty is a better age to learn than any earlier time."
+    ],
+    "answer": 2
+   },
+   {
+    "id": "R-B2-01-3",
+    "type": "inference",
+    "stem": "What does the writer suggest in the last sentence?",
+    "options": [
+     "Fear of failure may have stopped the writer trying other things.",
+     "The writer plans to learn another new skill as soon as next spring.",
+     "Most people avoid things that they find boring.",
+     "Cooking is the only skill the writer has avoided."
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "R-B2-02",
+  "level": "B2",
+  "genre": "article",
+  "title": "The Quiet Street",
+  "text": "Last year, the council of the small town of Harlow Quay closed its main shopping street to traffic for six months as a trial. Shop owners were worried. Many believed that customers who arrived by car would simply go to the large retail park outside town, and that sales would fall.\n\nThe results were mixed but interesting. In the first month, several shops reported fewer customers, and one café even closed for a week. However, by the third month the picture had changed. Pavements that used to be narrow were now wide enough for tables and market stalls, and families began to stay longer in the centre. A bookshop owner said that people who had once rushed past her window now stopped to look at it.\n\nNot everyone was pleased. Older residents complained that they could no longer be dropped at the door, and delivery drivers found the new rules difficult. The council responded by adding a few parking spaces for disabled drivers and by allowing deliveries before ten in the morning.\n\nAt the end of the trial, a survey showed that slightly more residents wanted the closure to continue than to end. The council has not yet decided, but most shop owners now say they would prefer to keep the street as it is.",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-B2-02-1",
+    "type": "detail",
+    "stem": "Why did the council add parking spaces and allow early deliveries?",
+    "options": [
+     "To bring back customers who had left for the retail park",
+     "To help the café that had closed for a week",
+     "To answer complaints from some residents and drivers",
+     "To make the street wider for tables and stalls"
+    ],
+    "answer": 2
+   },
+   {
+    "id": "R-B2-02-2",
+    "type": "inference",
+    "stem": "What can be concluded about the shop owners' opinion?",
+    "options": [
+     "They were pleased with the closure from the very start of the trial.",
+     "They still believe that sales have fallen sharply.",
+     "They feel the council ignored their early worries.",
+     "They became more positive about the closure as time passed."
+    ],
+    "answer": 3
+   },
+   {
+    "id": "R-B2-02-3",
+    "type": "vocab_in_context",
+    "stem": "In the second paragraph, what does \"mixed\" mean in \"The results were mixed\"?",
+    "options": [
+     "Hard to read or understand",
+     "Combined from several reports",
+     "Surprising to almost everybody",
+     "Partly good and partly bad"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "R-B2-03",
+  "level": "B2",
+  "genre": "report",
+  "title": "A Shorter Week: A Fictional Case",
+  "text": "This fictional case study describes how a design company, Brightwell Studio, might approach a four-day working week. The firm employs forty people and decides to test shorter weeks for one quarter, with no change in pay.\n\nBefore the trial, managers fear that clients will be unhappy and that deadlines will be missed. To reduce the risk, the firm makes three changes. Meetings are limited to thirty minutes, staff agree to switch off email notifications during focused work, and each team chooses which day of the week to be absent, so that the office is always covered.\n\nAt the end of the quarter, the managers compare the results with the previous three months. Output is roughly the same, and the number of days lost through illness has fallen. Staff report lower stress levels. However, the case also shows some difficulties. Two project managers feel that their workload has simply been squeezed into fewer days, and new employees say they miss the chance to ask colleagues questions on the day when their team members are away.\n\nThe authors conclude that the change works best where a firm first looks carefully at how time is already being wasted, rather than just removing a day from the calendar.",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-B2-03-1",
+    "type": "detail",
+    "stem": "How does the firm make sure that the office is always covered?",
+    "options": [
+     "Each team picks a different day to be away.",
+     "Everyone works longer hours on the other four days.",
+     "Managers stay in the office on every weekday.",
+     "Meetings are moved to the one day off."
+    ],
+    "answer": 0
+   },
+   {
+    "id": "R-B2-03-2",
+    "type": "inference",
+    "stem": "Why do new employees find the shorter week difficult?",
+    "options": [
+     "They have fewer chances to get quick help from colleagues.",
+     "They are given more work than experienced staff.",
+     "They are not allowed to attend the shorter meetings that others use.",
+     "They are paid less than other members of the team."
+    ],
+    "answer": 0
+   },
+   {
+    "id": "R-B2-03-3",
+    "type": "main_idea",
+    "stem": "What do the authors conclude?",
+    "options": [
+     "Most companies should try a four-day week immediately.",
+     "A shorter week succeeds best when wasted time is dealt with first.",
+     "Workers are always happier with less time at the office, whatever the job.",
+     "Managers should reduce pay when hours are reduced."
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "R-B2-04",
+  "level": "B2",
+  "genre": "review",
+  "title": "Review: The Last Signal",
+  "text": "The Last Signal by Mara Linden is a quiet novel about a man who has spent thirty years alone on a remote island, sending weather reports to an office on the mainland. When the office announces that his station will be replaced by a machine, he has one month to decide what to do with his life.\n\nThe first half of the book is excellent. Linden describes the island with great care: the changing light, the sound of the wind in the radio cables, the habits of the birds that return each spring. Nothing much happens, yet I could not stop reading. The main character is stubborn and often unfair to the few people who write to him, but the author never asks us to admire him, only to understand him.\n\nSadly, the second half loses its way. A sudden visit from his sister, whom he has not seen for years, feels forced, and conversations that should be emotional come across as speeches. The ending is hopeful but too neat, as if the writer had grown tired of her own story.\n\nEven so, I would recommend the novel to readers who enjoy slow, thoughtful books. It will disappoint anyone looking for action, but its best pages are among the most memorable I have read this year.",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-B2-04-1",
+    "type": "author_attitude",
+    "stem": "What is the reviewer's overall opinion of the novel?",
+    "options": [
+     "Mostly positive, but with some clear reservations",
+     "Strongly negative, with only a few good moments near the end",
+     "Enthusiastic from the first page to the last",
+     "Neutral, because the book has no real strengths"
+    ],
+    "answer": 0
+   },
+   {
+    "id": "R-B2-04-2",
+    "type": "vocab_in_context",
+    "stem": "What does \"come across as speeches\" mean in the third paragraph?",
+    "options": [
+     "Are interrupted by speeches",
+     "Are replaced by long speeches",
+     "Seem like speeches to the reader",
+     "Are first written as speeches"
+    ],
+    "answer": 2
+   },
+   {
+    "id": "R-B2-04-3",
+    "type": "detail",
+    "stem": "What does the reviewer say about the first half of the book?",
+    "options": [
+     "Little happens, but the writing keeps the reader interested.",
+     "It is full of surprising events and sudden changes of direction.",
+     "The main character is easy to admire and like.",
+     "It is too slow and the island is described poorly."
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "R-B2-05",
+  "level": "B2",
+  "genre": "letter",
+  "title": "Letter: Keep the Library Open",
+  "text": "Dear Editor,\n\nI was disappointed to read that Eastfield Library will close on Wednesday and Friday afternoons from next month. The council says that few people visit at those times and that the savings will pay for repairs to the roof. I understand the need for repairs, but I believe this decision is short-sighted.\n\nThe figures the council mentions are probably true, but they hide an important fact. On weekday afternoons the library is used by exactly the people who have the fewest alternatives: retired residents, parents with young children, and people who are looking for work and need a free computer. They may be few in number, yet for them the library is not a luxury. Teenagers also arrive straight from school, and many of them have no quiet place to study at home.\n\nI would suggest a different approach. Instead of closing completely, the library could stay open with fewer staff, supported by volunteers who have already offered to help. This would cost less and keep the doors open.\n\nLibraries are rarely profitable, and we should not judge them as if they were shops. I hope the council will think again.\n\nYours faithfully,\nHelen Marsh",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-B2-05-1",
+    "type": "author_attitude",
+    "stem": "What does the writer think about the council's figures on visitor numbers?",
+    "options": [
+     "They are almost certainly wrong and should be checked.",
+     "They are accurate and show that the plan is sensible.",
+     "They are unimportant because money does not matter.",
+     "They are probably accurate but give a misleading picture."
+    ],
+    "answer": 3
+   },
+   {
+    "id": "R-B2-05-2",
+    "type": "detail",
+    "stem": "What alternative does the writer propose?",
+    "options": [
+     "Closing the library on a different day",
+     "Charging visitors a small fee for computers",
+     "Opening with fewer staff and some volunteers",
+     "Using the savings to repair the roof sooner"
+    ],
+    "answer": 2
+   },
+   {
+    "id": "R-B2-05-3",
+    "type": "inference",
+    "stem": "Why does the writer say that libraries should not be judged as if they were shops?",
+    "options": [
+     "Shops are busier than libraries on weekday afternoons, so they matter more.",
+     "Their value cannot be measured only by money or visitor numbers.",
+     "Libraries are always cheaper to run than shops.",
+     "Shop owners rarely give help to people without work."
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "R-B2-06",
+  "level": "B2",
+  "genre": "description",
+  "title": "The Marsh Path",
+  "text": "The footpath that runs along the edge of Wren Marsh is only four kilometres long, but walkers often take half a day to complete it. On one side lies the open sea, grey and restless; on the other, a flat area of grass and shallow pools that changes colour with every season. In spring the ground is covered in small yellow flowers, and by autumn the grass has turned the colour of copper.\n\nThe marsh is more than a pretty view. Twice a day the tide pushes sea water into its channels, and the plants that grow here have adapted to the salt. Their roots hold the soil together, which helps to protect the nearby village from storms. Local people say that the marsh works like a sponge, taking in water when the sea is high and releasing it slowly afterwards.\n\nVisitors are asked to stay on the path. The nests of ground birds are hard to see, and a single careless step can destroy a whole season's eggs. A small wooden hide halfway along the route offers a place to sit quietly and watch. Most people who pause there agree that the best sights are not the grand ones but the small, unexpected moments: a heron standing perfectly still, or a fox crossing the mud at dusk.",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-B2-06-1",
+    "type": "detail",
+    "stem": "Why are visitors asked to stay on the path?",
+    "options": [
+     "The tide can come in very quickly across the mud.",
+     "The yellow flowers in spring are very rare.",
+     "Nests hidden in the grass could easily be damaged.",
+     "The soil near the village is weak and unsafe."
+    ],
+    "answer": 2
+   },
+   {
+    "id": "R-B2-06-2",
+    "type": "inference",
+    "stem": "What does the comparison with a sponge suggest about the marsh?",
+    "options": [
+     "It is always wet and difficult to walk across.",
+     "It helps to reduce the danger from rising water.",
+     "It becomes larger in the autumn months.",
+     "It collects salt that is later used by the village."
+    ],
+    "answer": 1
+   },
+   {
+    "id": "R-B2-06-3",
+    "type": "main_idea",
+    "stem": "Which sentence best describes the passage?",
+    "options": [
+     "The marsh is dangerous and should be avoided in storms.",
+     "The marsh is attractive to visit and also useful to the area.",
+     "The walk is short, so it is suitable for a quick visit.",
+     "The marsh is mainly important for the birds that nest there."
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "R-B2-07",
+  "level": "B2",
+  "genre": "story",
+  "title": "The Delayed Train",
+  "text": "The announcement said the train would be forty minutes late, then an hour, then \"until further notice\". Leila looked at her watch. Her interview was at three, and it was already half past one. She had practised her answers for a week, and now they seemed to be draining out of her head.\n\nAround her, other passengers sighed and made phone calls. An elderly man in a green coat was sitting on the bench next to her, calmly doing a crossword. \"You look like someone who has somewhere to be,\" he said, without lifting his eyes.\n\n\"A job interview,\" she admitted. \"In another city.\"\n\n\"Then ring them. Most people would rather hear bad news early than wait for it.\"\n\nLeila hesitated. She had been afraid that calling would make her look disorganised. But the man was right, and her silence would only look worse. She stepped away and made the call. To her surprise, the woman who answered was friendly and offered to move the interview to the next morning, or even to hold it by video that afternoon.\n\nWhen Leila returned, the bench was empty. The crossword lay on the seat, with one word left unfinished. She picked up the pencil, smiled, and wrote it in.",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-B2-07-1",
+    "type": "detail",
+    "stem": "What advice does the elderly man give Leila?",
+    "options": [
+     "To wait for the next announcement",
+     "To practise her answers once more",
+     "To tell the employer about the problem early",
+     "To wait for the next announcement and then decide"
+    ],
+    "answer": 2
+   },
+   {
+    "id": "R-B2-07-2",
+    "type": "vocab_in_context",
+    "stem": "What does \"draining out of her head\" mean in the first paragraph?",
+    "options": [
+     "Causing her a sharp pain behind the eyes",
+     "Slowly disappearing from her memory",
+     "Being repeated again and again",
+     "Becoming clearer as time passed"
+    ],
+    "answer": 1
+   },
+   {
+    "id": "R-B2-07-3",
+    "type": "inference",
+    "stem": "What does the ending suggest about Leila?",
+    "options": [
+     "She feels calmer and grateful for the stranger's help.",
+     "She will probably miss her interview anyway, despite the call.",
+     "She wants to find the man and speak to him again.",
+     "She is annoyed that the man left without a word."
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "R-B2-08",
+  "level": "B2",
+  "genre": "opinion",
+  "title": "Let Teenagers Sleep",
+  "text": "Every September, millions of teenagers drag themselves out of bed before dawn to reach school by eight. I believe that schools should start later, and not only because teenagers like sleeping.\n\nMany sleep specialists argue that young people's body clocks shift during their teenage years, so that they naturally fall asleep later and wake later than children or adults. Asking a sixteen-year-old to concentrate at eight in the morning can be like asking an adult to work at five.\n\nCritics make two main objections. First, they say that later starts would make life difficult for working parents. This is true, and schools would need to offer supervised activities in the early morning. Second, they say that students would simply stay up later and gain nothing. This seems unlikely to me, but it is a fair worry, and it could be tested by a trial in a few schools.\n\nWhat troubles me most is that we accept the present timetable only because it is familiar. We would never design a system that deliberately makes young people tired; we inherited it. If a change costs little and might improve learning, we should at least try it.",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-B2-08-1",
+    "type": "author_attitude",
+    "stem": "How does the writer see the worry that students would stay up later?",
+    "options": [
+     "As a proven fact that makes the whole idea quite pointless",
+     "As a silly objection that deserves no answer",
+     "As the main reason schools must not change",
+     "As a reasonable concern that seems unlikely to be true"
+    ],
+    "answer": 3
+   },
+   {
+    "id": "R-B2-08-2",
+    "type": "vocab_in_context",
+    "stem": "What does \"inherited\" mean in \"we inherited it\"?",
+    "options": [
+     "Designed with great care by experts of an earlier age",
+     "Copied from schools in other countries",
+     "Received from the past without choosing it",
+     "Left behind after a long argument"
+    ],
+    "answer": 2
+   },
+   {
+    "id": "R-B2-08-3",
+    "type": "main_idea",
+    "stem": "What is the writer's main argument?",
+    "options": [
+     "Teenagers should be free to choose their own school hours, because they know their sleep needs best.",
+     "Later school starts should be tested because the current times are just a habit.",
+     "Working parents are the only group affected by school times.",
+     "Sleep is more important for learning than any lesson."
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "R-C1-01",
+  "level": "C1",
+  "genre": "essay",
+  "title": "The Cost of Convenience",
+  "text": "We tend to celebrate convenience as an unambiguous good, and it is easy to see why. Few of us would voluntarily return to washing clothes by hand or navigating with a paper map unfolded across the steering wheel. Yet convenience has a subtle price, one that is seldom itemised on the receipt. Every task a device performs on our behalf is a task we gradually cease to practise, and skills that are not exercised tend to fade.\n\nConsider the humble telephone number. A generation ago, most people carried dozens in their heads; today many of us could not recite our closest friend's. The loss is trivial, and nobody mourns it. But the principle extends well beyond telephone numbers. If a program drafts our emails, suggests our routes and selects our music, we risk becoming spectators in our own lives, approving rather than deciding.\n\nI do not wish to sound like a reactionary. The answer is not to abandon the tools, still less to romanticise drudgery. It is rather to be deliberate about which inconveniences we keep. Some friction is worth preserving: the effort of finding one's way through an unfamiliar town, for instance, is often what makes the town memorable. The wise course is to ask, before adopting any labour-saving device, what exactly the labour was doing for us.",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-C1-01-1",
+    "type": "inference",
+    "stem": "What does the writer mean by \"approving rather than deciding\"?",
+    "options": [
+     "People now approve of every new device they are offered without asking any question.",
+     "People dislike decisions and prefer that others make them.",
+     "People may accept automatic suggestions without exercising real judgement.",
+     "People are forced to choose between too many options."
+    ],
+    "answer": 2
+   },
+   {
+    "id": "R-C1-01-2",
+    "type": "author_attitude",
+    "stem": "How does the writer view modern labour-saving tools?",
+    "options": [
+     "With strong hostility, and a wish to give most of them up as soon as possible",
+     "With full enthusiasm, since the losses are trivial",
+     "With indifference, because the tools will change little",
+     "With measured acceptance, but with concern about what is quietly lost"
+    ],
+    "answer": 3
+   },
+   {
+    "id": "R-C1-01-3",
+    "type": "inference",
+    "stem": "Why does the writer mention finding one's way through an unfamiliar town?",
+    "options": [
+     "To show that some effort has hidden value worth keeping",
+     "To prove that paper maps are better than digital ones",
+     "To criticise towns that are difficult to understand",
+     "To suggest that travel is more tiring than it used to be"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "R-C1-02",
+  "level": "C1",
+  "genre": "article",
+  "title": "Machines That Translate",
+  "text": "Instant translation tools have improved so dramatically that some observers now ask whether learning a foreign language is still worth the effort. The question deserves a more careful answer than either enthusiasts or sceptics tend to give it.\n\nIt is certainly true that software can now cope with a menu, a timetable or a routine business email with remarkable accuracy. For such transactional exchanges, the case for years of study is weaker than it once was. But translation tools work best when the speaker's meaning is explicit and the context is narrow. Conversation rarely obliges. A joke, a hesitation or a carefully chosen understatement carries information that lies between the words, and it is precisely there that learners gradually develop a feel which no application replicates.\n\nThere is also the matter of what language study does to the learner. People who keep going report noticing their own mother tongue differently: its idioms, its rhythms, assumptions they had never examined. Whether this amounts to a measurable cognitive benefit is still debated, and it would be unwise to promise one. What can be said with more confidence is that relying on an intermediary changes the relationship. One may receive the message, but one remains outside the exchange, a recipient rather than a participant.\n\nPerhaps, then, the sensible conclusion is that translation technology will reduce the number of people who need a language, without reducing the number who benefit from having one.",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-C1-02-1",
+    "type": "main_idea",
+    "stem": "Which statement best summarises the writer's position?",
+    "options": [
+     "Fewer people will need a language, but many will still gain from knowing one.",
+     "Translation software has made language study entirely pointless.",
+     "Language study is valuable mainly because it clearly improves a learner's intelligence.",
+     "Translation software will never be accurate enough for real use."
+    ],
+    "answer": 0
+   },
+   {
+    "id": "R-C1-02-2",
+    "type": "inference",
+    "stem": "What does the writer imply by saying that \"Conversation rarely obliges\"?",
+    "options": [
+     "People in conversation tend to speak too quickly and too quietly for software.",
+     "Real speech often communicates meaning indirectly rather than explicitly.",
+     "Speakers are usually unwilling to help with translation.",
+     "Conversation is less polite than written communication."
+    ],
+    "answer": 1
+   },
+   {
+    "id": "R-C1-02-3",
+    "type": "author_attitude",
+    "stem": "What is the writer's attitude towards claims that learning languages improves thinking?",
+    "options": [
+     "Cautious, since the evidence is still uncertain",
+     "Dismissive, because the idea is completely unfounded",
+     "Confident, because many learners report such effects",
+     "Uninterested, because the benefit is not relevant"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "R-C1-03",
+  "level": "C1",
+  "genre": "interview-text",
+  "title": "Rooftops and Rainwater: An Imagined Interview",
+  "text": "Interviewer: Your city is known for its planted roofs. Were they a deliberate strategy?\n\nVarga: Hardly. They began as a modest experiment on three municipal buildings, mainly to reduce heating bills. The wider benefits became apparent only afterwards, and we were shrewd enough to take credit for them retrospectively.\n\nInterviewer: Such as?\n\nVarga: Rainwater, chiefly. Our drains were designed for a smaller city. When a downpour hits a landscape of concrete, the water arrives all at once and overwhelms the system. A planted roof absorbs a good portion and releases it gradually. That alone justified the cost, though nobody had predicted it.\n\nInterviewer: Has everyone embraced the idea?\n\nVarga: Certainly not. Building owners complain, with some justice, that installation is expensive and that the savings take years to materialise. We have had to offer subsidies, which some taxpayers resent. I understand the objection. My answer is that we are paying for the drains either way; the only question is whether we pay once, quietly, through the roofs, or repeatedly, noisily, through the floods.\n\nInterviewer: Would you do anything differently?\n\nVarga: I would have gathered better records at the start. We now argue about whether the roofs deserve credit for certain improvements, and without proper baseline figures we can only guess. If I could offer one piece of advice to other cities, it would be to measure before you change anything.",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-C1-03-1",
+    "type": "inference",
+    "stem": "What does Varga mean by saying the city took credit \"retrospectively\"?",
+    "options": [
+     "The city carefully recorded each benefit from the start.",
+     "The city gave credit to the building owners afterwards.",
+     "The city later admitted that the roofs had been a mistake.",
+     "The city claimed benefits that it had not originally planned."
+    ],
+    "answer": 3
+   },
+   {
+    "id": "R-C1-03-2",
+    "type": "author_attitude",
+    "stem": "How does Varga respond to complaints about the cost of the scheme?",
+    "options": [
+     "She rejects them as based on a simple misunderstanding.",
+     "She accepts them and regrets the subsidies.",
+     "She avoids them by changing the subject to floods.",
+     "She understands them but is not persuaded by them."
+    ],
+    "answer": 3
+   },
+   {
+    "id": "R-C1-03-3",
+    "type": "inference",
+    "stem": "Why is it now difficult to judge the effect of the roofs?",
+    "options": [
+     "The roofs have only been fitted to three buildings.",
+     "Taxpayers disagree about how much the roofs cost.",
+     "Figures from before the scheme were not collected properly.",
+     "The drains were redesigned shortly after the roofs."
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "R-C1-04",
+  "level": "C1",
+  "genre": "report",
+  "title": "Learning the Unwritten Rules: A Fictional Review",
+  "text": "This report examines the experience of new recruits at Calder & Finch, an imagined logistics firm that moved its induction programme online. It draws on invented interview material and is intended as an illustration of common difficulties rather than as evidence about real organisations.\n\nRecruits generally praised the clarity of the digital materials. Policies were easy to locate, and the pre-recorded training sessions allowed people to proceed at their own pace. Several newcomers nevertheless described a lingering uncertainty about unwritten expectations: how quickly a message should be answered, whether it was acceptable to question a manager's decision in a group call, which colleagues could be approached for informal advice. In a physical office such norms are absorbed almost unconsciously, by observation. At a distance, they must be stated, and no one had thought to state them.\n\nThe company's response was modest but effective. Each recruit was paired with an experienced colleague outside their own team, whose sole responsibility during the first two months was to answer questions that felt too trivial to put to a supervisor. Managers also began to summarise, in a short weekly note, the decisions that had been made informally.\n\nThe report concludes that the problem was less technological than cultural. Remote working did not create the gaps in the induction process; it merely exposed gaps that proximity had previously concealed.",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-C1-04-1",
+    "type": "main_idea",
+    "stem": "What does the report conclude about the recruits' difficulties?",
+    "options": [
+     "They were caused by poor-quality online training materials.",
+     "They arose from unstated norms that an office had once hidden.",
+     "They were created by the decision to work remotely.",
+     "They were solved by the pre-recorded training sessions."
+    ],
+    "answer": 1
+   },
+   {
+    "id": "R-C1-04-2",
+    "type": "inference",
+    "stem": "Why was each mentor chosen from outside the recruit's own team?",
+    "options": [
+     "So that recruits would meet colleagues from other departments",
+     "So that supervisors would have fewer routine questions to answer from new staff",
+     "So that mentors could report problems to the managers",
+     "So that recruits could ask small questions without fear of judgement"
+    ],
+    "answer": 3
+   },
+   {
+    "id": "R-C1-04-3",
+    "type": "vocab_in_context",
+    "stem": "In the second paragraph, what does \"lingering\" mean in \"a lingering uncertainty\"?",
+    "options": [
+     "Growing stronger each week",
+     "Appearing without any warning",
+     "Affecting only a few newcomers",
+     "Continuing for a long time"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "R-C1-05",
+  "level": "C1",
+  "genre": "review",
+  "title": "Review: Small Hours",
+  "text": "The exhibition \"Small Hours\", at the Fenwick Gallery, gathers some sixty photographs of people who work at night: bakers, cleaners, bus drivers, a woman who tunes pianos in empty concert halls. The photographer, Tomas Reiner (an invented name), spent two years following them, and the patience shows.\n\nThere is much to admire. Reiner has a gift for lighting; his subjects emerge from the darkness with a dignity that daytime portraits rarely achieve. The best image, of a baker dusted in flour at four in the morning and gazing at nothing in particular, manages to be both tender and unsentimental. One leaves the room with a renewed awareness of how much of the city's comfort depends on people we never see.\n\nYet I came away with reservations. The captions, written by the curator, are laden with admiration for the workers' \"resilience\", a word repeated so often that it begins to sound like a verdict on the subjects' choices rather than a tribute. Nothing is said of wages or conditions, as if exploring them might spoil the mood. The photographs themselves are more honest than the commentary: look closely at the tired eyes, and the suggestion of hardship is unmistakable.\n\nVisitors should therefore trust their eyes and ignore the labels. Seen that way, this is a moving, quietly angry show.",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-C1-05-1",
+    "type": "author_attitude",
+    "stem": "What is the reviewer's view of the captions?",
+    "options": [
+     "They explain the photographs clearly and add greatly to their emotional power.",
+     "They are too critical of the people who were photographed.",
+     "They flatter the workers and hide the hardship the pictures show.",
+     "They are accurate but too long for visitors to read."
+    ],
+    "answer": 2
+   },
+   {
+    "id": "R-C1-05-2",
+    "type": "inference",
+    "stem": "Why does the reviewer describe the show as \"quietly angry\"?",
+    "options": [
+     "The images suggest criticism of working conditions despite the captions.",
+     "The photographer was openly angry with the gallery's curator and the captions.",
+     "The workers in the pictures look openly furious.",
+     "The darkness in the pictures makes the mood unpleasant."
+    ],
+    "answer": 0
+   },
+   {
+    "id": "R-C1-05-3",
+    "type": "detail",
+    "stem": "What makes the best photograph successful, according to the reviewer?",
+    "options": [
+     "It shows the most unusual job in the whole exhibition.",
+     "It was taken with the most skilful use of daylight.",
+     "It gives the clearest picture of the workers' wages.",
+     "It combines gentleness with a refusal to sentimentalise."
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "R-C1-06",
+  "level": "C1",
+  "genre": "news",
+  "title": "Water Charges Reshaped in Ashby Vale (Fictional News)",
+  "text": "The town of Ashby Vale will introduce tiered pricing for household water next spring, after a summer in which its reservoirs fell to their lowest level in memory, the local authority has announced.\n\nUnder the scheme, households will pay a low rate for water used up to a basic allowance, with each additional unit costing progressively more. Officials argue that the structure protects essential use, such as drinking, cooking and washing, while discouraging waste such as filling private pools or watering lawns at midday.\n\nReaction has been divided. Consumer groups welcomed the principle but warned that large families could be penalised unfairly, since their basic needs naturally exceed those of a single occupant. In response, the authority said that households of more than four people would be granted an enlarged allowance on application, though it said little about the scrutiny that applications would receive.\n\nLocal farmers, who draw from separate supplies, are unaffected, a fact that some residents find irritating. \"We are asked to cut back while the fields are watered as usual,\" said one retired teacher at a public meeting. A spokesperson countered that agricultural use is regulated under different rules and that a review of those rules will begin in the autumn.\n\nWhether the scheme succeeds will depend less on the tariff itself than on whether residents regard it as fair. Measures of this kind are likely to be accepted when the rules are clear and exceptions are handled openly, and resented when neither condition holds.",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-C1-06-1",
+    "type": "inference",
+    "stem": "What does the report suggest about the larger allowance for big families?",
+    "options": [
+     "It will be given automatically to every large household.",
+     "It has already been rejected by consumer groups.",
+     "Its details have not yet been fully worked out.",
+     "It will cost the authority more than it saves."
+    ],
+    "answer": 2
+   },
+   {
+    "id": "R-C1-06-2",
+    "type": "inference",
+    "stem": "What does the retired teacher's remark reveal?",
+    "options": [
+     "A belief that farmers waste more water than households",
+     "A feeling that the burden is not being shared equally",
+     "A wish to see the fields watered at midday",
+     "A preference for the old system of pricing"
+    ],
+    "answer": 1
+   },
+   {
+    "id": "R-C1-06-3",
+    "type": "main_idea",
+    "stem": "According to the writer, what will matter most for the scheme's success?",
+    "options": [
+     "Whether the price per unit is set at a low enough level",
+     "Whether people feel that the rules are fair and open",
+     "Whether farmers agree to join the same system",
+     "Whether the reservoirs recover before next spring"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "R-C1-07",
+  "level": "C1",
+  "genre": "opinion",
+  "title": "Against the Tyranny of the Mark",
+  "text": "Every school year ends with a ritual of numbers. A pupil's term of effort is converted into a letter or a percentage, filed away and, in most cases, never thought about again. I have taught for long enough to doubt that this practice does what we claim for it. It is so pervasive that it rarely meets any scrutiny.\n\nDefenders of grading make a respectable case. Numbers are compact and comparable, and they spare busy parents and employers from reading paragraphs of commentary. Nobody disputes that some summary is necessary. My concern is with what happens when the summary becomes the point. Pupils quickly learn that the grade, rather than the understanding behind it, is the currency in which success is paid, and they behave accordingly. They ask what will be on the test, not what the subject is about; they construct elaborate arguments for an extra half mark; they conceal confusion rather than admit it, because confusion costs points.\n\nA comment such as \"your argument stalls in the third paragraph because you never define your key term\" is far less tidy, but it gives the pupil something to do. A number gives only something to feel. I would therefore not abolish grades but postpone them: let work be returned with written feedback only, and let the mark be assigned at the end of a unit, once the learning has had time to occur.\n\nI expect colleagues to object that this demands more time than anyone has. They are right. But it is worth asking what else we are spending that time on.",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-C1-07-1",
+    "type": "main_idea",
+    "stem": "What does the writer propose?",
+    "options": [
+     "Removing marks from school reports entirely, so that pupils stop worrying",
+     "Delaying marks until pupils have received and used written feedback",
+     "Replacing letters with percentages for greater accuracy",
+     "Giving parents longer comments instead of tests"
+    ],
+    "answer": 1
+   },
+   {
+    "id": "R-C1-07-2",
+    "type": "inference",
+    "stem": "What does the writer mean by \"A number gives only something to feel\"?",
+    "options": [
+     "A mark is less accurate than a written comment.",
+     "A mark prompts a reaction but does not show how to improve.",
+     "A mark makes pupils feel proud of their progress.",
+     "A mark is harder for most pupils to understand than a few written words."
+    ],
+    "answer": 1
+   },
+   {
+    "id": "R-C1-07-3",
+    "type": "inference",
+    "stem": "What does the final sentence suggest?",
+    "options": [
+     "Teachers have more free time than they claim.",
+     "Written feedback would take only a few minutes if teachers planned well.",
+     "Colleagues are right that the idea is impractical.",
+     "Teachers may be using their time on less valuable tasks."
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "R-C1-08",
+  "level": "C1",
+  "genre": "essay",
+  "title": "The Reluctant Starter",
+  "text": "Procrastination is usually treated as a failure of discipline, a character flaw to be corrected by sterner timetables. This diagnosis is appealing because it is simple, but it fits the evidence of everyday experience poorly. Most of us delay tasks not because they are unimportant but because they matter, and because contemplating them provokes discomfort: fear of doing the work badly, of discovering a limitation, of being judged.\n\nSeen in this light, putting something off is less an act of laziness than a way of regulating mood. Checking messages or tidying a desk offers immediate relief, while the cost, a more frantic deadline, is deferred to a later self who will have to bear it. The trade is irrational, but it is not incomprehensible.\n\nIf that account is broadly right, then self-reproach is among the least useful responses. Berating oneself adds shame to an already unpleasant task, thereby increasing the very discomfort that drove the avoidance. More promising are strategies that shrink the emotional threshold: agreeing to work for ten minutes only, or starting with the part of the task that feels least threatening. These devices look almost embarrassingly modest. Their advantage is that they do not require a transformation of character, merely a small, tolerable beginning.\n\nNone of this excuses chronic delay, which can have real consequences. But understanding the mechanism seems a better foundation for change than contempt for the person.",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-C1-08-1",
+    "type": "main_idea",
+    "stem": "What is the central claim of the essay?",
+    "options": [
+     "Delay is a serious flaw of character that only much stricter timetables can cure.",
+     "Delay is better understood as a way of escaping discomfort than as laziness.",
+     "Delay is harmless and rarely has real consequences.",
+     "Delay mostly affects tasks that people find unimportant."
+    ],
+    "answer": 1
+   },
+   {
+    "id": "R-C1-08-2",
+    "type": "inference",
+    "stem": "Why does the writer consider self-reproach unhelpful?",
+    "options": [
+     "It makes deadlines seem further away than they are.",
+     "It adds to the unpleasant feelings that cause avoidance.",
+     "It encourages people to choose easier tasks.",
+     "It shows that the person lacks any real discipline."
+    ],
+    "answer": 1
+   },
+   {
+    "id": "R-C1-08-3",
+    "type": "author_attitude",
+    "stem": "How does the writer regard strategies such as working for ten minutes?",
+    "options": [
+     "As unimpressive in appearance but practical and promising",
+     "As too small to make any real difference",
+     "As an impressive transformation of a person's whole character and habits",
+     "As a form of self-deception that should be avoided"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "R-C2-01",
+  "level": "C2",
+  "genre": "essay",
+  "title": "The Lure of the Untranslatable",
+  "text": "There is a minor genre of journalism devoted to the supposedly untranslatable word: a term from some distant language that, we are assured, names a feeling our own tongue cannot capture. The lists are charming, and they flatter both the language that produced the word and the reader who has just learned it. They are also, I think, misleading in a quiet but consequential way.\n\nThe difficulty is not that such words lack equivalents but that the equivalents need more than one word. English can describe the feeling readily enough; it merely declines to compress it into a single noun. What differs between languages is less the stock of human experience than the economy of expression: which experiences have been judged common enough to earn a compact label.\n\nA speaker who owns such a label reaches for it unthinkingly, and over generations it may make the feeling easier to notice and to discuss. Whether it makes the feeling more frequent is a far more speculative claim, and one that the lists invariably imply without ever arguing. The wiser inference is a modest one: vocabulary is a convenience of attention. A word does not create a feeling, any more than a signpost creates a village, but it does make the village easier to find, and people who never see the signpost may walk past for years without once thinking it absent.\n\nThe pleasure of the lists is real. We should simply enjoy them for what they are: evidence of ingenuity in naming, not proof that other people feel more than we do.",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-C2-01-1",
+    "type": "inference",
+    "stem": "What point does the writer make with the signpost comparison?",
+    "options": [
+     "Words help people to notice and discuss experiences without producing them.",
+     "Words are useful mainly to travellers in unfamiliar places.",
+     "Words become unnecessary once an experience is widely shared.",
+     "Words from other languages are always more precise than the ones we use at home."
+    ],
+    "answer": 0
+   },
+   {
+    "id": "R-C2-01-2",
+    "type": "author_attitude",
+    "stem": "What is the writer's attitude to the lists of untranslatable words?",
+    "options": [
+     "Contemptuous of them as a harmful form of journalism",
+     "Admiring of them as proof of deep cultural differences",
+     "Appreciative of their charm but critical of what they suggest",
+     "Indifferent to them, since the words themselves rarely matter to anybody"
+    ],
+    "answer": 2
+   },
+   {
+    "id": "R-C2-01-3",
+    "type": "inference",
+    "stem": "What claim do the lists imply, according to the writer?",
+    "options": [
+     "That having a word for a feeling makes people experience it more often",
+     "That English lacks the means to describe many emotions",
+     "That translators generally avoid the more difficult foreign words in their work",
+     "That readers prefer short words to explanations"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "R-C2-02",
+  "level": "C2",
+  "genre": "article",
+  "title": "The Quiet Expense of Free Services",
+  "text": "When a service costs nothing, it is natural to conclude that it costs us nothing. Economists have long cautioned against the inference, and the caution applies with particular force to the free applications that now occupy much of our waking life. Payment has not been abolished; it has merely changed currency. What is surrendered is attention, and attention, unlike money, cannot be saved for later.\n\nConsider a hypothetical video platform, which we might call Loomview. Its users pay no subscription, and each of them would, if asked, insist that the platform is a bargain. But the company's revenue depends on the number of minutes viewers spend watching, and every design decision, from the automatic start of the next clip to the removal of obvious stopping points, is quietly calibrated to increase that figure. Nothing about this is sinister in itself; shopkeepers have always arranged their goods to detain customers. The novelty lies in the precision of the arrangement and the scale on which it operates.\n\nThe difficulty for the user is that the bill never arrives. A subscription is a visible expense and prompts the question of whether it is justified. Minutes lost to an endless stream of clips are paid in instalments too small to notice, and the total is apparent, if at all, only in retrospect, as a vague sense that the evening has gone.\n\nNone of this proves that such services are bad bargains. For many people, the exchange is a fair one. But a bargain can only be judged by someone who knows the price, and the great achievement of the free model has been to make the price all but invisible.",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-C2-02-1",
+    "type": "inference",
+    "stem": "Why does the writer remark that shopkeepers have always arranged goods to detain customers?",
+    "options": [
+     "To suggest that the practice is old and that only its scale is new",
+     "To prove that free services are no different from shops",
+     "To argue that shopkeepers have always behaved in a sinister and calculating way",
+     "To show that customers prefer to be kept in shops"
+    ],
+    "answer": 0
+   },
+   {
+    "id": "R-C2-02-2",
+    "type": "main_idea",
+    "stem": "What is the writer's main argument?",
+    "options": [
+     "Free services have a cost in attention that is hard to see and so hard to judge.",
+     "Free services are a bad bargain that people should refuse.",
+     "Subscriptions are fairer than services paid for with attention, and should replace them.",
+     "Companies should show users exactly what they have spent."
+    ],
+    "answer": 0
+   },
+   {
+    "id": "R-C2-02-3",
+    "type": "author_attitude",
+    "stem": "How does the writer treat the platforms discussed?",
+    "options": [
+     "With anger, as the main cause of the wasted evenings in so many modern lives",
+     "With approval, because users clearly enjoy the services",
+     "With confusion, since the economics are too complicated",
+     "Without condemning them, but insisting that users should know the price"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "R-C2-03",
+  "level": "C2",
+  "genre": "story",
+  "title": "The Thursday Clock",
+  "text": "Anselm had repaired the station clock every Thursday for thirty-one years, and for thirty of them he had believed that nobody noticed. It ran a minute fast, or a minute slow, according to some private mood of the mechanism, and the passengers, who consulted it only in moments of panic, would never have known the difference. He climbed the ladder regardless, with the faint ceremony of a man performing an unwatched duty.\n\nThe new station manager, a brisk young woman named Perrin, found the habit baffling. \"It's wrong half the time anyway,\" she observed, \"and everybody has a phone.\" Anselm did not argue. He had learned long ago that arguments of this kind are not won, only postponed.\n\nIt was therefore a surprise when, on the following Thursday, she appeared at the foot of the ladder holding two cups of tea, one of which she passed up without comment. Over the next few months she began, almost against her will, to ask questions: why the pendulum was weighted as it was, what the sound meant when the mechanism seemed to hesitate before striking the hour. Anselm answered sparingly, suspecting that curiosity of this sort was fragile and might not survive being fed too eagerly.\n\nWhen he retired, there was no ceremony. On his last Thursday he left his can of oil on the ledge beneath the dial. The following week the clock was exactly right, and nobody on the platform remarked on it, which Anselm, hearing of it in a letter, took to be the highest compliment the clock could receive.",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-C2-03-1",
+    "type": "inference",
+    "stem": "Why did Anselm answer Perrin's questions \"sparingly\"?",
+    "options": [
+     "He feared that too much enthusiasm might destroy her new interest.",
+     "He was unwilling to share his skills with a newcomer who might replace him.",
+     "He did not really know how the mechanism worked.",
+     "He wanted her to find the answers in a book."
+    ],
+    "answer": 0
+   },
+   {
+    "id": "R-C2-03-2",
+    "type": "inference",
+    "stem": "Why does Anselm regard the unremarked accuracy of the clock as a compliment?",
+    "options": [
+     "Passengers had always trusted the clock completely.",
+     "Perrin had finally agreed that phones were enough.",
+     "The clock had been wrong for so long that nobody could be expected to notice.",
+     "People notice a clock only when it fails, so silence means success."
+    ],
+    "answer": 3
+   },
+   {
+    "id": "R-C2-03-3",
+    "type": "vocab_in_context",
+    "stem": "In the first paragraph, what does \"the faint ceremony\" suggest about how Anselm worked?",
+    "options": [
+     "A formal show meant to impress the passengers",
+     "A quiet seriousness, though nobody was watching",
+     "A reluctant manner, as if the job were a punishment",
+     "A cheerful routine shared with the other staff"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "R-C2-04",
+  "level": "C2",
+  "genre": "essay",
+  "title": "The Open-Plan Compromise",
+  "text": "Few architectural fashions have been defended as tenaciously, or as unconvincingly, as the open-plan office. Its advocates promised spontaneous collaboration: remove the walls, the argument ran, and ideas would circulate as freely as the air. What circulated in practice, in many offices, was the sound of other people's telephone calls.\n\nIt would be unfair to deny the model any merit. For certain tasks, proximity genuinely helps, and a junior colleague who can overhear an expert at work may learn more in a month than a training course could teach. The trouble is that the same openness that assists the occasional conversation undermines the sustained concentration on which most substantial work depends. Workers adapt, naturally. They put on headphones, an elaborate sign that they do not wish to be disturbed, and in doing so they recreate, at some expense, the walls the designers took away. The irony is complete when one notices that the headphones are frequently supplied by the employer.\n\nThe persistence of the layout owes less to evidence than to economics: an open floor accommodates more desks per square metre, and the saving is immediate and measurable, whereas the cost in distraction is diffuse and hard to attribute to anyone. Decisions that favour the visible over the real are not peculiar to architecture, but they are rarely so audible.\n\nA sensible compromise is not difficult to imagine: a common area for talk and a number of quiet rooms for thought, with people free to choose between them according to what they are doing. That this arrangement is still regarded as an eccentric proposal says a good deal about how seldom the designers of workplaces consult those who actually work in them.",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-C2-04-1",
+    "type": "inference",
+    "stem": "What is ironic about workers wearing headphones, according to the writer?",
+    "options": [
+     "They stop hearing the useful conversations around them.",
+     "They prefer music to the work they are paid to do.",
+     "They hide the fact that they dislike their colleagues.",
+     "They rebuild the barriers that the layout was meant to remove."
+    ],
+    "answer": 3
+   },
+   {
+    "id": "R-C2-04-2",
+    "type": "author_attitude",
+    "stem": "How does the writer regard the open-plan model?",
+    "options": [
+     "As flawed, but not without some real advantages",
+     "As entirely worthless, with no benefit for any task",
+     "As ideal, apart from a few minor noise problems",
+     "As acceptable, because workers can adapt to it"
+    ],
+    "answer": 0
+   },
+   {
+    "id": "R-C2-04-3",
+    "type": "detail",
+    "stem": "Why, in the writer's view, does the open-plan layout persist?",
+    "options": [
+     "Employers have proof that it increases collaboration.",
+     "Workers say that they prefer it to private offices.",
+     "Its savings are easy to measure while its costs are spread out.",
+     "Designers have no alternative that is less expensive."
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "R-C2-05",
+  "level": "C2",
+  "genre": "report",
+  "title": "Weighing a Woodland: A Hypothetical Brief",
+  "text": "This brief considers a hypothetical proposal to allow a river valley, currently used for sheep, to revert to woodland over several decades. It should be read as an exercise in weighing arguments, not as a forecast.\n\nProponents advance three claims. First, that dense roots would stabilise the slopes and slow the passage of flood water to the villages lower down the valley. Second, that a wider variety of species would colonise the area, enriching what is now a fairly uniform landscape. Third, that the project would attract visitors, partly compensating the community for the loss of farming income.\n\nEach claim is plausible; none is guaranteed. The flood-control argument depends on the pace of tree growth, and for the first decade or two the benefit may be negligible, which is of scant comfort to anyone who lives beside the river. The biodiversity argument is stronger but less immediate, and it presumes that seed sources lie close enough for colonisation to occur unaided. The tourism claim is the most speculative, since the visitors who appreciate a young woodland, by definition a rather rough one, may be fewer than supporters assume.\n\nOpponents, for their part, emphasise cultural loss. The sheep farms embody generations of accumulated skill, and once such knowledge has lapsed it is not easily recovered. This objection is often dismissed as sentimental, but that seems unjust: the question of what a community can do, and not merely what it owns, is a practical one.\n\nOn balance, the proposal merits a cautious trial on a limited area, with agreed measures of success established beforehand, so that the disagreement can be settled by observation rather than by temperament.",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-C2-05-1",
+    "type": "inference",
+    "stem": "Why does the brief describe the flood benefit as \"of scant comfort\" to some people?",
+    "options": [
+     "The roots would make flooding worse in the early years.",
+     "The villages downstream would not be affected at all.",
+     "Sheep farmers would be blamed for the damage caused.",
+     "Villagers by the river would have to wait years for any protection."
+    ],
+    "answer": 3
+   },
+   {
+    "id": "R-C2-05-2",
+    "type": "author_attitude",
+    "stem": "How does the writer treat the objection about cultural loss?",
+    "options": [
+     "As an emotional reaction that deserves little attention",
+     "As a serious and practical concern, not mere sentiment",
+     "As the decisive reason for rejecting the proposal",
+     "As a weaker argument than any made by the supporters"
+    ],
+    "answer": 1
+   },
+   {
+    "id": "R-C2-05-3",
+    "type": "main_idea",
+    "stem": "What does the brief recommend, and for what reason?",
+    "options": [
+     "A full conversion to woodland, because the benefits are certain",
+     "A rejection of the plan, since none of the claims is proven",
+     "A small trial with agreed targets, so that evidence can settle the dispute",
+     "A delay of several decades until much better forecasts become possible for the valley"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "R-C2-06",
+  "level": "C2",
+  "genre": "blog",
+  "title": "Four Seconds",
+  "text": "Last week I presented a chart to about two hundred colleagues, explaining its upward trend with what I thought was some eloquence, before noticing that the axis had been labelled in reverse. The trend was, in fact, downward.\n\nWhat I remember is not the error but the interval before I mentioned it: perhaps four seconds, during which I weighed whether anyone had noticed, whether I could steer round it, whether it was kinder to everyone to say nothing. That interval is the real subject of this post, because I suspect it is where character is decided, in small private calculations of the cost of honesty.\n\nI corrected myself. The room laughed, kindly, and the talk continued. Afterwards, three people thanked me, and none of them for the content. One said it was a relief to see that the speaker was not an infallible machine. I did not know whether to be flattered.\n\nI have since wondered why we cling to the fiction of infallibility when we all know it to be false. Perhaps because authority, in many workplaces, is read as an absence of doubt. Yet the colleagues I trust most are not those who are never wrong; they are those who tell me promptly when they are, and without elaborate excuses. If there is a lesson, it is an unglamorous one: the speed of an admission matters more than the grandeur of the apology.",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-C2-06-1",
+    "type": "inference",
+    "stem": "Why does the writer say, \"I did not know whether to be flattered\"?",
+    "options": [
+     "The audience had laughed instead of listening.",
+     "The colleague compared the speaker to a machine that never makes errors.",
+     "Nobody had noticed the error until it was explained.",
+     "The thanks were for the mistake rather than for the talk itself."
+    ],
+    "answer": 3
+   },
+   {
+    "id": "R-C2-06-2",
+    "type": "main_idea",
+    "stem": "What is the real subject of the post, according to the writer?",
+    "options": [
+     "The embarrassment of making a public mistake in front of two hundred colleagues",
+     "The way charts should be labelled to avoid confusion",
+     "The kindness shown by an audience towards a speaker",
+     "The brief moment when the writer decided whether to admit the error"
+    ],
+    "answer": 3
+   },
+   {
+    "id": "R-C2-06-3",
+    "type": "author_attitude",
+    "stem": "What does the writer conclude about trust at work?",
+    "options": [
+     "Authority depends mainly on showing no doubt in public.",
+     "Colleagues who are never wrong are the most reliable.",
+     "Prompt, plain admissions of error earn more trust than appearing never to fail.",
+     "Long, graceful apologies are the best way of repairing trust with a whole audience."
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "R-C2-07",
+  "level": "C2",
+  "genre": "opinion",
+  "title": "In Defence of Boredom",
+  "text": "Parents and educators have, for some time, regarded boredom as a problem to be solved, preferably before it has fully formed. A restless child is handed a screen; an idle afternoon is filled with scheduled activities. The impulse is generous, and I do not wish to ridicule it. But I wonder whether, in rescuing children from tedium, we are also depriving them of something.\n\nBoredom is, after all, the state in which the mind is left to generate its own occupation. Whoever has watched a child, after an initial protest, begin to construct an elaborate game from a cardboard box and a few spoons will recognise the process: dissatisfaction acts as a kind of pressure, and invention is where it escapes. If the pressure is relieved at once from outside, the escape is never practised.\n\nI should be careful not to overstate the case. I know of no proof that boredom builds creativity, and adults who idealise their own unwatched childhoods are notoriously unreliable witnesses; the memory of long idle summers is selective, and omits the many that were simply dull. Nor is lasting loneliness, in a child with nothing to do and no one to talk to, anything to be welcomed.\n\nWhat I would defend is a modest proposition: that a certain amount of unplanned time is not a lapse in care but a form of it. The adult's task is not to eliminate emptiness but to ensure it is the sort from which something can grow, and then, with some effort, to leave it alone.",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-C2-07-1",
+    "type": "author_attitude",
+    "stem": "How does the writer regard adults' memories of idle childhoods?",
+    "options": [
+     "As unreliable evidence, because they favour the pleasant summers",
+     "As strong proof that boredom improves creativity in later adult life",
+     "As valuable memories that parents should respect",
+     "As mostly accurate, apart from a few exaggerations"
+    ],
+    "answer": 0
+   },
+   {
+    "id": "R-C2-07-2",
+    "type": "inference",
+    "stem": "What does \"the escape is never practised\" imply about a child who is never bored?",
+    "options": [
+     "The child will probably become restless as an adult.",
+     "The child may not learn to invent amusement without help.",
+     "The child will find school activities too tedious.",
+     "The child will escape from parents' supervision."
+    ],
+    "answer": 1
+   },
+   {
+    "id": "R-C2-07-3",
+    "type": "main_idea",
+    "stem": "What modest proposition does the writer defend?",
+    "options": [
+     "Children should be left alone for most of each day.",
+     "Screens are the main cause of the boredom that children now complain about.",
+     "Unplanned time can be a form of care when it is not neglect.",
+     "Parents who fill their children's time are unkind."
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "R-C2-08",
+  "level": "C2",
+  "genre": "description",
+  "title": "Halden Row",
+  "text": "Halden Row has never been fashionable, and its residents have always seemed slightly proud of the fact. The street runs between a disused rail depot and a canal whose water, depending on the season, is brown, green or an unconvincing blue. For decades its shops sold what the neighbourhood needed: bread, hinges, used shoes, repairs of every kind. A visitor in those days would have found little to photograph and much to rely on.\n\nLately, the street has begun to attract a different crowd. A bakery now sells loaves at three times the former price, with a queue to match; the hardware shop has become a gallery that occasionally sells, on the side, a single beautiful hinge. Longtime residents regard these changes with an ambivalence that outsiders sometimes mistake for hostility. They are not, for the most part, opposed to improvement. They simply observe that the improvements are not addressed to them, and that rents, like the water in the canal, have a way of changing colour without warning.\n\nYet it would be glib to cast the newcomers as villains. Most are young, hardworking and as poorly housed as anyone, and they were drawn by the very qualities now at risk: low rents, honest surfaces, a sense of being among people who were not performing for anyone. Their arrival is thus a kind of slow irony, in which the street's appeal is consumed by those who admire it.\n\nWhat will remain in twenty years is anyone's guess. Perhaps only the name, and the canal, which has so far resisted every attempt at improvement.",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-C2-08-1",
+    "type": "inference",
+    "stem": "What does the comparison between rents and the canal water suggest?",
+    "options": [
+     "Rents are as dirty and unpleasant as the canal.",
+     "Rents have always been higher in summer than in winter.",
+     "Rents can rise suddenly and for reasons that residents cannot control.",
+     "Rents are controlled by the people who own the bakery and the new gallery."
+    ],
+    "answer": 2
+   },
+   {
+    "id": "R-C2-08-2",
+    "type": "author_attitude",
+    "stem": "How does the writer regard the newcomers?",
+    "options": [
+     "With resentment, as the cause of the street's decline",
+     "With admiration, because they have improved the shops",
+     "With amusement, as people who misunderstand the area",
+     "With sympathy, since they share the residents' difficulties"
+    ],
+    "answer": 3
+   },
+   {
+    "id": "R-C2-08-3",
+    "type": "inference",
+    "stem": "Why does the writer call the newcomers' arrival \"a kind of slow irony\"?",
+    "options": [
+     "They arrive slowly, but they leave very quickly.",
+     "Their liking for the street's character helps to destroy that character.",
+     "They pretend to admire the street while they secretly dislike what it has become.",
+     "They bring changes that the residents asked for."
+    ],
+    "answer": 1
+   }
+  ]
+ }
+]

@@ -1,0 +1,29 @@
+import { NextResponse } from "next/server";
+import { pool } from "@/lib/db";
+import { loadSession } from "@/lib/session";
+import { readingBank } from "@/lib/content";
+import { readingEstimate, type Level } from "@/lib/scoring";
+
+export async function POST(req: Request) {
+  let body: any;
+  try {
+    body = await req.json();
+  } catch {
+    return NextResponse.json({ error: "Invalid request" }, { status: 400 });
+  }
+  const s = await loadSession(body?.token);
+  if (!s) return NextResponse.json({ error: "Session not found or expired." }, { status: 404 });
+  if (s.status === "done") return NextResponse.json({ url: "/result/" + s.token });
+  if (s.status !== "reading") return NextResponse.json({ error: "Finish the vocabulary part first." }, { status: 409 });
+
+  const levelOf = new Map<string, Level>();
+  for (const p of readingBank()) for (const q of p.questions) levelOf.set(q.id, p.level);
+  const r = await pool().query("select item_id, is_correct from responses where session_id=$1 and part='reading'", [s.id]);
+  const items = r.rows.filter((x) => levelOf.has(x.item_id)).map((x) => ({ level: levelOf.get(x.item_id)!, correct: x.is_correct as boolean }));
+  const asked = (s.form.reading ?? []).length * 3;
+  if (items.length < Math.min(asked, 12)) return NextResponse.json({ error: "Please answer the reading questions first." }, { status: 409 });
+  const reading = readingEstimate(items);
+  const results = { vocab: s.form.vocabScore, reading, answered: items.length, version: "pilot-0" };
+  await pool().query("update sessions set status='done', results=$2, finished_at=now() where id=$1", [s.id, JSON.stringify(results)]);
+  return NextResponse.json({ url: "/result/" + s.token });
+}
