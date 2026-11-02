@@ -1,0 +1,29 @@
+feature,area,priority,original,clone,notes
+Практический тест на 20 вопросов с процентом верных,practice,should,yes,no,"без сертификата, неограниченные попытки (FAQ)"
+Сертифицирующий тест чтение и аудирование,test,must,yes,no,"50 мин; число вопросов неизвестно"
+Адаптивный подбор заданий,test,must,yes,no,"IRT + CAT; своя калибровка"
+Банк заданий для чтения,content,must,yes,no,"своё содержимое, не EF"
+Банк заданий для аудирования,content,must,yes,no,"своё аудио, не EF"
+Оценка по навыкам (чтение отдельно от аудирования),scoring,must,yes,no,"score for each skill (FAQ)"
+Шкала 0-100 и привязка к уровню CEFR,scoring,must,yes,no,"свои пороги по пилотным данным; таблица EF как данные не берётся"
+Страница результата,result,must,yes,no,
+Публичная ссылка на сертификат,certificate,must,yes,no,"непредсказуемый идентификатор"
+PDF сертификата,certificate,should,yes,no,
+Добавление в LinkedIn,certificate,could,yes,no,
+Получение сертификата по данным пользователя,certificate,could,yes,no,
+Обновление сертификата после пересдачи,certificate,should,yes,no,
+Лимит одной попытки в 90 дней,anti-abuse,should,yes,no,
+Отмена сессии при фатальной ошибке без возобновления,anti-abuse,could,yes,no,"решение продуктовое: у EF результат теряется"
+Блокировка копирования и вставки,anti-abuse,could,yes,no,
+Запрет возврата к предыдущему вопросу,test,should,yes,no,
+Регистрация и согласие с условиями,onboarding,must,yes,no,
+Ограничение по возрасту,onboarding,should,yes,no,"EF: 16+ или 13+ с согласием родителя"
+Выбор языка интерфейса,i18n,should,yes,no,"EF: 17 языков; своё: начать с 2"
+Корпоративные ссылки для школ и работодателей,b2b,could,yes,no,"детали у EF неизвестны"
+Тест письма и говорения с ИИ-оценкой,test,skip,yes,no,"вне среза; отдельный проект"
+Тест 4 навыка 90 минут,test,skip,yes,no,"вне среза"
+Банк заданий EF и аудио,content,skip,yes,no,"права EF, не копируется"
+Калибровка и нормирование EF,scoring,skip,yes,no,"данные EF"
+Признание сертификата работодателями,network,skip,yes,no,"репутация EF, не клонируется"
+EF English Proficiency Index,data,skip,yes,no,"данные и бренд EF"
+Бренд EF SET,brand,skip,yes,no,"товарный знак"
