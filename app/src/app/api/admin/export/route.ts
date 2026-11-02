@@ -28,10 +28,11 @@ export async function GET(req: Request) {
   if (kind === "sessions") {
     const r = await pool().query(
       `select s.id as session_id, s.started_at, s.finished_at, p.cookie_id, p.native_language, p.years_learning, p.self_level, p.ext_test, p.ext_score,
-              s.results->'vocab'->>'provisionalLevel' as vocab_level, s.results->'reading'->>'level' as reading_level, s.results->'reading'->>'theta' as reading_theta
+              s.results->'vocab'->>'provisionalLevel' as vocab_level, s.results->'reading'->>'level' as reading_level, s.results->'reading'->>'theta' as reading_theta,
+              s.results->'listening'->>'level' as listening_level, s.results->'listening'->>'theta' as listening_theta
        from sessions s join participants p on p.id = s.participant_id where s.status = 'done' order by s.started_at`,
     );
-    return new NextResponse(csv(r.rows, ["session_id", "started_at", "finished_at", "cookie_id", "native_language", "years_learning", "self_level", "ext_test", "ext_score", "vocab_level", "reading_level", "reading_theta"]), { headers: { "content-type": "text/csv" } });
+    return new NextResponse(csv(r.rows, ["session_id", "started_at", "finished_at", "cookie_id", "native_language", "years_learning", "self_level", "ext_test", "ext_score", "vocab_level", "reading_level", "reading_theta", "listening_level", "listening_theta"]), { headers: { "content-type": "text/csv" } });
   }
   return new NextResponse("Not found", { status: 404 });
 }

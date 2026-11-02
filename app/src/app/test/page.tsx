@@ -3,7 +3,8 @@
 import { useEffect, useRef, useState } from "react";
 
 type Passage = { id: string; title: string; text: string; questions: { id: string; stem: string; options: string[] }[] };
-type Step = "intro" | "vocab" | "reading" | "finishing" | "error";
+type Step = "intro" | "vocab" | "reading" | "listening" | "finishing" | "error";
+type Clip = { id: string; title: string; plays: number; questions: { id: string; stem: string; options: string[] }[] };
 
 const SELF = ["unknown", "A1", "A2", "B1", "B2", "C1", "C2"];
 
@@ -14,6 +15,36 @@ async function post(url: string, body: unknown) {
   return j;
 }
 
+
+function AudioPlayer({ src, plays, onFinished }: { src: string; plays: number; onFinished?: () => void }) {
+  const ref = useRef<HTMLAudioElement>(null);
+  const [left, setLeft] = useState(plays);
+  const [playing, setPlaying] = useState(false);
+  const [failed, setFailed] = useState(false);
+  const [pos, setPos] = useState(0);
+  return (
+    <div className="audio" role="group" aria-label="Audio player">
+      <audio
+        ref={ref}
+        src={src}
+        preload="auto"
+        onEnded={() => { setPlaying(false); setLeft((n) => n - 1); setPos(0); onFinished?.(); }}
+        onError={() => { setFailed(true); setPlaying(false); }}
+        onTimeUpdate={(e) => { const a = e.currentTarget; setPos(a.duration ? a.currentTime / a.duration : 0); }}
+      />
+      <button
+        type="button"
+        className="play"
+        disabled={playing || left <= 0 || failed}
+        aria-label={playing ? "Playing" : left > 0 ? "Play audio" : "No plays left"}
+        onClick={() => { setPlaying(true); ref.current?.play().catch(() => { setFailed(true); setPlaying(false); }); }}
+      >{playing ? "…" : "\u25B6"}</button>
+      <div className="track" aria-hidden="true"><b style={{ width: Math.round(pos * 100) + "%" }} /></div>
+      <span className="muted small" aria-live="polite">{failed ? "Audio could not be loaded" : `Plays left: ${Math.max(left, 0)}`}</span>
+    </div>
+  );
+}
+
 export default function TestPage() {
   const [step, setStep] = useState<Step>("intro");
   const [error, setError] = useState<string | null>(null);
@@ -21,6 +52,8 @@ export default function TestPage() {
   const [token, setToken] = useState("");
   const [words, setWords] = useState<string[]>([]);
   const [passages, setPassages] = useState<Passage[]>([]);
+  const [clips, setClips] = useState<Clip[]>([]);
+  const [ci, setCi] = useState(0);
 
   // intro
   const [consent, setConsent] = useState(false);
@@ -43,14 +76,14 @@ export default function TestPage() {
   const picked = useRef<Record<string, number>>({});
 
   useEffect(() => {
-    if (step === "reading") {
+    if (step === "reading" || step === "listening") {
       shownAt.current = Date.now();
       window.scrollTo(0, 0);
     }
-  }, [step, pi]);
+  }, [step, pi, ci]);
 
   useEffect(() => {
-    if (step === "vocab" || step === "reading") {
+    if (step === "vocab" || step === "reading" || step === "listening") {
       const h = (e: BeforeUnloadEvent) => { e.preventDefault(); };
       window.addEventListener("beforeunload", h);
       return () => window.removeEventListener("beforeunload", h);
@@ -121,13 +154,42 @@ export default function TestPage() {
       if (pi + 1 < passages.length) {
         setPi(pi + 1);
       } else {
+        const l = await post("/api/listening/start", { token });
+        if (l.skip) {
+          setStep("finishing");
+          const j = await post("/api/finish", { token });
+          window.location.href = j.url;
+        } else {
+          setClips(l.items);
+          setCi(0);
+          setStep("listening");
+        }
+      }
+    } catch (e: any) {
+      setError(e.message);
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  async function nextClip() {
+    const c = clips[ci];
+    setBusy(true);
+    setError(null);
+    try {
+      await post("/api/listening", {
+        token,
+        answers: c.questions.map((q) => ({ id: q.id, choice: choices[q.id], timeMs: picked.current[q.id] ?? null })),
+      });
+      if (ci + 1 < clips.length) {
+        setCi(ci + 1);
+      } else {
         setStep("finishing");
         const j = await post("/api/finish", { token });
         window.location.href = j.url;
       }
     } catch (e: any) {
       setError(e.message);
-      if (step === "finishing") setStep("reading");
     } finally {
       setBusy(false);
     }
@@ -213,6 +275,39 @@ export default function TestPage() {
         <div className="row between">
           <span className="muted small">You cannot go back to a previous text.</span>
           <button className="btn primary" disabled={!done || busy} onClick={nextPassage}>{pi + 1 < passages.length ? "Next text" : "Finish"}</button>
+        </div>
+      </main>
+    );
+  }
+
+  if (step === "listening") {
+    const c = clips[ci];
+    if (!c) return null;
+    const done = c.questions.every((q) => choices[q.id] !== undefined);
+    return (
+      <main className="wrap stack">
+        <ol className="steps" aria-label="Progress"><li>Part 1: Words</li><li>Part 2: Reading</li><li aria-current="step">Part 3: Listening</li></ol>
+        <p className="muted small" aria-live="polite">Recording {ci + 1} of {clips.length}</p>
+        <section className="card stack" lang="en" key={c.id}>
+          <h2 style={{ margin: 0 }}>{c.title}</h2>
+          <AudioPlayer src={`/api/audio/${c.id}?token=${token}`} plays={c.plays} />
+          <p className="muted small">You can play this recording {c.plays === 1 ? "once" : `${c.plays} times`}. You can answer while you listen.</p>
+        </section>
+        {c.questions.map((q, qi) => (
+          <div key={q.id} className="card stack" lang="en" role="radiogroup" aria-labelledby={"q-" + q.id}>
+            <p id={"q-" + q.id} className="qtext">{qi + 1}. {q.stem}</p>
+            {q.options.map((o, k) => (
+              <label key={k} className={"opt" + (choices[q.id] === k ? " sel" : "")}>
+                <input type="radio" name={q.id} checked={choices[q.id] === k} onChange={() => choose(q.id, k)} />
+                <span className="dot" aria-hidden="true" /><span>{o}</span>
+              </label>
+            ))}
+          </div>
+        ))}
+        {error && <p className="err" role="alert">{error}</p>}
+        <div className="row between">
+          <span className="muted small">You cannot go back to a previous recording.</span>
+          <button className="btn primary" disabled={!done || busy} onClick={nextClip}>{ci + 1 < clips.length ? "Next recording" : "Finish"}</button>
         </div>
       </main>
     );

@@ -1,4 +1,4 @@
-import { test, expect, acceptIntro, completeVocabUI, db, answerOf } from "./fixtures";
+import { test, expect, acceptIntro, completeVocabUI, db, afterReadingUI } from "./fixtures";
 import type { Page } from "@playwright/test";
 
 test.use({ viewport: { width: 390, height: 844 } });
@@ -25,12 +25,13 @@ test("F01-H1 полный путь с мобильного экрана", async 
     await readingScreen(page);
     await page.getByRole("button", { name: t < 9 ? "Next text" : "Finish" }).click();
   }
+  await afterReadingUI(page);
   await expect(page).toHaveURL(/\/result\/[0-9a-f]{32}$/);
   await expect(page.getByText(/Provisional estimate/)).toBeVisible();
   await expect(page.getByRole("heading", { name: "Reading" })).toBeVisible();
   const token = page.url().split("/").pop()!;
   const rows = await db("select part, count(*)::int n from responses r join sessions s on s.id=r.session_id where s.token=$1 group by part order by part", [token]);
-  expect(rows).toEqual([{ part: "reading", n: 30 }, { part: "vocab", n: 60 }]);
+  expect(rows.filter((r: any) => r.part !== "listening")).toEqual([{ part: "reading", n: 30 }, { part: "vocab", n: 60 }]);
   const s = await db("select status, user_agent, results from sessions where token=$1", [token]);
   expect(s[0].status).toBe("done");
   expect(s[0].user_agent.length).toBeLessThanOrEqual(200);

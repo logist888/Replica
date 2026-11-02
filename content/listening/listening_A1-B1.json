@@ -1,0 +1,1060 @@
+[
+ {
+  "id": "L-A1-01",
+  "level": "A1",
+  "genre": "dialogue",
+  "title": "At the fruit shop",
+  "speakers": [
+   {
+    "label": "A",
+    "voice": "woman, 30s, friendly British"
+   },
+   {
+    "label": "B",
+    "voice": "man, 40s, American"
+   }
+  ],
+  "transcript": "A: Hello. Can I help you?\nB: Yes, please. Three apples, please.\nA: Sure. Anything else? Milk? Bread?\nB: Yes, a bottle of water.\nA: OK. The apples are one dollar, and the water is two dollars. That's three dollars.\nB: Here you are.\nA: Thank you. Have a nice day!",
+  "target_seconds": 18,
+  "plays": 2,
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "L-A1-01-1",
+    "type": "detail",
+    "stem": "How many apples does the man buy?",
+    "options": [
+     "Three",
+     "One",
+     "Two",
+     "Four"
+    ],
+    "answer": 0
+   },
+   {
+    "id": "L-A1-01-2",
+    "type": "detail",
+    "stem": "How much is the water?",
+    "options": [
+     "One dollar",
+     "Three dollars",
+     "Two dollars",
+     "Four dollars"
+    ],
+    "answer": 2
+   },
+   {
+    "id": "L-A1-01-3",
+    "type": "detail",
+    "stem": "What else does the man buy?",
+    "options": [
+     "Milk",
+     "Water",
+     "Bread",
+     "Juice"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "L-A1-02",
+  "level": "A1",
+  "genre": "voicemail",
+  "title": "A message from Anna",
+  "speakers": [
+   {
+    "label": "A",
+    "voice": "woman, 40s, clear neutral British"
+   }
+  ],
+  "transcript": "Hi Tom, it's Anna. I'm at the station. My train is late. It's ten past six now. The train comes at half past six. Can you meet me at seven? I'm at platform four. Please bring my blue bag. Thanks. See you soon. Bye!",
+  "target_seconds": 18,
+  "plays": 2,
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "L-A1-02-1",
+    "type": "detail",
+    "stem": "Where is Anna?",
+    "options": [
+     "At the bus stop",
+     "At the station",
+     "At her house",
+     "At her office"
+    ],
+    "answer": 1
+   },
+   {
+    "id": "L-A1-02-2",
+    "type": "detail",
+    "stem": "What time does her train come?",
+    "options": [
+     "6:10",
+     "7:00",
+     "6:40",
+     "6:30"
+    ],
+    "answer": 3
+   },
+   {
+    "id": "L-A1-02-3",
+    "type": "detail",
+    "stem": "What should Tom bring?",
+    "options": [
+     "The blue bag",
+     "A big red bag",
+     "Her warm coat",
+     "Her phone"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "L-A1-03",
+  "level": "A1",
+  "genre": "announcement",
+  "title": "School notice",
+  "speakers": [
+   {
+    "label": "A",
+    "voice": "man, 30s, neutral American"
+   }
+  ],
+  "transcript": "Good morning, students. Here is an announcement. Today is Thursday. The library is closed this afternoon, so please bring your books back before lunch. Lunch is at half past twelve. Tomorrow, Friday, there is no school because of a teacher meeting. School starts again on Monday at nine o'clock. Thank you.",
+  "target_seconds": 21,
+  "plays": 2,
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "L-A1-03-1",
+    "type": "detail",
+    "stem": "When is the library closed?",
+    "options": [
+     "This morning",
+     "Tomorrow, Friday",
+     "This afternoon",
+     "On Monday morning"
+    ],
+    "answer": 2
+   },
+   {
+    "id": "L-A1-03-2",
+    "type": "detail",
+    "stem": "What time is lunch?",
+    "options": [
+     "12:30",
+     "12:00",
+     "1:30",
+     "9:00"
+    ],
+    "answer": 0
+   },
+   {
+    "id": "L-A1-03-3",
+    "type": "detail",
+    "stem": "When is there no school?",
+    "options": [
+     "On Thursday",
+     "On Monday",
+     "On Tuesday",
+     "On Friday"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "L-A1-04",
+  "level": "A1",
+  "genre": "conversation",
+  "title": "Plans for the weekend",
+  "speakers": [
+   {
+    "label": "A",
+    "voice": "woman, 20s, British"
+   },
+   {
+    "label": "B",
+    "voice": "woman, 30s, American"
+   }
+  ],
+  "transcript": "A: Hi, Mia. What do you want to do on Saturday?\nB: Let's go to the park!\nA: Hmm, it's going to rain on Saturday. But Sunday is sunny.\nB: OK, Sunday. What time? Eleven?\nA: Eleven is good.\nB: Oh, no, sorry. I have a swimming class at eleven. Is two o'clock OK?\nA: Yes, two is fine.\nB: Great. I'll bring sandwiches. You bring the drinks.",
+  "target_seconds": 25,
+  "plays": 2,
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "L-A1-04-1",
+    "type": "detail",
+    "stem": "What is the weather on Saturday?",
+    "options": [
+     "Sun",
+     "Snow",
+     "Wind",
+     "Rain"
+    ],
+    "answer": 3
+   },
+   {
+    "id": "L-A1-04-2",
+    "type": "detail",
+    "stem": "Why can't Mia meet at eleven?",
+    "options": [
+     "She has to work",
+     "She has a class",
+     "She has lunch plans",
+     "She is not well"
+    ],
+    "answer": 1
+   },
+   {
+    "id": "L-A1-04-3",
+    "type": "detail",
+    "stem": "What will Mia bring?",
+    "options": [
+     "Cold drinks",
+     "A big ball",
+     "Sandwiches",
+     "A cake"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "L-A1-05",
+  "level": "A1",
+  "genre": "monologue",
+  "title": "My morning",
+  "speakers": [
+   {
+    "label": "A",
+    "voice": "man, 30s, neutral American"
+   }
+  ],
+  "transcript": "My name's Carlos. I live in a small flat with my sister. In the morning I get up at seven and I have coffee and bread. My sister has a bike, but I go to work by bus. I work in a shop near a café. We sell books. The shop opens at nine. I like my job because the people are nice.",
+  "target_seconds": 26,
+  "plays": 2,
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "L-A1-05-1",
+    "type": "detail",
+    "stem": "What time does Carlos get up?",
+    "options": [
+     "At seven",
+     "At six",
+     "At eight",
+     "At nine"
+    ],
+    "answer": 0
+   },
+   {
+    "id": "L-A1-05-2",
+    "type": "detail",
+    "stem": "How does Carlos go to work?",
+    "options": [
+     "By bike",
+     "By car",
+     "By bus",
+     "By train"
+    ],
+    "answer": 2
+   },
+   {
+    "id": "L-A1-05-3",
+    "type": "detail",
+    "stem": "Where does he work?",
+    "options": [
+     "In a café",
+     "In a shop",
+     "In a school",
+     "In a flat"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "L-A1-06",
+  "level": "A1",
+  "genre": "announcement",
+  "title": "Supermarket announcement",
+  "speakers": [
+   {
+    "label": "A",
+    "voice": "woman, 40s, clear neutral British"
+   }
+  ],
+  "transcript": "Hello, everyone. Welcome to Sun Store. Today, fish is half price until four o'clock. The new bread shop is open on the second floor. Also, a boy called Ben is waiting at the information desk. He's five. He has a red jacket. Please come and meet him. Thank you.",
+  "target_seconds": 20,
+  "plays": 2,
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "L-A1-06-1",
+    "type": "detail",
+    "stem": "Until what time is fish half price?",
+    "options": [
+     "Two o'clock",
+     "Four o'clock",
+     "Five o'clock",
+     "Six o'clock"
+    ],
+    "answer": 1
+   },
+   {
+    "id": "L-A1-06-2",
+    "type": "detail",
+    "stem": "Where is the new bread shop?",
+    "options": [
+     "On the first floor",
+     "Near the front desk",
+     "Next to the fish counter",
+     "On the second floor"
+    ],
+    "answer": 3
+   },
+   {
+    "id": "L-A1-06-3",
+    "type": "detail",
+    "stem": "Where is Ben?",
+    "options": [
+     "At the desk",
+     "At the bread shop",
+     "At the door",
+     "At the fish shop"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "L-A2-01",
+  "level": "A2",
+  "genre": "dialogue",
+  "title": "Booking a doctor visit",
+  "speakers": [
+   {
+    "label": "A",
+    "voice": "woman, 30s, British, receptionist"
+   },
+   {
+    "label": "B",
+    "voice": "woman, 50s, American"
+   }
+  ],
+  "transcript": "A: Good morning, Riverside Doctors.\nB: Hello. I'd like to see Doctor Hall, please. My knee hurts.\nA: OK. Is Thursday at ten all right?\nB: Um, I work on Thursday mornings. Do you have anything in the afternoon?\nA: Let me see. Thursday at 2:30. Oh, sorry, no, that one's not free. How about 3:30?\nB: Yes, 3:30 is fine.\nA: Can I have your name, please?\nB: Helen Parker.\nA: Thank you, Ms Parker. Please come ten minutes early, and bring your health card. You don't need a letter from your work.",
+  "target_seconds": 35,
+  "plays": 2,
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "L-A2-01-1",
+    "type": "detail",
+    "stem": "What time is the appointment?",
+    "options": [
+     "10:00",
+     "2:30",
+     "3:30",
+     "3:00"
+    ],
+    "answer": 2
+   },
+   {
+    "id": "L-A2-01-2",
+    "type": "detail",
+    "stem": "Why can't Helen come on Thursday morning?",
+    "options": [
+     "She is at work",
+     "The doctor is busy",
+     "The clinic is closed",
+     "She has a class"
+    ],
+    "answer": 0
+   },
+   {
+    "id": "L-A2-01-3",
+    "type": "detail",
+    "stem": "What must Helen bring?",
+    "options": [
+     "A letter from work",
+     "Her old photos",
+     "Some cash",
+     "Her health card"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "L-A2-02",
+  "level": "A2",
+  "genre": "voicemail",
+  "title": "Bike shop message",
+  "speakers": [
+   {
+    "label": "A",
+    "voice": "woman, 40s, clear neutral British"
+   }
+  ],
+  "transcript": "Hello, this message is for Mr Dean. It's Bella from Brightside Bikes. Good news, your bike is ready. The repair is forty dollars. No, sorry, forty-five dollars, because we also changed the front light. We checked the brakes, but they were fine. We close at six today, and we're closed all day Sunday. So please come on Saturday, or Monday after nine. Our number is zero-one-eight-nine, five-five-two, seven-seven. Thanks. Bye!",
+  "target_seconds": 29,
+  "plays": 2,
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "L-A2-02-1",
+    "type": "detail",
+    "stem": "How much is the repair?",
+    "options": [
+     "$40",
+     "$50",
+     "$35",
+     "$45"
+    ],
+    "answer": 3
+   },
+   {
+    "id": "L-A2-02-2",
+    "type": "detail",
+    "stem": "What did the shop change?",
+    "options": [
+     "The back brakes",
+     "The front light",
+     "The bike seat",
+     "The old tyres"
+    ],
+    "answer": 1
+   },
+   {
+    "id": "L-A2-02-3",
+    "type": "detail",
+    "stem": "When is the shop closed?",
+    "options": [
+     "On Saturday",
+     "On Monday",
+     "On Sunday",
+     "At nine"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "L-A2-03",
+  "level": "A2",
+  "genre": "announcement",
+  "title": "Station delay",
+  "speakers": [
+   {
+    "label": "A",
+    "voice": "man, 30s, neutral American"
+   }
+  ],
+  "transcript": "Attention, please. The 9:15 train to Lakeford is late by twenty minutes. It will now leave at 9:35, from track three, not track five. Passengers for Oldbridge, please take the 9:20 train from track two. That train is on time. The cafe on track one is closed today, but you can buy a drink from the machine near the big door. Please do not wait on the stairs. We are very sorry about the delay.",
+  "target_seconds": 31,
+  "plays": 2,
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "L-A2-03-1",
+    "type": "detail",
+    "stem": "When will the Lakeford train leave?",
+    "options": [
+     "At 9:35",
+     "At 9:15",
+     "At 9:20",
+     "At 9:55"
+    ],
+    "answer": 0
+   },
+   {
+    "id": "L-A2-03-2",
+    "type": "detail",
+    "stem": "Which platform is it?",
+    "options": [
+     "Track one",
+     "Track two",
+     "Track three",
+     "Track five"
+    ],
+    "answer": 2
+   },
+   {
+    "id": "L-A2-03-3",
+    "type": "detail",
+    "stem": "Where can people buy a drink?",
+    "options": [
+     "In the small café",
+     "From a machine",
+     "On the train",
+     "At the big shop"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "L-A2-04",
+  "level": "A2",
+  "genre": "conversation",
+  "title": "Weekend climbing",
+  "speakers": [
+   {
+    "label": "A",
+    "voice": "woman, 30s, British"
+   },
+   {
+    "label": "B",
+    "voice": "man, 30s, American"
+   }
+  ],
+  "transcript": "A: Hi, Sam. How was your weekend?\nB: Really good, thanks. I was climbing with my brother on Saturday.\nA: Climbing? Outside?\nB: No, no, inside. There's a new wall near the bus station. It's only eight dollars for two hours.\nA: Eight? That's good! Is it difficult?\nB: Well, the first hour was hard. My arms were so tired! But then it was great fun. You should come with us next Saturday.\nA: Hmm, maybe. I usually play tennis on Saturdays. But I could do Sunday.\nB: Sunday's fine. I'll ask my brother.",
+  "target_seconds": 36,
+  "plays": 2,
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "L-A2-04-1",
+    "type": "detail",
+    "stem": "How was the first hour for Sam?",
+    "options": [
+     "Boring",
+     "Hard",
+     "Cheap",
+     "Great fun"
+    ],
+    "answer": 1
+   },
+   {
+    "id": "L-A2-04-2",
+    "type": "detail",
+    "stem": "How much is the climbing wall?",
+    "options": [
+     "$2 for an hour",
+     "$10 for two hours",
+     "$8 for a day",
+     "$8 for two hours"
+    ],
+    "answer": 3
+   },
+   {
+    "id": "L-A2-04-3",
+    "type": "inference",
+    "stem": "Why does the woman say \"maybe\"?",
+    "options": [
+     "She plays tennis then",
+     "She dislikes climbing",
+     "It is too far",
+     "It is too dear"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "L-A2-05",
+  "level": "A2",
+  "genre": "monologue",
+  "title": "Museum tour",
+  "speakers": [
+   {
+    "label": "A",
+    "voice": "woman, 40s, clear neutral British"
+   }
+  ],
+  "transcript": "Welcome to the Old Sea Museum. My name's Rita, and I'll show you around today. The walk takes about forty minutes. First we'll see the fishing boats, and then the small room with old photographs. You can take photos, but please don't touch the boats. At the end, there's a shop and a café. Oh, and the toilets are behind the shop, not near the entrance. Any questions? No? OK, follow me!",
+  "target_seconds": 30,
+  "plays": 2,
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "L-A2-05-1",
+    "type": "detail",
+    "stem": "How long is the walk?",
+    "options": [
+     "Fourteen minutes",
+     "Twenty minutes",
+     "Forty minutes",
+     "One hour"
+    ],
+    "answer": 2
+   },
+   {
+    "id": "L-A2-05-2",
+    "type": "detail",
+    "stem": "What must visitors not do?",
+    "options": [
+     "Touch the boats",
+     "Take any photos",
+     "Go into the shop",
+     "Ask any questions"
+    ],
+    "answer": 0
+   },
+   {
+    "id": "L-A2-05-3",
+    "type": "detail",
+    "stem": "Where are the toilets?",
+    "options": [
+     "Near the entrance",
+     "In the café",
+     "By the boats",
+     "Behind the shop"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "L-A2-06",
+  "level": "A2",
+  "genre": "dialogue",
+  "title": "A wrong pizza",
+  "speakers": [
+   {
+    "label": "A",
+    "voice": "man, 20s, British"
+   },
+   {
+    "label": "B",
+    "voice": "woman, 30s, American"
+   }
+  ],
+  "transcript": "A: Hello, Blue Sky Pizza.\nB: Hi. I ordered a large vegetable pizza an hour ago, but this is a small one with ham.\nA: Oh, I'm really sorry. What's your address?\nB: It's 12 Park Road, flat 4.\nA: And your name?\nB: Nadia Rossi. And I don't eat meat, so I can't eat ham.\nA: I understand. I'll send the right pizza now. It'll be with you in twenty minutes, and it's free.\nB: Free? That's very kind, thank you.\nA: And please keep the small pizza.\nB: Oh, great. My neighbour will like it!",
+  "target_seconds": 36,
+  "plays": 2,
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "L-A2-06-1",
+    "type": "detail",
+    "stem": "What pizza did Nadia get?",
+    "options": [
+     "A large vegetable one",
+     "A small vegetable one",
+     "A large one with ham",
+     "A small one with ham"
+    ],
+    "answer": 3
+   },
+   {
+    "id": "L-A2-06-2",
+    "type": "detail",
+    "stem": "When will the new pizza come?",
+    "options": [
+     "In about an hour",
+     "In twenty minutes",
+     "In fifteen minutes",
+     "In two hours"
+    ],
+    "answer": 1
+   },
+   {
+    "id": "L-A2-06-3",
+    "type": "inference",
+    "stem": "What will Nadia do with the small pizza?",
+    "options": [
+     "Eat it",
+     "Send it back",
+     "Give it away",
+     "Throw it away"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "L-B1-01",
+  "level": "B1",
+  "genre": "interview",
+  "title": "A bike-delivery bakery",
+  "speakers": [
+   {
+    "label": "A",
+    "voice": "man, 40s, radio host, British"
+   },
+   {
+    "label": "B",
+    "voice": "woman, 30s, American"
+   }
+  ],
+  "transcript": "A: Today I'm with Lena Ortiz, who started a bread delivery business two years ago. Lena, how did it start?\nB: Honestly, by accident. I was baking bread at home for friends, and one of them said, \"Why don't you sell it?\" But I didn't have a shop, and I couldn't afford one. So I borrowed my cousin's bike, the one with a big basket, and I delivered the bread myself, before breakfast.\nA: And people liked it?\nB: They loved it. Within three months I had about sixty regular customers. It was exhausting, though. I was getting up at three in the morning.\nA: So have you opened a shop now?\nB: Not yet. I'm thinking about it, but a shop means rent, and I'm not sure I want that kind of stress. At the moment I've hired two students to do the deliveries, and that works well. Maybe next year I'll decide.",
+  "target_seconds": 62,
+  "plays": 2,
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "L-B1-01-1",
+    "type": "gist",
+    "stem": "What is the interview mostly about?",
+    "options": [
+     "How a small business grew",
+     "How to bake really good bread",
+     "Why bikes are so popular",
+     "How to find a new shop"
+    ],
+    "answer": 0
+   },
+   {
+    "id": "L-B1-01-2",
+    "type": "detail",
+    "stem": "Why didn't Lena open a shop at first?",
+    "options": [
+     "She had no time for shops",
+     "Her cousin said it was bad",
+     "She couldn't pay for one",
+     "She had too few customers"
+    ],
+    "answer": 2
+   },
+   {
+    "id": "L-B1-01-3",
+    "type": "attitude",
+    "stem": "How does Lena feel about opening a shop?",
+    "options": [
+     "She is very keen",
+     "She is not sure",
+     "She is afraid of bikes",
+     "She has decided no"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "L-B1-02",
+  "level": "B1",
+  "genre": "voicemail",
+  "title": "Meeting changed",
+  "speakers": [
+   {
+    "label": "A",
+    "voice": "man, 30s, neutral American"
+   }
+  ],
+  "transcript": "Hi Priya, it's Dan from the office. Sorry to call so late. I'm afraid I need to move tomorrow's meeting. We said ten o'clock, but the client can't come until after lunch, so I've changed it to half past two. The room's different as well. We won't use room five, because it's too small for six people. We'll be in the big meeting room on the third floor. Could you bring the sales figures? Not the whole report, just the summary page, and maybe a few extra copies. Also, I know you were planning to leave early tomorrow for your train, so if that's a problem, let me know tonight and we'll try to find another time. Thanks a lot. Bye.",
+  "target_seconds": 50,
+  "plays": 2,
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "L-B1-02-1",
+    "type": "detail",
+    "stem": "Why is the meeting later?",
+    "options": [
+     "Room five is not free then",
+     "The client is not free",
+     "Dan is not feeling well",
+     "Priya has an early train"
+    ],
+    "answer": 1
+   },
+   {
+    "id": "L-B1-02-2",
+    "type": "detail",
+    "stem": "What should Priya bring?",
+    "options": [
+     "The whole report",
+     "Some old figures",
+     "A list of clients",
+     "The summary page"
+    ],
+    "answer": 3
+   },
+   {
+    "id": "L-B1-02-3",
+    "type": "inference",
+    "stem": "Why might the new time be a problem?",
+    "options": [
+     "Priya may leave early",
+     "The room is too small",
+     "Priya works at night",
+     "The client may be late"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "L-B1-03",
+  "level": "B1",
+  "genre": "announcement",
+  "title": "Flight update",
+  "speakers": [
+   {
+    "label": "A",
+    "voice": "woman, 40s, clear neutral British"
+   }
+  ],
+  "transcript": "Good afternoon, passengers. This is an update for flight BX 204 to Port Marlow. Because of strong winds earlier today, the flight is delayed by about an hour and a half. The new departure time is a quarter to six. We also have a gate change. Please go to gate 22, not gate 12. Gate 22 is at the far end of the building, so please allow about ten minutes to walk there. Passengers who have waited more than two hours can collect a free meal voucher from the desk near gate 15. You don't need your ticket for that, just your passport. We apologise for the delay, and thank you for your patience.",
+  "target_seconds": 48,
+  "plays": 2,
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "L-B1-03-1",
+    "type": "detail",
+    "stem": "What is the new departure time?",
+    "options": [
+     "4:15",
+     "5:15",
+     "5:45",
+     "6:45"
+    ],
+    "answer": 2
+   },
+   {
+    "id": "L-B1-03-2",
+    "type": "detail",
+    "stem": "Why is the flight late?",
+    "options": [
+     "Strong winds",
+     "A broken door",
+     "Heavy snow",
+     "A late crew"
+    ],
+    "answer": 0
+   },
+   {
+    "id": "L-B1-03-3",
+    "type": "inference",
+    "stem": "What is true about gate 22?",
+    "options": [
+     "It is right beside gate 15",
+     "It is next to gate twelve",
+     "It is closed for repairs",
+     "It is a ten-minute walk"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "L-B1-04",
+  "level": "B1",
+  "genre": "conversation",
+  "title": "Choosing a flat",
+  "speakers": [
+   {
+    "label": "A",
+    "voice": "woman, 30s, British"
+   },
+   {
+    "label": "B",
+    "voice": "man, 30s, American"
+   }
+  ],
+  "transcript": "A: So, did you see the flat on Park Street?\nB: I did. It's lovely, but honestly, I'm not sure. The rent is nine hundred a month, which is more than I wanted to pay.\nA: Hmm, but it's close to your office, isn't it? You'd save money on the bus.\nB: That's true, I spend about sixty a month on transport. But the kitchen's tiny, and I love cooking.\nA: Well, what about the other one, the place near the river?\nB: That's cheaper, eight hundred, but it's a forty-minute walk from the station, and there's no parking.\nA: So Park Street wins?\nB: Probably. Actually, the landlord said I could look again on Friday, so I'll go back with my sister. She's good at noticing problems.\nA: Good idea. Let me know what she thinks.",
+  "target_seconds": 53,
+  "plays": 2,
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "L-B1-04-1",
+    "type": "gist",
+    "stem": "What are the two friends talking about?",
+    "options": [
+     "Where to go for dinner",
+     "How to save more money",
+     "A new job in the city",
+     "Which flat to rent"
+    ],
+    "answer": 3
+   },
+   {
+    "id": "L-B1-04-2",
+    "type": "detail",
+    "stem": "What is the problem with the river flat?",
+    "options": [
+     "The rent is too high",
+     "It is far from the station",
+     "The kitchen is very small",
+     "It is a long way from work"
+    ],
+    "answer": 1
+   },
+   {
+    "id": "L-B1-04-3",
+    "type": "detail",
+    "stem": "What will the man do on Friday?",
+    "options": [
+     "Pay the first month's rent",
+     "Visit the river flat again",
+     "Look again with his sister",
+     "Meet the landlord on his own"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "L-B1-05",
+  "level": "B1",
+  "genre": "monologue",
+  "title": "Running club welcome",
+  "speakers": [
+   {
+    "label": "A",
+    "voice": "man, 30s, neutral American"
+   }
+  ],
+  "transcript": "Welcome, everyone, to the Saturday Running Club. I'm Gary, one of the leaders. Before we start, a few things. Firstly, this isn't a race. Most of you are beginners, so we'll run for two minutes, then walk for one minute, and repeat that for half an hour. If you can't talk while you're running, you're going too fast, so slow down. Secondly, wear good shoes. They don't have to be expensive, but old shoes can give you sore knees. Finally, we meet at the park gate at eight, but because it's getting cold, from next month we'll start at nine instead. There's tea in the hut afterwards, and it's free for members. Right, shall we go?",
+  "target_seconds": 48,
+  "plays": 2,
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "L-B1-05-1",
+    "type": "gist",
+    "stem": "Who is Gary talking to?",
+    "options": [
+     "New club members",
+     "Winners of a race",
+     "Park workers",
+     "Old running friends"
+    ],
+    "answer": 0
+   },
+   {
+    "id": "L-B1-05-2",
+    "type": "detail",
+    "stem": "How can you tell you are running too fast?",
+    "options": [
+     "Your knees hurt",
+     "You feel cold",
+     "You can't talk",
+     "You are last"
+    ],
+    "answer": 2
+   },
+   {
+    "id": "L-B1-05-3",
+    "type": "detail",
+    "stem": "Why will the start time change?",
+    "options": [
+     "The beginners are too slow",
+     "The weather is colder",
+     "The hut will be closed",
+     "It is a big race"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "L-B1-06",
+  "level": "B1",
+  "genre": "dialogue",
+  "title": "Broken headphones",
+  "speakers": [
+   {
+    "label": "A",
+    "voice": "woman, 30s, British, customer service"
+   },
+   {
+    "label": "B",
+    "voice": "man, 30s, American"
+   }
+  ],
+  "transcript": "A: Thank you for calling Tech Corner. How can I help?\nB: Hi. I bought a pair of headphones from your website last week, but the left side doesn't work.\nA: I'm sorry to hear that. Do you have your order number?\nB: Yes, it's 4-7-2-1. No, wait, sorry, 4-7-1-2. I read it wrong.\nA: Got it, 4712. I can see your order. We can send you a new pair, or you can have your money back.\nB: Well, the black ones are sold out, aren't they? I saw that on the site.\nA: That's right, but we have white ones. It's the same model.\nB: Hmm, I'd prefer a refund, really. I need them for work, and I can't wait.\nA: No problem. It takes about five working days. And you don't have to send them back. They only cost twenty-five pounds.\nB: Oh, that's good news. Thanks very much.",
+  "target_seconds": 59,
+  "plays": 2,
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "L-B1-06-1",
+    "type": "gist",
+    "stem": "Why does the man call?",
+    "options": [
+     "He wants to buy a white pair",
+     "His headphones don't work",
+     "He lost his order number",
+     "He wants to get a job"
+    ],
+    "answer": 1
+   },
+   {
+    "id": "L-B1-06-2",
+    "type": "detail",
+    "stem": "What is his order number?",
+    "options": [
+     "4721",
+     "4127",
+     "4172",
+     "4712"
+    ],
+    "answer": 3
+   },
+   {
+    "id": "L-B1-06-3",
+    "type": "inference",
+    "stem": "Why does he not want a new pair?",
+    "options": [
+     "He needs them soon",
+     "He dislikes white",
+     "They cost too much",
+     "He has lost them"
+    ],
+    "answer": 0
+   }
+  ]
+ }
+]

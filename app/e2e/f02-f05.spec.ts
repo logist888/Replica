@@ -1,10 +1,10 @@
-import { test, expect, api, toReading, answerAll, db, ADMIN } from "./fixtures";
+import { test, expect, api, toReading, answerAll, db, ADMIN, finishViaApi } from "./fixtures";
 
 async function finished(request: any, correct = true) {
   const a = api(request);
   const s = await toReading(a);
   await answerAll(a, s, correct);
-  const f = await a.post("/api/finish", { token: s.token });
+  const f = await finishViaApi(a, s);
   return { token: s.token as string, url: f.body.url as string, a };
 }
 
@@ -56,7 +56,8 @@ test("F05-H1 E1 выгрузка: только завершённые сесси
   expect(lines.length).toBe(2);
   expect(sess).not.toContain(unfinished.token);
   const resp = await (await request.get("/api/admin/export?kind=responses", { headers: auth })).text();
-  expect(resp.trim().split("\n").length).toBe(1 + 60 + 30);
+  const listeningRows = (await db("select count(*)::int n from responses where part='listening'"))[0].n;
+  expect(resp.trim().split("\n").length).toBe(1 + 60 + 30 + listeningRows);
   const col = lines[1].split(",");
   const theta = col[lines[0].split(",").indexOf("reading_theta")];
   expect(Number.isFinite(Number(theta))).toBe(true);
@@ -69,7 +70,7 @@ test("F05-E1b формулы в свободных полях нейтрализ
   const st = await a.post("/api/start", { consent: true, age16: true, background: { extTest: "other", extScore: "=HYPERLINK(1)", nativeLanguage: "@evil" } });
   const vv = await a.post("/api/vocab", { token: st.body.token, answers: Object.fromEntries(st.body.vocab.map((w: string) => [w, true])) });
   for (const p of vv.body.passages) await a.post("/api/reading", { token: st.body.token, answers: p.questions.map((q: any) => ({ id: q.id, choice: 0 })) });
-  await a.post("/api/finish", { token: st.body.token });
+  await finishViaApi(a, { token: st.body.token });
   const csv = await (await request.get("/api/admin/export?kind=sessions", { headers: { authorization: "Bearer " + ADMIN } })).text();
   expect(csv).toContain("'=HYPERLINK(1)");
   expect(csv).toContain("'@evil");

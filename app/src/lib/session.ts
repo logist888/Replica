@@ -6,7 +6,7 @@ export const MAX_SESSION_MS = 3 * 60 * 60 * 1000;
 export type SessionRow = {
   id: string;
   token: string;
-  status: "vocab" | "reading" | "done";
+  status: "vocab" | "reading" | "listening" | "done";
   form: any;
   results: any;
   started_at: Date;

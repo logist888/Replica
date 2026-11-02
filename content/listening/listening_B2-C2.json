@@ -1,0 +1,1092 @@
+[
+ {
+  "id": "L-B2-01",
+  "level": "B2",
+  "genre": "interview",
+  "title": "The Bike Workshop",
+  "speakers": [
+   {
+    "label": "A",
+    "voice": "woman, 40s, radio presenter, neutral British"
+   },
+   {
+    "label": "B",
+    "voice": "woman, 30s, friendly, neutral British"
+   }
+  ],
+  "transcript": "A: Today I'm talking to Delia Marsh, who runs a bike repair workshop in Larkfield. Delia, you started out in a garage, didn't you?\nB: That's right. Well, a shed, actually. My dad's old shed behind the house. I fixed bikes for the neighbours, mostly for free, to be honest.\nA: And when did it become a real business?\nB: About six years ago. A man brought in a very old racing bike and offered to pay me forty pounds. I thought, hang on, people will actually pay for this! So I rented a small shop.\nA: Was it easy?\nB: Not at all. The first winter was terrible. Nobody cycles when it's raining, and I nearly closed in February.\nA: What changed?\nB: I started running evening classes. Simple things, like how to mend a puncture. I expected five or six people. Thirty came!\nA: Thirty!\nB: Yes, and most of them then bought their spare parts from me, so the classes paid for themselves. Now they're the most important part of the business, more than the repairs, if I'm honest.\nA: Would you ever open a second shop?\nB: People ask me that all the time. I don't think so. I like knowing everyone who walks in. If I had two shops, I'd be driving between them all day, and I'd lose the part I enjoy most.\nA: So what's next?\nB: A repair course for teenagers. The council might help with the cost, but we'll see.",
+  "target_seconds": 98,
+  "plays": 2,
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "L-B2-01-1",
+    "type": "detail",
+    "stem": "What saved the business in its first winter?",
+    "options": [
+     "Evening classes for beginners",
+     "Free repairs for the neighbours' bikes",
+     "Selling old racing bikes",
+     "Money from the council"
+    ],
+    "answer": 0
+   },
+   {
+    "id": "L-B2-01-2",
+    "type": "attitude",
+    "stem": "Why won't Delia open a second shop?",
+    "options": [
+     "She can't find skilled workers",
+     "The first shop still loses money",
+     "She wants to know her customers",
+     "Her dad wants the shed back"
+    ],
+    "answer": 2
+   },
+   {
+    "id": "L-B2-01-3",
+    "type": "gist",
+    "stem": "How does Delia now see the classes?",
+    "options": [
+     "As a way to help people for free",
+     "As the most valuable part of her work",
+     "As a hobby for quiet winter days",
+     "As something the council ought to pay for"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "L-B2-02",
+  "level": "B2",
+  "genre": "phone-call",
+  "title": "Changing a Booking",
+  "speakers": [
+   {
+    "label": "A",
+    "voice": "man, 30s, hotel receptionist, neutral British"
+   },
+   {
+    "label": "B",
+    "voice": "woman, 40s, neutral British or American"
+   }
+  ],
+  "transcript": "A: Good morning, Harbour View Hotel, Tom speaking.\nB: Hello, yes, I have a reservation for next weekend, and I'd like to make a change, if that's possible.\nA: Of course. Can I have the name, please?\nB: It's Okafor. Nkechi Okafor. I booked three nights from Friday, but, um, actually my plans have changed. Could I arrive on Saturday instead?\nA: Let me have a look. Saturday, so that would be two nights, Saturday and Sunday. That's fine. But I should warn you, the room you booked, with the view of the sea, isn't free on Saturday.\nB: Oh no. That was the main reason I picked your hotel.\nA: I know, I'm sorry. I can offer you a room at the back, overlooking the garden, and I'll take fifteen pounds off the price. Or there is a room with a sea view on the top floor, but that's thirty pounds more.\nB: I could keep Friday, but I really can't, I have a work dinner. So... thirty pounds more? No, the garden room is fine, I suppose. Is breakfast still included?\nA: Yes, it is, from seven until ten.\nB: And what about parking? Last time it was a nightmare.\nA: We have a small car park, but it fills up quickly at weekends. If you arrive after four, you might have to use the public one on Mill Street. It's about five minutes' walk.\nB: That's fine. Thanks very much for your help.\nA: You're welcome. I'll send you an email to confirm the changes.",
+  "target_seconds": 102,
+  "plays": 2,
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "L-B2-02-1",
+    "type": "detail",
+    "stem": "Why can't she arrive on Friday?",
+    "options": [
+     "The hotel has no free rooms",
+     "She wants the sea view",
+     "Parking is difficult then",
+     "She has a work dinner"
+    ],
+    "answer": 3
+   },
+   {
+    "id": "L-B2-02-2",
+    "type": "detail",
+    "stem": "What does she decide to do?",
+    "options": [
+     "Pay extra for a top-floor room",
+     "Take the garden room at a discount",
+     "Keep her original dates",
+     "Cancel the booking"
+    ],
+    "answer": 1
+   },
+   {
+    "id": "L-B2-02-3",
+    "type": "detail",
+    "stem": "What does the receptionist say about parking?",
+    "options": [
+     "Guests must book a space in advance",
+     "The hotel car park is shut at weekends",
+     "Parking costs extra on Saturdays",
+     "Late arrivals may need a public car park"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "L-B2-03",
+  "level": "B2",
+  "genre": "discussion",
+  "title": "Fridays at Home",
+  "speakers": [
+   {
+    "label": "A",
+    "voice": "woman, 40s, team leader, neutral British"
+   },
+   {
+    "label": "B",
+    "voice": "man, 30s, neutral British or American"
+   }
+  ],
+  "transcript": "A: Right, so the question is whether we should let everyone work from home on Fridays. Jonas, you've been against it.\nB: Well, not against exactly. I just wonder whether we'd lose something. Fridays are when people chat and sort out problems quickly.\nA: But do they, though? Honestly, half of us are in meetings all day on Fridays anyway.\nB: Fair point. But think about the new people. Mei started last month. If she's alone at home on a Friday, who answers her questions?\nA: She can message us. That's what we do on the other days when someone's out.\nB: It isn't the same, is it? You ask a quick question across the desk, you get an answer straight away. In a chat, it can sit there for an hour.\nA: Okay, I take that. What if we make it optional for the first six months? New staff come in, everyone else chooses.\nB: Hmm, that's more reasonable. Though I'd still want a few people in the office, so it doesn't feel empty.\nA: We could ask for volunteers. Two or three each week, on a rota.\nB: I could live with that. Actually, I might even take a turn myself. I get far more done when the office is quiet.\nA: Ha! So you're not so against it after all.\nB: I told you, I was never against it. I just wanted a plan.",
+  "target_seconds": 94,
+  "plays": 2,
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "L-B2-03-1",
+    "type": "detail",
+    "stem": "What is Jonas mainly worried about?",
+    "options": [
+     "New staff would have nobody to ask",
+     "People would have too many meetings",
+     "The office would cost more to run",
+     "Friday is the busiest day for sales"
+    ],
+    "answer": 0
+   },
+   {
+    "id": "L-B2-03-2",
+    "type": "gist",
+    "stem": "What do they agree on in the end?",
+    "options": [
+     "Everyone works at home on Fridays",
+     "Only new staff may work from home on Fridays",
+     "Optional home Fridays, with some people in",
+     "Staff must choose one day a month"
+    ],
+    "answer": 2
+   },
+   {
+    "id": "L-B2-03-3",
+    "type": "attitude",
+    "stem": "How does Jonas feel at the end?",
+    "options": [
+     "Still sure it is a mistake",
+     "Annoyed with his manager",
+     "Worried about Mei's work",
+     "Happy to accept a clear plan"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "L-B2-04",
+  "level": "B2",
+  "genre": "lecture-excerpt",
+  "title": "Rethinking the High Street",
+  "speakers": [
+   {
+    "label": "A",
+    "voice": "man, 50s, university lecturer, neutral British"
+   }
+  ],
+  "transcript": "Okay, let's move on to how small changes in a street can change what people do. I'll use an imaginary example, so please don't go looking for it in the library.\n\nImagine a town called Brenmouth. Its high street has heavy traffic, narrow pavements, and most shoppers just hurry through. Now, the council has two options. Option one: widen the road to reduce queues. Option two: widen the pavements and add benches and trees.\n\nMost people's first instinct, I think, is option one. Less traffic, more customers, right? But look at what tends to happen. When a road is wider, cars go faster, and fewer people feel like stopping. With wider pavements, everything slows down. Drivers take more care, and pedestrians feel safer.\n\nHere's the interesting part. In our imaginary case, the shop owners were worried at first, because they'd lose a few parking spaces. However, after a year, the shops reported more customers, not fewer, and people were staying twice as long on average.\n\nNow, I want to be careful. One example doesn't prove a rule. Many other things could explain it, such as the weather, or a new café opening. But the idea is worth taking seriously. And that leads me to my second point: how do we actually measure whether a street is working?",
+  "target_seconds": 90,
+  "plays": 2,
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "L-B2-04-1",
+    "type": "detail",
+    "stem": "What do most people think the council should do?",
+    "options": [
+     "Add trees and benches",
+     "Make the road wider",
+     "Close the high street",
+     "Build more parking"
+    ],
+    "answer": 1
+   },
+   {
+    "id": "L-B2-04-2",
+    "type": "detail",
+    "stem": "What happened in the imaginary town?",
+    "options": [
+     "Shops lost customers during the first year",
+     "Shop owners kept all their parking",
+     "Shops got more customers who stayed longer",
+     "The council widened the road after all"
+    ],
+    "answer": 2
+   },
+   {
+    "id": "L-B2-04-3",
+    "type": "attitude",
+    "stem": "What does the lecturer say about the example?",
+    "options": [
+     "It is interesting but proves nothing alone",
+     "It proves that wide pavements always work",
+     "It is wrong because of the weather",
+     "It matches a real town's experience"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "L-B2-05",
+  "level": "B2",
+  "genre": "radio-feature",
+  "title": "The Library of Tools",
+  "speakers": [
+   {
+    "label": "A",
+    "voice": "woman, 30s, radio reporter, neutral British"
+   },
+   {
+    "label": "B",
+    "voice": "man, 40s, friendly, neutral British"
+   }
+  ],
+  "transcript": "A: In the town of Wexley, there's a library where you can't borrow a single book. Well, that's not quite true. But I'm here at the Wexley Toolshare, where you can borrow a drill, a ladder, or even a sewing machine. I'm with the manager, Ravi. Ravi, how did this start?\nB: A few neighbours started it, actually. Someone realised that we each owned a drill that we used maybe twice a year. It seemed silly. So we collected a few tools in a garage, and people paid a small yearly fee to borrow them.\nA: How much is the fee?\nB: Twelve pounds. We wanted it low, so nobody feels left out.\nA: And what's the most popular item?\nB: You'd think it would be the drill, wouldn't you? But it's the carpet cleaner. Everybody wants it after a party, or when the dog has had an accident!\nA: Ha! Do things ever go missing?\nB: Hardly ever. In four years we've lost two items. People are more careful than you'd expect, probably because they know their neighbours will need it next.\nA: What's the biggest challenge?\nB: Space. The garage became too small, so now we use a room in the old school. But the rent will rise next year, so we're asking for donations.\nA: And what would you say to someone thinking of starting a similar group?\nB: Start small, and don't buy anything new at first. Ask people what they already have and are happy to lend.",
+  "target_seconds": 100,
+  "plays": 2,
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "L-B2-05-1",
+    "type": "detail",
+    "stem": "What is the most popular item?",
+    "options": [
+     "The drill",
+     "The ladder",
+     "The carpet cleaner",
+     "The sewing machine"
+    ],
+    "answer": 2
+   },
+   {
+    "id": "L-B2-05-2",
+    "type": "inference",
+    "stem": "Why do so few things go missing?",
+    "options": [
+     "Borrowers know neighbours need them next",
+     "Every item carries a tracking label",
+     "The yearly fee is quite high",
+     "Staff check every item daily"
+    ],
+    "answer": 0
+   },
+   {
+    "id": "L-B2-05-3",
+    "type": "detail",
+    "stem": "What problem does the group face now?",
+    "options": [
+     "Too few members pay the yearly fee",
+     "People want a lower fee",
+     "Many tools are broken",
+     "The rent for its room will go up"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "L-B2-06",
+  "level": "B2",
+  "genre": "meeting",
+  "title": "Planning the Party",
+  "speakers": [
+   {
+    "label": "A",
+    "voice": "woman, 40s, organiser, neutral British"
+   },
+   {
+    "label": "B",
+    "voice": "man, 30s, neutral British"
+   },
+   {
+    "label": "C",
+    "voice": "woman, 50s, neutral British or American"
+   }
+  ],
+  "transcript": "A: Okay, everyone, the staff party. We agreed on December, and the budget is about two thousand pounds. Ideas?\nB: I'd say a restaurant. Simple, no stress.\nC: Honestly, a restaurant for forty people? It'll cost more than two thousand. What about the canteen, with a food company?\nB: Hmm, the canteen. It feels like work, though.\nC: We could decorate it. Lights, music, a bit of effort, and it would feel different.\nA: Cost-wise, canteen plus food comes to about twelve hundred, I think. That leaves some money for entertainment.\nB: All right, I'm convinced, as long as we don't have a speech from the director. Last year it lasted twenty minutes.\nA: Noted! Now, the date. The 12th is a Thursday. Is that a problem?\nC: Some people have a long journey the next morning. Wouldn't Wednesday the 11th be better? No, wait, that's worse, people will be tired in the middle of the week. Actually, what about Friday the 13th? People can sleep late.\nB: Friday, yes. Though some people worry about bad luck.\nA: Oh, I doubt anybody will mind. Friday it is, then. Who'll organise the music?\nC: I will. I know a friend with equipment.\nA: Perfect. I'll book the food company tomorrow.",
+  "target_seconds": 82,
+  "plays": 2,
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "L-B2-06-1",
+    "type": "detail",
+    "stem": "Why do they choose the canteen?",
+    "options": [
+     "It feels more like a real party",
+     "It costs much less than a restaurant",
+     "The director suggested it",
+     "The restaurant is already fully booked"
+    ],
+    "answer": 1
+   },
+   {
+    "id": "L-B2-06-2",
+    "type": "detail",
+    "stem": "When will the party be held?",
+    "options": [
+     "On Friday the 13th",
+     "On Thursday the 12th",
+     "On Wednesday the 11th",
+     "On a date still to be decided"
+    ],
+    "answer": 0
+   },
+   {
+    "id": "L-B2-06-3",
+    "type": "detail",
+    "stem": "What condition does B set?",
+    "options": [
+     "The music must be live",
+     "Nobody travels far",
+     "There must be no long speech",
+     "The cost stays under a thousand"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "L-C1-01",
+  "level": "C1",
+  "genre": "interview",
+  "title": "The Case for Napping",
+  "speakers": [
+   {
+    "label": "A",
+    "voice": "man, 50s, radio presenter, neutral British"
+   },
+   {
+    "label": "B",
+    "voice": "woman, 40s, researcher, neutral British"
+   }
+  ],
+  "transcript": "A: My guest today is Dr Imogen Falk, a sleep researcher, whose team recently published a small study on napping. Imogen, welcome. Before we begin, I should say I've been a devoted napper for years, so I'm hoping you're going to tell me I was right all along.\nB: Ha, well, I'm afraid it's not quite that simple.\nA: Oh dear.\nB: So, what we did, and I should stress this was a modest study, only sixty participants, was to give half of them a nap of twenty minutes after lunch, timed meticulously, and the other half no nap, and then compare their performance on memory tasks.\nA: And the sleepers did better.\nB: At first glance, yes, by a fair margin. But here's the catch. When we looked more closely, the effect was strongest in people who normally sleep badly at night. For those who sleep well, the difference was negligible.\nA: So napping is a kind of repair, rather than a bonus.\nB: That's a plausible way of putting it, although I'd be wary of drawing that conclusion too firmly. Sixty people is not many, and they were all university staff, which isn't exactly a typical group.\nA: Right. But surely there's no harm in a nap?\nB: Not necessarily harm, no. Though we did notice that some participants who napped for longer than half an hour woke up feeling dull, and actually performed worse than those who didn't nap at all. So timing matters. It's not a case of the more, the better.\nA: Which rather spoils my plan for a whole afternoon asleep.\nB: I'm afraid it does, yes. But if you're short on sleep, twenty minutes is probably a sensible compromise. Whether it works for everyone, we can't say yet. That's the honest answer.",
+  "target_seconds": 120,
+  "plays": 2,
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "L-C1-01-1",
+    "type": "inference",
+    "stem": "Who benefited most from the nap?",
+    "options": [
+     "People who sleep well at night anyway",
+     "People who sleep badly at night",
+     "University staff in particular",
+     "Those who napped for an hour"
+    ],
+    "answer": 1
+   },
+   {
+    "id": "L-C1-01-2",
+    "type": "attitude",
+    "stem": "How does Dr Falk regard her results?",
+    "options": [
+     "Proof that napping always helps",
+     "Too weak to be worth publishing",
+     "Surprising compared with earlier work",
+     "Promising, but limited by the sample"
+    ],
+    "answer": 3
+   },
+   {
+    "id": "L-C1-01-3",
+    "type": "detail",
+    "stem": "What happened to some long nappers?",
+    "options": [
+     "They remembered more than others",
+     "They did worse than non-nappers",
+     "They slept badly that night",
+     "They improved only a little"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "L-C1-02",
+  "level": "C1",
+  "genre": "discussion",
+  "title": "Should Museums Charge?",
+  "speakers": [
+   {
+    "label": "A",
+    "voice": "woman, 50s, radio host, neutral British"
+   },
+   {
+    "label": "B",
+    "voice": "woman, 40s, critic, neutral British"
+   },
+   {
+    "label": "C",
+    "voice": "man, 50s, neutral American"
+   }
+  ],
+  "transcript": "A: So, to our final topic tonight: should public museums charge for entry? Dana, you've written a lot about this.\nB: I have, and I'll be candid, I used to think free entry was untouchable. But I've reluctantly changed my mind, partly. Not completely.\nC: Really? I'm surprised, Dana.\nB: Well, hear me out. The cost of looking after a collection keeps rising, and when funding falls short, it's the education programmes that get cut first, not the exhibitions. I'd rather charge visitors a few pounds than lose the school workshops.\nC: But that's a false choice, surely. Once you put up a ticket desk, you send a message about who the place is for, and you risk alienating the very people you most want. Families on a tight budget simply won't come. They'll think, not for us.\nB: That's a fair worry. But isn't there a middle path? Free for children, free for local residents, and a charge for tourists.\nC: In theory, yes. In practice, you need staff to check who's local, which eats into the money you've raised. A gallery I know of, which I won't name, ended up spending almost a third of its ticket income on checking.\nA: So is that an argument against charging, or just against clever schemes?\nC: Both, I'd say. Keep it simple: free for everyone, and ask for donations at the door.\nB: Donations? That rarely covers the gap, in my experience. People say they'll give, then walk straight past the box.\nC: Maybe. But I'd still prefer to fall short with free entry than succeed with a barrier.\nA: Strong words. Dana, last thought?\nB: I'd say we're both defending the same goal. We just disagree about the risk.",
+  "target_seconds": 115,
+  "plays": 2,
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "L-C1-02-1",
+    "type": "attitude",
+    "stem": "How has Dana's view changed?",
+    "options": [
+     "She now wants every museum to charge",
+     "She now prefers donation boxes",
+     "She now opposes school workshops",
+     "She now partly accepts charging"
+    ],
+    "answer": 3
+   },
+   {
+    "id": "L-C1-02-2",
+    "type": "inference",
+    "stem": "Why does C doubt the middle path?",
+    "options": [
+     "Checking who qualifies swallows the income",
+     "Tourists would refuse to pay at all",
+     "Local people would stop visiting",
+     "Staff would not accept the new scheme"
+    ],
+    "answer": 0
+   },
+   {
+    "id": "L-C1-02-3",
+    "type": "attitude",
+    "stem": "What is C's attitude to a funding shortfall?",
+    "options": [
+     "He is sure donations will cover it",
+     "He wants higher charges for tourists",
+     "He will accept it to keep entry free",
+     "He fears the workshops will close"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "L-C1-03",
+  "level": "C1",
+  "genre": "lecture-excerpt",
+  "title": "The Sunk Cost Trap",
+  "speakers": [
+   {
+    "label": "A",
+    "voice": "woman, 50s, university lecturer, neutral British"
+   }
+  ],
+  "transcript": "Right, last week we talked about how people fall in love with their own plans. Today I'd like to look at a related trap, one that economists call the sunk cost effect. Let me set up a hypothetical, entirely fictional case.\n\nImagine a company, Norvale Foods, which has spent three years and several million pounds developing a new frozen dessert. Just before launch, test results come in, and they're disappointing. Customers like it, but not enough to justify the production costs. What should the managers do?\n\nLogically, the money already spent is gone whatever they decide, so the only question should be: from here on, does the product pay for itself? If not, stop. But that's rarely what happens. Typically, someone says, we've come this far, we can't walk away now. And that sounds like determination, doesn't it? Except it's really a way of avoiding the discomfort of admitting a mistake. Hindsight makes it look obvious, but at the time, walking away feels daunting.\n\nNow, I don't want to suggest that persistence is always foolish. There are plenty of projects that looked hopeless in year two and turned out well in year five. The difficulty, inherent in the whole problem, is telling the two situations apart. One rule of thumb I find helpful is to ask whether you would start the project today, knowing what you now know. If the answer is no, then continuing needs a much better reason than, we've already paid for it.\n\nA colleague of mine goes further and says organisations should appoint someone whose job is to argue for stopping the project. I'm not convinced that works; people tend to ignore the official critic. But the principle behind it, that we need some check against our own stubbornness, is sound. Next time, we'll look at how group dynamics make this even worse.",
+  "target_seconds": 128,
+  "plays": 2,
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "L-C1-03-1",
+    "type": "inference",
+    "stem": "Why is 'we've come this far' unhelpful?",
+    "options": [
+     "It ignores how much money has been spent",
+     "It shows a lack of determination",
+     "It usually comes too late in a project",
+     "It hides a reluctance to admit a mistake"
+    ],
+    "answer": 3
+   },
+   {
+    "id": "L-C1-03-2",
+    "type": "attitude",
+    "stem": "What is the lecturer's view of persistence?",
+    "options": [
+     "Usually foolish in any business",
+     "Sometimes right, but hard to recognise",
+     "A sure sign of good leadership",
+     "Sensible only in the first year"
+    ],
+    "answer": 1
+   },
+   {
+    "id": "L-C1-03-3",
+    "type": "attitude",
+    "stem": "What does she think of the cancellation role?",
+    "options": [
+     "Essential in every large organisation",
+     "Pointless, since nobody needs it",
+     "Doubtful it works, though the aim is sound",
+     "Likely to cause group arguments"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "L-C1-04",
+  "level": "C1",
+  "genre": "talk",
+  "title": "Late to the Violin",
+  "speakers": [
+   {
+    "label": "A",
+    "voice": "man, 40s, conversational, neutral British"
+   }
+  ],
+  "transcript": "I started the violin at forty three, which, I'll admit, was a slightly ridiculous thing to do. My daughter had been learning for a year, and I'd listen from the kitchen thinking, how hard can it be? Quite hard, as it turns out, and daunting too. I am not accustomed to being bad at things. For the first three months I produced a noise that made the cat leave the house.\n\nNow, people often assume that the biggest obstacle for adult learners is time. Between work and family, who has an hour a day? But in my experience, that isn't really it. You can get a lot done in fifteen minutes if you're focused. The real obstacle is pride. Children don't mind sounding terrible. They squeal, they laugh, they carry on. Adults hear every wrong note and take it personally. I was close to giving up in the spring, after a lesson where the teacher, very kindly, asked me to play just a little more quietly. I understood exactly what she intended.\n\nWhat helped me continue, oddly enough, was not talent or discipline. It was a retired plumber in my class, seventy years old, who played worse than I did and absolutely didn't care. He'd finish a piece, grin, and say, well, that was an adventure. And I thought, why am I so afraid of being bad at something that doesn't matter?\n\nSo I stopped aiming for perfect. I started recording myself once a week, not to criticise, just to notice small changes. It's slow progress, and I won't pretend I'm good. But last month I played a simple tune at my daughter's birthday, and nobody left the room. For me, that counts as a triumph.",
+  "target_seconds": 119,
+  "plays": 1,
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "L-C1-04-1",
+    "type": "inference",
+    "stem": "What does the speaker see as the main obstacle?",
+    "options": [
+     "Adults mind sounding bad",
+     "Finding time for practice",
+     "A lack of natural talent",
+     "The cost of lessons"
+    ],
+    "answer": 0
+   },
+   {
+    "id": "L-C1-04-2",
+    "type": "detail",
+    "stem": "What kept the speaker going?",
+    "options": [
+     "Compliments from the teacher at lessons",
+     "A wish to beat his daughter",
+     "A classmate who enjoyed playing badly",
+     "Clear progress in the spring"
+    ],
+    "answer": 2
+   },
+   {
+    "id": "L-C1-04-3",
+    "type": "attitude",
+    "stem": "How does the speaker feel about his progress?",
+    "options": [
+     "Modestly pleased with small gains",
+     "Disappointed that progress is so slow",
+     "Sure he will soon play well",
+     "Embarrassed after the birthday tune"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "L-C1-05",
+  "level": "C1",
+  "genre": "phone-call",
+  "title": "A Late Delivery",
+  "speakers": [
+   {
+    "label": "A",
+    "voice": "woman, 40s, cafe manager, neutral British"
+   },
+   {
+    "label": "B",
+    "voice": "man, 50s, supplier, neutral British"
+   }
+  ],
+  "transcript": "A: Hello, Tomas? It's Lena from Fernhill Café. Have you a minute?\nB: Lena, hi. Yes, go on. I think I know what this is about.\nA: The coffee order. It was due on Monday, and we're now Thursday. I don't want to make a fuss, but we're down to about two days' stock.\nB: I know, I know, and I'm sorry. There was a delay at the port amid the bad weather, and, to be honest, I should have called you sooner.\nA: Well, I appreciate you being candid. I'm a little apprehensive about the weekend, you see. The thing is, we have the food festival on Saturday, and we've promised two hundred people proper coffee.\nB: Right. Look, I could send half the order by van tomorrow, and the other half next week. Would that help?\nA: Half would get us through the weekend, yes. Although I'd assumed the van would cost extra.\nB: It would. I'll cover that, it's negligible compared with losing you.\nA: That's very generous. And what about the rest? Can I count on Wednesday?\nB: I'd say probably, but I don't want to promise something I can't deliver. Let me say Wednesday or Thursday, and I'll ring you the day before to confirm.\nA: That's less comforting than a firm date, I suppose. Actually, no, I'd rather have an honest maybe than another missed deadline.\nB: Understood. And I'll take ten percent off next month's invoice, whatever happens.\nA: You really don't need to do that.\nB: I'd like to. It's about keeping you as a customer.\nA: Well then, thank you. I'll look out for the van tomorrow.",
+  "target_seconds": 109,
+  "plays": 1,
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "L-C1-05-1",
+    "type": "speaker_purpose",
+    "stem": "What is Lena mainly trying to do?",
+    "options": [
+     "Complain about the van's delivery price",
+     "Change the order for the food festival",
+     "End her contract with Tomas",
+     "Make sure she has coffee for Saturday"
+    ],
+    "answer": 3
+   },
+   {
+    "id": "L-C1-05-2",
+    "type": "inference",
+    "stem": "Why won't Tomas promise a date?",
+    "options": [
+     "The port may close again next week",
+     "He doesn't want to break another promise",
+     "He is unsure the van will arrive",
+     "Lena has not paid yet"
+    ],
+    "answer": 1
+   },
+   {
+    "id": "L-C1-05-3",
+    "type": "attitude",
+    "stem": "How does Lena react to the uncertainty?",
+    "options": [
+     "She prefers it to a false promise",
+     "She insists on a firm date",
+     "She threatens to look for another supplier",
+     "She asks for an even bigger discount"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "L-C1-06",
+  "level": "C1",
+  "genre": "meeting",
+  "title": "Looking Back at the Launch",
+  "speakers": [
+   {
+    "label": "A",
+    "voice": "woman, 40s, project manager, neutral British"
+   },
+   {
+    "label": "B",
+    "voice": "woman, 30s, designer, neutral British"
+   },
+   {
+    "label": "C",
+    "voice": "man, 40s, engineer, neutral American"
+   }
+  ],
+  "transcript": "A: Right, let's start the review of the booking app launch. I want this to be useful rather than a blame session, so, honest observations, please. A launch like this is daunting at the best of times.\nB: Shall I start? From my side, the main issue was that the design kept changing. Not complaining, but we revised the checkout screen four times.\nC: To be fair, three of those were because testers found it confusing.\nB: Sure, I'm not saying they were unnecessary. Just that each change reached the engineers late.\nC: That's true. We found out about the last one on a Friday afternoon. Though, if I'm honest, we also made mistakes. We underestimated the payment system. I said two weeks; it took five.\nA: Why the gap?\nC: Partly because the provider's guide was out of date, although everything else we tested meticulously. But I should have tested it earlier instead of trusting it. That's on me.\nA: I appreciate you saying so, that's real accountability. So what would we change next time?\nB: A fixed point in the schedule when the design is frozen, so that everyone stays aligned. After that, only serious problems get through.\nC: I'd go further and say that every estimate should include a spare week for anything involving outside providers.\nA: A buffer. Hmm. The directors tend to dislike buffers, they think it means padding. But I can present it as a risk allowance and give figures from this project.\nB: That would be persuasive.\nA: Okay. Let me summarise: freeze the design, add a risk allowance, test external providers early. Anything else?\nC: Just that the launch day went smoothly, and that's thanks to the whole team. We shouldn't forget that.\nA: Agreed. Good point to end on.",
+  "target_seconds": 118,
+  "plays": 1,
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "L-C1-06-1",
+    "type": "inference",
+    "stem": "Why did design changes cause problems?",
+    "options": [
+     "Testers found the changes confusing",
+     "Designers ignored the testers",
+     "Engineers heard about them too late",
+     "The checkout had too many screens"
+    ],
+    "answer": 2
+   },
+   {
+    "id": "L-C1-06-2",
+    "type": "attitude",
+    "stem": "How does C see the payment delay?",
+    "options": [
+     "Entirely the provider's own fault",
+     "Partly his fault for trusting the guide",
+     "A result of the design changes",
+     "Unavoidable given the tight schedule"
+    ],
+    "answer": 1
+   },
+   {
+    "id": "L-C1-06-3",
+    "type": "inference",
+    "stem": "Why might the directors dislike a buffer?",
+    "options": [
+     "It would raise the project budget",
+     "It would make launches slower",
+     "It would show poor planning",
+     "They may think it means padding"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "L-C2-01",
+  "level": "C2",
+  "genre": "interview",
+  "title": "Translating Humour",
+  "speakers": [
+   {
+    "label": "A",
+    "voice": "man, 50s, arts presenter, neutral British"
+   },
+   {
+    "label": "B",
+    "voice": "woman, 60s, translator, neutral British"
+   }
+  ],
+  "transcript": "A: I'm joined by Ottilie Brandt, who has worked for thirty years translating comic novels, which strikes me as either the best job in the world or a kind of slow torture. Which is it?\nB: Both, depending on the week. People assume the hard part is vocabulary, but I'm meticulous about words, and vocabulary is almost never the problem. A pun is a different matter. You can't carry it across, so you have to decide what to sacrifice.\nA: The meaning or the joke?\nB: That's the textbook question, and I used to answer it with, the meaning, always. These days I'm less certain. If the author's pun is the whole point of the paragraph, then keeping the sense and losing the laugh is a kind of betrayal, isn't it? It's accurate, and it's dead.\nA: So you invent a new joke.\nB: Sometimes. Though not lightly. There's a fine line between adaptation and showing off. I once translated a character's terrible pun about a fish and, frankly, my replacement was cleverer than the original. The editor adored it. I didn't, because it sounded like me, not the author.\nA: Did you keep it?\nB: I cut it. I'm not sentimental about my own sentences. Which, now I say it aloud, probably made the book slightly less funny. But there are things you owe to the writer.\nA: Do readers notice?\nB: Rarely, and that's rather the point. If I've done it well, nobody is aware of me at all. The odd thing is that praise for a translation can be a warning sign. Readers admire the beautiful language, when the original was deliberately plain. There's a question of authenticity here: the author's voice has to survive. In other words, I've interfered.\nA: So disappearing is the goal?\nB: Mostly. Although I'd be lying if I said I never wanted a little credit. Everyone does. We simply become adept at hiding it.\nA: Last question. Would you ever write your own comic novel?\nB: I've been threatening to for years. The trouble is that I know exactly how hard it is. I'd probably spend a decade rewriting the first page, and then, I suspect, someone would translate it badly.",
+  "target_seconds": 148,
+  "plays": 2,
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "L-C2-01-1",
+    "type": "attitude",
+    "stem": "What is Ottilie's view on sacrificing the joke?",
+    "options": [
+     "She always keeps the meaning first",
+     "She now thinks the joke can matter more",
+     "She never alters an author's jokes",
+     "She believes readers prefer brand new jokes"
+    ],
+    "answer": 1
+   },
+   {
+    "id": "L-C2-01-2",
+    "type": "inference",
+    "stem": "Why did she cut her replacement fish pun?",
+    "options": [
+     "The editor did not find it funny",
+     "It changed the meaning of the scene",
+     "It was weaker than the original",
+     "It sounded like her, not the author"
+    ],
+    "answer": 3
+   },
+   {
+    "id": "L-C2-01-3",
+    "type": "inference",
+    "stem": "What does she imply about praise for 'beautiful language'?",
+    "options": [
+     "It may mean she changed the author's style",
+     "It is the compliment she values the most",
+     "It shows readers notice her work",
+     "It is usually earned by plain originals"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "L-C2-02",
+  "level": "C2",
+  "genre": "discussion",
+  "title": "The Old Market Hall",
+  "speakers": [
+   {
+    "label": "A",
+    "voice": "woman, 50s, presenter, neutral British"
+   },
+   {
+    "label": "B",
+    "voice": "woman, 40s, architect, neutral British"
+   },
+   {
+    "label": "C",
+    "voice": "man, 50s, property developer, neutral British"
+   }
+  ],
+  "transcript": "A: Our case study this evening is the Corbel Hall, a Victorian market building in the fictional town of Ashby Reach, which has been derelict for a decade. Ines, you want it kept; Callum, you'd rather see it replaced. Ines, start us off.\nB: I'd put it simply: you can build a new building anywhere. You can't build one that is a hundred and forty years old. The bricks, the iron roof, even the cracks, are a record of how people there lived.\nC: That's nostalgia, Ines, and I say so with respect. But sentiment doesn't pay for a new roof. The experts estimate eleven million pounds to make the hall safe, before a single stall opens.\nB: Which I'd dispute, by the way. That figure assumes a full restoration, and nobody has proposed that.\nC: Fine, but even at half, who pays?\nB: Well, that's a fair challenge, and I have no tidy answer. What I'd resist is the idea that the only alternative is demolition. There's a third option: keep the shell, and let the inside change.\nC: That's what we've proposed, in fact. Apartments on the upper levels, shops below, the front facade retained.\nB: A facade, though. Isn't that rather like keeping a person's coat after they've gone?\nA: A striking image. Callum?\nC: Memorable, but unfair. A coat can be worn, and a facade keeps the street looking as it always did. Frankly, a hall that slowly decays protects no one's memories.\nB: I'll grant you that. Neglect is the real adversary here, more than your plan.\nC: Then we may agree on more than we thought.\nB: On how urgent it is, yes. On the ending, no.\nA: Which seems a fair place to stop. Before we do, though, I'm curious: has either of you ever changed sides on a project like this?\nC: Once. It was humbling.\nB: Never, I'm afraid. I'm told that's a flaw.",
+  "target_seconds": 128,
+  "plays": 2,
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "L-C2-02-1",
+    "type": "inference",
+    "stem": "How does Ines respond to the cost figure?",
+    "options": [
+     "She accepts it and suggests full demolition",
+     "She says the town should pay it all",
+     "She doubts its basis but can't say who pays",
+     "She says the experts lack real experience"
+    ],
+    "answer": 2
+   },
+   {
+    "id": "L-C2-02-2",
+    "type": "inference",
+    "stem": "What does Ines mean by the coat comparison?",
+    "options": [
+     "Old clothes should be kept",
+     "A facade is worth the price",
+     "The hall can still be worn",
+     "Keeping only a facade preserves little"
+    ],
+    "answer": 3
+   },
+   {
+    "id": "L-C2-02-3",
+    "type": "gist",
+    "stem": "What do the speakers agree on?",
+    "options": [
+     "Apartments should go on the upper floors",
+     "Letting the hall decay is a danger",
+     "The facade must be kept",
+     "The cost has been overstated"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "L-C2-03",
+  "level": "C2",
+  "genre": "lecture-excerpt",
+  "title": "Why Forecasts Fail",
+  "speakers": [
+   {
+    "label": "A",
+    "voice": "man, 60s, university lecturer, neutral British"
+   }
+  ],
+  "transcript": "I'd like to start today with a study that, I should say at once, is invented. I've constructed it to illustrate a pattern that real researchers have described in various forms, and I don't want anyone quoting my numbers.\n\nImagine a panel of two hundred forecasters, economists, analysts, commentators, each asked to predict a hundred events over five years. And imagine that we score them. What do we find? First, as a group, they perform only slightly better than chance. That in itself isn't shocking. The surprise is in who does worst. It's not the cautious ones. It's the confident ones, the people with one big theory, held with unwavering conviction, that explains everything. They're also, tellingly, the ones most often invited onto television.\n\nNow, why? One explanation is that a single big idea makes a plausible story, and stories are persuasive, to the audience and, crucially, to the forecaster. Once you have a premise you love, every new fact seems to fit it, and hindsight makes the fit look inevitable. The other kind of forecaster, who is adept at changing course, borrows from many theories, hedges, and revises. They sound less impressive. They say, it depends, rather a lot. But they get more right.\n\nNow, here comes the complication, and I want to flag it before you leave thinking that hedging is a virtue in itself. A forecaster who says everything is possible can never be wrong, and can never be useful either. The skill lies in calibration: saying seventy per cent when things happen about seven times in ten. That is far harder than either bold certainty or comfortable vagueness.\n\nAnd I'd add one more thing, which is slightly uncomfortable for those of us who teach. Training people in the theories, as we do, doesn't obviously help. It may even encourage the one-big-idea habit. I haven't resolved that tension, and I'm not sure I can.",
+  "target_seconds": 132,
+  "plays": 2,
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "L-C2-03-1",
+    "type": "detail",
+    "stem": "Which forecasters did worst?",
+    "options": [
+     "Those who hedged their views a lot",
+     "Those who never appeared on television",
+     "Those with one confident explanation",
+     "Those who revised their views often"
+    ],
+    "answer": 2
+   },
+   {
+    "id": "L-C2-03-2",
+    "type": "inference",
+    "stem": "What caution does the lecturer add?",
+    "options": [
+     "Vague predictions are safe but useless",
+     "Hedgers are in fact less accurate",
+     "Confident forecasters are underrated",
+     "Calibration is easy to learn"
+    ],
+    "answer": 0
+   },
+   {
+    "id": "L-C2-03-3",
+    "type": "attitude",
+    "stem": "How does he feel about teaching theory?",
+    "options": [
+     "Certain it improves predictions",
+     "Convinced it should be stopped",
+     "Uneasy, with no clear answer",
+     "Unconcerned by the issue"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "L-C2-04",
+  "level": "C2",
+  "genre": "radio-feature",
+  "title": "The Clock Mender",
+  "speakers": [
+   {
+    "label": "A",
+    "voice": "woman, 40s, radio presenter, neutral British"
+   },
+   {
+    "label": "B",
+    "voice": "man, 60s, clock repairer, gentle, neutral British"
+   }
+  ],
+  "transcript": "A: In a tiny workshop above a bakery in the fictional town of Marlow Down, there's a sound I can only describe as a hundred small arguments, ticking. That's the sound of Hugo Seaton's clocks. Hugo, do they ever agree with each other?\nB: Never. Not for long. Some run fast in the morning, slow by evening. It's the temperature, mainly. A clock is a very honest, resilient instrument. It tells you everything about the room it's in.\nA: You repair them for a living, but you tell me business is poor.\nB: Poor isn't quite the word. It's odd, actually. More people than ever bring me clocks, but nearly all of them want one just to look handsome. People call it nostalgia, but I'm not sure. Wound up and left silent on a shelf. They don't want it to work.\nA: And that bothers you.\nB: I'm not sure bothers is right. At first it did. I thought, what is the point of a clock that doesn't keep time? But then a woman came in with an old clock from her grandfather, and she told me, I do not need it to be right, I need to hear it. And I saw what she meant. It had stopped being a tool and become a kind of company.\nA: So the function has changed.\nB: Has it? Perhaps the function was always a bit more than telling the time. Nobody needed a clock to be accurate to the second until railways and factories demanded it. Before that, church bells did the job well enough.\nA: Do you worry about who will take over?\nB: Constantly. I've had two apprentices, and both left within a year. One explained, quite politely, that he couldn't spend his life on something a phone does better.\nA: What did you say?\nB: I said he was right. And then I told him to come back the day his phone became good company.\nA: Ha! Did he come back?\nB: Not yet. I haven't given up hope. It's an antiquated trade, I know, and tenacity is rather the whole of it. Meticulous patience, you see. You sit with a stubborn little mechanism for days, and one morning, it simply starts to beat.",
+  "target_seconds": 151,
+  "plays": 1,
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "L-C2-04-1",
+    "type": "inference",
+    "stem": "Why do most customers bring Hugo clocks?",
+    "options": [
+     "Mostly for looks or sentiment",
+     "To have them running accurately",
+     "To sell them to serious collectors",
+     "To replace broken parts"
+    ],
+    "answer": 0
+   },
+   {
+    "id": "L-C2-04-2",
+    "type": "attitude",
+    "stem": "How did Hugo's feeling about silent clocks change?",
+    "options": [
+     "From pride to disappointment",
+     "From anger to total indifference",
+     "From interest to growing boredom",
+     "From concern to understanding"
+    ],
+    "answer": 3
+   },
+   {
+    "id": "L-C2-04-3",
+    "type": "inference",
+    "stem": "How did Hugo answer his apprentice?",
+    "options": [
+     "He argued that phones are worse",
+     "He agreed, yet hoped he would return",
+     "He offered him a much higher wage",
+     "He angrily let him go"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "L-C2-05",
+  "level": "C2",
+  "genre": "monologue",
+  "title": "Stand in the Rain",
+  "speakers": [
+   {
+    "label": "A",
+    "voice": "man, 60s, retiring engineer, warm, neutral British"
+   }
+  ],
+  "transcript": "Thank you, all of you. Please sit down, I haven't said anything yet, and you may not want to stand once I have. I was asked to say a few words about what I've learned in thirty eight years of building bridges, and I've spent the last week trying to decide whether I've learned anything at all.\n\nThe honest answer is: one thing, really, and I learned it by getting it wrong. Early in my career, I designed a bridge for pedestrians, nothing grand, across a river in a town I won't name. On paper it was perfect. Efficient, elegant, cheap, and meticulously checked. And the day it opened, I was there feeling rather pleased with myself, with an unwavering belief in my own drawings, until I noticed that people were refusing to use it. They walked two hundred metres up the river and crossed by the old road. I was puzzled.\n\nEventually, a woman with a baby explained, with great patience, that the ramp was steeper than it looked, and the railing was freezing in winter. Nobody had told me, because nobody had asked her.\n\nIn hindsight, it was a humbling lesson. Now, I'd love to say I changed overnight. In fact, it took me years to take it in. We engineers are trained to trust calculation, and calculation is wonderful, but it only answers the questions you've thought to ask. What I eventually understood is that the most important measurements can't be taken in an office. They're taken by standing in the rain and watching what people actually do.\n\nSo, to the younger engineers here: go and stand in the rain. And to the older ones: stop pretending you don't need to.\n\nI'll miss this place more than I'm letting on. I've been told I'm not allowed to say I'll be back on Monday, so I'll say instead that I'll be back for the cake. Thank you.",
+  "target_seconds": 133,
+  "plays": 1,
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "L-C2-05-1",
+    "type": "inference",
+    "stem": "Why did people avoid the footbridge?",
+    "options": [
+     "Its ramp and railing were unpleasant",
+     "It was too far from the shops",
+     "Its design looked unsafe",
+     "Nobody knew that it had opened"
+    ],
+    "answer": 0
+   },
+   {
+    "id": "L-C2-05-2",
+    "type": "inference",
+    "stem": "What point does he make about calculation?",
+    "options": [
+     "It matters less than plain experience",
+     "It should be left to young engineers",
+     "It only answers questions already asked",
+     "It is wrong for public structures"
+    ],
+    "answer": 2
+   },
+   {
+    "id": "L-C2-05-3",
+    "type": "attitude",
+    "stem": "How does he feel about leaving?",
+    "options": [
+     "Eager to start his retirement",
+     "Sadder than he admits",
+     "Sure the team will cope",
+     "Embarrassed by all the attention"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "L-C2-06",
+  "level": "C2",
+  "genre": "talk",
+  "title": "The Cost of Noise",
+  "speakers": [
+   {
+    "label": "A",
+    "voice": "woman, 50s, conference speaker, neutral British"
+   }
+  ],
+  "transcript": "Good afternoon. I want to talk about something we've all stopped hearing, which is, of course, the problem. City noise. Now, when I raise this with colleagues, the response is usually a polite shrug. Noise is annoying, they say, but surely not serious.\n\nSo let me begin with a small, fictional experiment, one I'd love to run if anybody gave me the funding. Take two streets with the same traffic, the same air quality, the same rents. On one, the buildings are lined with soft planting; on the other, hard glass and concrete. Over a year, and with meticulous care, we measure not hearing but behaviour: how long people sit outside, how often neighbours stop to talk, how many leave. My hypothesis, and it is only a hypothesis, is that the quieter street will look healthier in ways nobody put on the survey, with fewer adverse effects on neighbourliness.\n\nWhy do I suspect so? Because noise doesn't merely irritate; it taxes attention. Every sound you try to ignore uses a little effort, and effort accumulates, amid the din, into something tedious and draining. By evening you aren't exhausted from anything you did, just from everything you didn't listen to.\n\nNow, the obvious fix is volume: make things quieter. And in some cases that's right, and it can alleviate real suffering. But I've come to think it's the wrong first question. A busy fountain makes more noise than a distant motorway, yet nobody complains about the fountain. So perhaps the real issue isn't loudness but control and meaning; whether a sound is one you chose, or one that's imposed.\n\nI realise that this complicates policy. It's far easier to set a decibel limit than to measure how people feel. But easy to measure and important are rarely the same thing, and I'd rather be roughly right about the second than precisely right about the first. In the time left, I'll walk through three design changes that cost almost nothing and, I'd argue, matter a great deal.",
+  "target_seconds": 140,
+  "plays": 1,
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "L-C2-06-1",
+    "type": "gist",
+    "stem": "What is the two-street experiment?",
+    "options": [
+     "A finished study of two busy cities",
+     "A survey of local noise complaints",
+     "A trial run by her own team",
+     "An imagined study with no funding yet"
+    ],
+    "answer": 3
+   },
+   {
+    "id": "L-C2-06-2",
+    "type": "inference",
+    "stem": "What does the fountain example show?",
+    "options": [
+     "Water sounds are always pleasant to hear",
+     "Annoyance depends on choice and meaning",
+     "Quiet motorways are very rare",
+     "Volume is the main issue"
+    ],
+    "answer": 1
+   },
+   {
+    "id": "L-C2-06-3",
+    "type": "attitude",
+    "stem": "What does the speaker prefer?",
+    "options": [
+     "Setting strict decibel limits for streets",
+     "Measuring sound very precisely indeed",
+     "Avoiding any design changes",
+     "Being roughly right about what matters"
+    ],
+    "answer": 3
+   }
+  ]
+ }
+]

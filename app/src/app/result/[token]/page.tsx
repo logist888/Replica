@@ -12,7 +12,7 @@ export default async function Result({ params }: { params: Promise<{ token: stri
   const r = await pool().query("select results, status from sessions where token=$1", [token]);
   const row = r.rows[0];
   if (!row || row.status !== "done" || !row.results) notFound();
-  const { vocab, reading, answered } = row.results;
+  const { vocab, reading, answered, listening } = row.results;
   const range = reading.low === reading.high ? reading.low : `${reading.low}–${reading.high}`;
   return (
     <main className="wrap stack">
@@ -23,6 +23,13 @@ export default async function Result({ params }: { params: Promise<{ token: stri
         <p className="score">{range}</p>
         <p className="muted">Estimated CEFR range, based on {answered} questions. Most likely level: <span className="badge">{reading.level}</span></p>
       </section>
+      {listening && (
+        <section className="card stack" aria-labelledby="ls">
+          <h2 id="ls" style={{ margin: 0 }}>Listening</h2>
+          <p className="score">{listening.low === listening.high ? listening.low : `${listening.low}–${listening.high}`}</p>
+          <p className="muted">Estimated CEFR range, based on {listening.answered} questions. Most likely level: <span className="badge">{listening.level}</span></p>
+        </section>
+      )}
       <section className="card stack" aria-labelledby="vc">
         <h2 id="vc" style={{ margin: 0 }}>Vocabulary</h2>
         {vocab.valid ? (

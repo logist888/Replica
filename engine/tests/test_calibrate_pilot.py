@@ -35,13 +35,25 @@ class CalibratePilotTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as d:
             path = os.path.join(d, "r.csv")
             make_csv(path)
-            reading, vocab = cp.load(path)
+            reading, vocab, listening = cp.load(path)
             res = cp.analyse(reading, vocab)
         bs = [res["items"]["R-%d" % k]["b"] for k in range(11) if k != 5]
         self.assertEqual(bs, sorted(bs))
         self.assertIn("R-5", res["review"])  # бракованное задание найдено
         self.assertEqual(res["words"]["blorf"]["yes_rate"] > 0.35, True)
         self.assertEqual(res["n_sessions"], 400)
+
+    def test_listening_is_loaded_separately(self):
+        with tempfile.TemporaryDirectory() as d:
+            path = os.path.join(d, "r.csv")
+            with open(path, "w", newline="", encoding="utf-8") as f:
+                w = csv.writer(f)
+                w.writerow(["session_id", "part", "item_id", "answer", "correct", "time_ms", "answered_at"])
+                w.writerow(["s1", "listening", "L-A1-01-1", "0", 1, "", ""])
+                w.writerow(["s1", "reading", "R-A1-01-1", "0", 1, "", ""])
+            reading, vocab, listening = cp.load(path)
+        self.assertEqual(len(listening), 1)
+        self.assertEqual(len(reading), 1)
 
     def test_item_with_few_answers_is_flagged(self):
         reading = [("s1", "X", 1), ("s2", "X", 0)] + [("s%d" % k, "Y", k % 2) for k in range(40)]

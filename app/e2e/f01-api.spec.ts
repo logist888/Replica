@@ -1,4 +1,4 @@
-import { test, expect, api, startSession, honestVocab, toReading, answerAll, db, answerOf, ADMIN } from "./fixtures";
+import { test, expect, api, startSession, honestVocab, toReading, answerAll, db, answerOf, ADMIN, finishViaApi } from "./fixtures";
 
 test("F01-E1b API: старт без согласия или возраста отклоняется", async ({ request }) => {
   const a = api(request);
@@ -67,7 +67,7 @@ test("F01-N5 завершение: до чтения нельзя, повтор�
   const s = await toReading(a);
   expect((await a.post("/api/finish", { token: s.token })).status).toBe(409);
   await answerAll(a, s);
-  const f1 = await a.post("/api/finish", { token: s.token });
+  const f1 = await finishViaApi(a, s);
   const f2 = await a.post("/api/finish", { token: s.token });
   expect(f1.status).toBe(200);
   expect(f2.body.url).toBe(f1.body.url);

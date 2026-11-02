@@ -1,6 +1,6 @@
 import { LEVELS, type Level, type VocabItem } from "./scoring";
 import { gaussian, sample, shuffle } from "./rng";
-import type { Passage, VocabPool } from "./content";
+import type { ListeningScript, Passage, VocabPool } from "./content";
 
 const PER_LEVEL: Record<Level, number> = { A1: 4, A2: 8, B1: 8, B2: 8, C1: 8, C2: 8 };
 const N_PSEUDO = 16;
@@ -29,6 +29,26 @@ export function pickPassages(bank: Passage[], centerIdx: number | null, n = N_RE
     if (next) chosen.push(next);
   }
   // если уровни окрестности закончились, добираем любыми оставшимися
+  if (chosen.length < n) {
+    const rest = shuffle(LEVELS.flatMap((lv) => byLevel[lv]));
+    while (chosen.length < n && rest.length) chosen.push(rest.shift()!);
+  }
+  return chosen.sort((a, b) => LEVELS.indexOf(a.level) - LEVELS.indexOf(b.level));
+}
+
+export const N_LISTENING = 4;
+
+// Сценарии аудирования вокруг уровня, оценённого по чтению; по возрастанию уровня.
+export function pickScripts(bank: ListeningScript[], centerIdx: number, n = N_LISTENING): ListeningScript[] {
+  const byLevel: Record<string, ListeningScript[]> = {};
+  for (const lv of LEVELS) byLevel[lv] = shuffle(bank.filter((p) => p.level === lv));
+  const chosen: ListeningScript[] = [];
+  let guard = 0;
+  while (chosen.length < n && guard++ < 500) {
+    const k = Math.min(LEVELS.length - 1, Math.max(0, Math.round(centerIdx + gaussian(1.0))));
+    const next = byLevel[LEVELS[k]].shift();
+    if (next) chosen.push(next);
+  }
   if (chosen.length < n) {
     const rest = shuffle(LEVELS.flatMap((lv) => byLevel[lv]));
     while (chosen.length < n && rest.length) chosen.push(rest.shift()!);

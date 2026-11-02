@@ -40,3 +40,9 @@ create table if not exists responses (
   unique (session_id, item_id)
 );
 create index if not exists responses_item_idx on responses (item_id);
+
+-- Часть 3 (аудирование): расширяем допустимые значения. Идемпотентно.
+alter table sessions drop constraint if exists sessions_status_check;
+alter table sessions add constraint sessions_status_check check (status in ('vocab','reading','listening','done'));
+alter table responses drop constraint if exists responses_part_check;
+alter table responses add constraint responses_part_check check (part in ('vocab','reading','listening'));

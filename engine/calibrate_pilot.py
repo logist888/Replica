@@ -23,14 +23,16 @@ from rasch import calibrate_jml
 
 
 def load(path):
-    reading, vocab = [], defaultdict(list)
+    reading, listening, vocab = [], [], defaultdict(list)
     with open(path, encoding="utf-8", newline="") as f:
         for r in csv.DictReader(f):
             if r["part"] == "reading":
                 reading.append((r["session_id"], r["item_id"], int(r["correct"])))
+            elif r["part"] == "listening":
+                listening.append((r["session_id"], r["item_id"], int(r["correct"])))
             elif r["part"] == "vocab":
                 vocab[r["item_id"]].append((r["session_id"], r["answer"] == "yes", int(r["correct"])))
-    return reading, vocab
+    return reading, vocab, listening
 
 
 def point_biserial(item, rows_by_person, person_total, person_n):
@@ -95,14 +97,17 @@ def main(argv=None):
     ap.add_argument("--min-n", type=int, default=30)
     ap.add_argument("--pseudo", help="JSON-файл пула слов (content/vocab/pool.json) для отметки псевдослов")
     a = ap.parse_args(argv)
-    reading, vocab = load(a.responses)
+    reading, vocab, listening = load(a.responses)
     res = analyse(reading, vocab, a.min_n)
+    # Аудирование калибруется отдельно: у него своя шкала сложности (среднее b = 0 внутри навыка).
+    res["listening"] = analyse(listening, {}, a.min_n) if listening else None
     if a.pseudo:
         pseudo = set(json.load(open(a.pseudo, encoding="utf-8"))["pseudo"])
         res["suspicious_pseudo_candidates"] = sorted(w for w, s in res["words"].items() if w in pseudo and s["n"] >= 15 and s["yes_rate"] >= 0.35)
     json.dump(res, open(a.out, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print("sessions:", res["n_sessions"], "items calibrated:", res["n_items_calibrated"], "to review:", len(res["review"]),
-          "suspicious pseudo:", len(res["suspicious_pseudo_candidates"]))
+          "suspicious pseudo:", len(res["suspicious_pseudo_candidates"]),
+          "listening items:", (res["listening"] or {}).get("n_items_calibrated", 0))
     return 0
 
 

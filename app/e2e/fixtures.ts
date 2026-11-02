@@ -89,6 +89,32 @@ export async function answerAll(a: ReturnType<typeof api>, s: { token: string; p
   }
 }
 
+// Завершение через API с учётом части 3: если записи есть, проходим и её (ответ 0 на все вопросы).
+export async function finishViaApi(a: ReturnType<typeof api>, s: { token: string }) {
+  const l = await a.post("/api/listening/start", { token: s.token });
+  if (l.status === 200 && !l.body.skip) {
+    for (const it of l.body.items) {
+      const r = await a.post("/api/listening", { token: s.token, answers: it.questions.map((q: any) => ({ id: q.id, choice: 0, timeMs: 500 })) });
+      expect(r.status).toBe(200);
+    }
+  }
+  return a.post("/api/finish", { token: s.token });
+}
+
+// После последнего текста: либо сразу результат, либо экран аудирования. Проходим его, не воспроизводя звук.
+export async function afterReadingUI(page: Page) {
+  const rec = page.getByText(/Recording 1 of/);
+  await Promise.race([page.waitForURL(/\/result\//), rec.waitFor()]);
+  if (await rec.isVisible().catch(() => false)) {
+    for (let c = 0; c < 4; c++) {
+      await expect(page.getByText(`Recording ${c + 1} of 4`)).toBeVisible();
+      const groups = page.getByRole("radiogroup");
+      for (let i = 0; i < (await groups.count()); i++) await groups.nth(i).locator("label").nth(i % 4).click();
+      await page.getByRole("button", { name: c < 3 ? "Next recording" : "Finish" }).click();
+    }
+  }
+}
+
 export async function completeVocabUI(page: Page, knowAll = false) {
   for (let k = 0; k < 60; k++) {
     await expect(page.getByText(`Word ${k + 1} of 60`)).toBeVisible();
