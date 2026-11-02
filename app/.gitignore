@@ -5,3 +5,5 @@ content/
 next-env.d.ts
 tsconfig.tsbuildinfo
 e2e-shots/
+test-results/
+playwright-report/

@@ -24,6 +24,7 @@ export async function POST(req: Request) {
   if (items.length < Math.min(asked, 12)) return NextResponse.json({ error: "Please answer the reading questions first." }, { status: 409 });
   const reading = readingEstimate(items);
   const results = { vocab: s.form.vocabScore, reading, answered: items.length, version: "pilot-0" };
-  await pool().query("update sessions set status='done', results=$2, finished_at=now() where id=$1", [s.id, JSON.stringify(results)]);
+  // Условное обновление: параллельный повторный вызов не перезапишет уже сохранённый результат.
+  await pool().query("update sessions set status='done', results=$2, finished_at=now() where id=$1 and status='reading'", [s.id, JSON.stringify(results)]);
   return NextResponse.json({ url: "/result/" + s.token });
 }

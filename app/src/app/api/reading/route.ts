@@ -28,6 +28,12 @@ export async function POST(req: Request) {
   const c = await pool().connect();
   try {
     await c.query("begin");
+    // FOR SHARE: пока идёт запись ответов, finish не может перевести сессию в done.
+    const cur = await c.query("select status from sessions where id=$1 for share", [s.id]);
+    if (cur.rows[0]?.status !== "reading") {
+      await c.query("rollback");
+      return NextResponse.json({ error: "Reading part is not active." }, { status: 409 });
+    }
     for (const [id, choice, ok, ms] of rows) {
       await c.query(
         `insert into responses (session_id, part, item_id, answer, is_correct, time_ms) values ($1,'reading',$2,$3,$4,$5)

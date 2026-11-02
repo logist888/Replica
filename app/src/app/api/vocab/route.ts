@@ -33,6 +33,13 @@ export async function POST(req: Request) {
   const c = await pool().connect();
   try {
     await c.query("begin");
+    // Атомарный переход vocab -> reading: из параллельных запросов выигрывает один, остальные получают 409.
+    const form = { ...s.form, vocabScore: score, reading: passages.map((p) => p.id) };
+    const moved = await c.query("update sessions set status='reading', form=$2 where id=$1 and status='vocab'", [s.id, JSON.stringify(form)]);
+    if (moved.rowCount !== 1) {
+      await c.query("rollback");
+      return NextResponse.json({ error: "Part 1 is already submitted." }, { status: 409 });
+    }
     for (const it of items) {
       await c.query(
         `insert into responses (session_id, part, item_id, answer, is_correct, time_ms) values ($1,'vocab',$2,$3,$4,$5)
@@ -40,8 +47,6 @@ export async function POST(req: Request) {
         [s.id, "V:" + it.word, said[it.word] ? "yes" : "no", said[it.word] === it.real, totalMs === null ? null : Math.round(totalMs / items.length)],
       );
     }
-    const form = { ...s.form, vocabScore: score, reading: passages.map((p) => p.id) };
-    await c.query("update sessions set status='reading', form=$2 where id=$1 and status='vocab'", [s.id, JSON.stringify(form)]);
     await c.query("commit");
   } catch (e) {
     await c.query("rollback");

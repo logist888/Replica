@@ -17,7 +17,9 @@ function clean(v: unknown, max: number): string | null {
 
 export async function POST(req: Request) {
   const h = await headers();
-  const ip = (h.get("x-forwarded-for") ?? "local").split(",")[0].trim();
+  // Последний элемент X-Forwarded-For дописывает ближайший прокси платформы; левые элементы задаёт клиент.
+  // Без прокси перед приложением заголовок подделывается целиком, ограничение тогда не защищает.
+  const ip = (h.get("x-forwarded-for") ?? "local").split(",").pop()!.trim() || "local";
   if (rateLimited("start:" + ip, 30, 60 * 60 * 1000)) {
     return NextResponse.json({ error: "Too many requests. Please try again later." }, { status: 429 });
   }
