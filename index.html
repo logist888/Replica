@@ -1,39 +1,94 @@
 <!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Открытый тест английского: ход работ</title><link rel="stylesheet" href="assets/site.css"></head><body>
-<header class="top"><div class="wrap"><strong>Открытый тест английского</strong><a href="index.html">Статус</a><a href="https://github.com/logist888/Replica">GitHub</a></div></header>
-<main class="wrap">
-<h1>Открытый бесплатный тест английского</h1>
-<p class="muted">Ход работ. Обновлено 2026-11-03. Репозиторий: <a href="https://github.com/logist888/Replica">logist888/Replica</a>.</p>
-<p class="warn">Это пилот: задания ещё не откалиброваны, уровни CEFR условные. Публичной версии теста пока нет, сайт показывает документы и макеты. Сам тест (Next.js + Postgres) требует сервера и размещается отдельно от этих страниц.</p>
+<title>Проверьте свой английский за полчаса — бесплатно</title><meta name="description" content="Открытый бесплатный тест уровня английского: слова, чтение и аудирование. Без регистрации. Результат по шкале от A1 до C2.">
+<link rel="stylesheet" href="assets/tokens.css"><link rel="stylesheet" href="assets/landing.css"><style>body{margin:0}</style></head>
+<body>
+<div class="lp" lang="ru">
+<header class="lp-nav">
+  <div class="lp-wrap lp-nav-in">
+    <a class="lp-brand" href="#top"><span class="lp-logo" aria-hidden="true"></span>Open English Test</a>
+    <nav aria-label="Как это работает">
+      <a href="#how">Как это работает</a><a href="#levels">Уровни</a><a href="#open">Открытость</a><a href="#faq">Вопросы</a>
+    </nav>
+    <a class="lp-lang" href="en/index.html" lang="en">English</a>
+  </div>
+</header>
 
-<h2>Что готово</h2>
-<div class="grid">
-<div class="card"><div class="stat">48</div><p>текста для чтения, 144 вопроса (A1–C2)</p></div>
-<div class="card"><div class="stat">36</div><p>сценариев аудирования, 108 вопроса; нужна озвучка</p></div>
-<div class="card"><div class="stat">340</div><p>слов по уровням CEFR и 56 псевдослов для проверки словаря</p></div>
-<div class="card"><div class="stat">71</div><p>автоматических теста: 40 сквозных, 8 на TypeScript, 23 на Python</p></div>
-</div>
-<ul>
-<li>Пилотное приложение: 60 слов, 10 текстов для чтения, 4 записи для аудирования (когда будут файлы), результат по ссылке, выгрузка данных для калибровки.</li>
-<li>Своя реализация модели Раша: калибровка по пилоту, симуляция точности, проверка заданий по профилю лексики CEFR-J.</li>
-<li>Лицензии: код MIT, содержимое CC BY-SA 4.0. Источники и условия — в разделе «Методология».</li>
-</ul>
+<main id="top">
+<section class="lp-hero">
+  <div class="lp-wrap lp-hero-in">
+    <div class="lp-hero-text">
+      <p class="lp-eyebrow">Открытый тест английского</p>
+      <h1>Узнайте свой уровень английского за полчаса</h1>
+      <p class="lp-lead">Бесплатный тест без регистрации. Три короткие части — слова, чтение и аудирование — и в конце ваш уровень по шкале от A1 до C2.</p>
+      <div class="lp-actions"><span class="btn primary disabled " aria-disabled="true">Пилот откроется скоро</span><a class="btn ghost" href="https://github.com/logist888/Replica">Следить за запуском</a></div>
+      <p class="lp-note">Сейчас идёт пилот: мы проверяем вопросы на живых людях, поэтому результат пока предварительный.</p>
+    </div>
+    <figure class="lp-result" aria-label="Пример результата">
+      <figcaption>Пример результата</figcaption>
+      <div class="lp-result-card">
+        <div class="lp-result-top"><span>Чтение</span><span class="lp-pill">Предварительно</span></div>
+        <div class="lp-score">B1–B2</div>
+        <div class="lp-scale" role="img" aria-label="A1, A2, B1, B2, C1, C2">
+          <span>A1</span><span>A2</span><span>B1</span><span>B2</span><span>C1</span><span>C2</span><i class="lp-range" aria-hidden="true"></i>
+        </div>
+        <p>Скорее всего, ваш уровень лежит между B1 и B2</p>
+      </div>
+    </figure>
+  </div>
+  <div class="lp-wrap"><ul class="lp-facts"><li><b>30–40</b><span>минут на весь тест</span></li><li><b>Бесплатно</b><span>и без регистрации</span></li><li><b>A1–C2</b><span>шкала уровней CEFR</span></li></ul></div>
+</section>
 
-<h2>Что ещё не сделано</h2>
-<ul>
-<li>Нет аудиозаписей (сценарии написаны).</li>
-<li>Задания не проверены носителем и не откалиброваны на реальных людях: нужен пилот на 300 человек.</li>
-<li>Приложение не развёрнуто, юридические тексты — черновик.</li>
-</ul>
+<section class="lp-sec" id="how">
+  <div class="lp-wrap">
+    <h2>Как проходит тест</h2><p class="lp-sub">Три части подряд. Устраивайтесь удобно: вам понадобятся тишина и наушники для последней.</p>
+    <ol class="lp-steps"><li><span class="lp-num">1</span><h3>Слова</h3><p class="lp-time">около 4 минут</p><p>Вам показывают 60 слов по одному. Если знаете значение, отвечаете «да», если нет или не уверены — «нет». Часть слов выдуманная: так мы отличаем настоящее знание от привычки отвечать «да».</p></li><li><span class="lp-num">2</span><h3>Чтение</h3><p class="lp-time">около 15 минут</p><p>Десять коротких текстов, от объявлений до статей, и по три вопроса к каждому. Тексты подбираются под ваш уровень по первой части, чтобы не мучить вас слишком лёгким или слишком трудным.</p></li><li><span class="lp-num">3</span><h3>Аудирование</h3><p class="lp-time">около 15 минут</p><p>Четыре записи, от бытовых разговоров до рассказов на сложные темы. Каждую можно прослушать один или два раза, отвечать можно во время прослушивания.</p></li><li><span class="lp-num">4</span><h3>Результат</h3><p class="lp-time">сразу после теста</p><p>Вы увидите свой диапазон уровня, например B1–B2, и получите ссылку на страницу с результатом. Её можно сохранить.</p></li></ol>
+  </div>
+</section>
 
-<h2>Документы</h2>
-<div class="grid"><a class="card" style="text-decoration:none;color:inherit" href="pages/recon.html"><h3>Разведка EF SET</h3><p class="muted">Что известно об оригинале по публичным страницам и что нельзя копировать.</p></a>
-<a class="card" style="text-decoration:none;color:inherit" href="pages/architecture.html"><h3>Архитектура</h3><p class="muted">Стек, схема данных, API, контент и калибровка.</p></a>
-<a class="card" style="text-decoration:none;color:inherit" href="pages/methodology.html"><h3>Методология</h3><p class="muted">Какие открытые источники можно использовать, симуляции, решения.</p></a>
-<a class="card" style="text-decoration:none;color:inherit" href="pages/design.html"><h3>Дизайн-система</h3><p class="muted">Компоненты теста, состояния, доступность.</p></a>
-<a class="card" style="text-decoration:none;color:inherit" href="pages/test-plan.html"><h3>План тестирования</h3><p class="muted">Случаи по потокам: прохождение, результат, выгрузка, аудирование.</p></a>
-<a class="card" style="text-decoration:none;color:inherit" href="pages/bugs.html"><h3>Найденные баги</h3><p class="muted">Что нашли, что исправили, что осталось проверить.</p></a>
-<a class="card" style="text-decoration:none;color:inherit" href="pages/listening-guide.html"><h3>Руководство по записи аудирования</h3><p class="muted">Как озвучить 36 сценариев.</p></a>
-<a class="card" style="text-decoration:none;color:inherit" href="pages/design-preview/index.html"><h3>Макет интерфейса</h3><p class="muted">Палитра, экран вопроса, карточка результата.</p></a>
-</div>
-</main></body></html>
+<section class="lp-sec lp-alt" id="levels">
+  <div class="lp-wrap">
+    <h2>Что значат уровни</h2><p class="lp-sub">Шкала CEFR используется во всём мире. Вот что на ней означает каждый уровень, если коротко.</p>
+    <ul class="lp-levels"><li><span class="lp-lv">A1</span><div><h3>Начальный</h3><p>Понимаете и говорите простыми фразами о себе и повседневных вещах.</p></div></li><li><span class="lp-lv">A2</span><div><h3>Элементарный</h3><p>Справляетесь с бытовыми ситуациями: магазин, дорога, знакомство.</p></div></li><li><span class="lp-lv">B1</span><div><h3>Средний</h3><p>Понимаете суть понятной речи, можете рассказать о своём опыте и планах.</p></div></li><li><span class="lp-lv">B2</span><div><h3>Выше среднего</h3><p>Свободно общаетесь на знакомые темы, читаете статьи и смотрите фильмы без субтитров.</p></div></li><li><span class="lp-lv">C1</span><div><h3>Продвинутый</h3><p>Говорите и пишете гибко и точно, понимаете длинные сложные тексты.</p></div></li><li><span class="lp-lv">C2</span><div><h3>Свободное владение</h3><p>Владеете языком почти так же свободно, как образованный носитель.</p></div></li></ul>
+  </div>
+</section>
+
+<section class="lp-sec" id="open">
+  <div class="lp-wrap">
+    <h2>Почему тест открытый</h2><p class="lp-sub">Большинство тестов уровня английского закрыты: вы не знаете, как их составляли и насколько им можно верить. Мы делаем наоборот.</p>
+    <ul class="lp-cards"><li><h3>Всё можно проверить</h3><p>Способ подсчёта, правила и код теста лежат в открытом доступе. Любой может проверить, как считается ваш результат.</p></li><li><h3>Всё можно использовать</h3><p>Тексты и вопросы выпущены по лицензии CC BY-SA 4.0, код — по лицензии MIT. Учителя и школы могут брать их в работу.</p></li><li><h3>Всё честно про точность</h3><p>Мы не обещаем того, чего ещё не проверили. Пока тест показывает диапазон, а не одну букву, и мы прямо об этом говорим.</p></li></ul>
+  </div>
+</section>
+
+<section class="lp-sec lp-alt">
+  <div class="lp-wrap lp-two">
+    <div><h2>Как мы считаем уровень</h2><p>У каждого вопроса есть «вес»: насколько он трудный. Чем больше трудных вопросов вы решили, тем выше уровень. Это обычный в тестировании подход, он называется моделью Раша.</p><p>Вес вопроса можно узнать только по ответам реальных людей. Поэтому сейчас идёт пилот: нам нужны около 300 человек, чтобы уточнить вес каждого вопроса. Пока веса приблизительные, мы и показываем диапазон.</p></div>
+    <div><h2>Что мы о вас сохраняем</h2><p>Мы не просим имя, почту и телефон и не сохраняем ваш IP-адрес. Сохраняются ваши ответы и то, что вы сами решите указать: родной язык, годы учёбы, результат другого теста. Это нужно только для уточнения вопросов.</p><p>Результат открывается по длинной случайной ссылке. Кто знает ссылку, тот видит результат, поэтому не публикуйте её, если не хотите этого.</p><p><a href="pages/progress.html">Подробнее о приватности</a></p></div>
+  </div>
+</section>
+
+<section class="lp-sec" id="faq">
+  <div class="lp-wrap lp-narrow">
+    <h2>Вопросы и ответы</h2>
+    <div class="lp-faq"><details><summary>Это официальный сертификат?</summary><p>Нет. Результат не заменяет экзамен для вуза или работодателя. Тест нужен, чтобы вы понимали свой уровень и знали, что учить дальше.</p></details><details><summary>Можно ли доверять результату?</summary><p>Пока с оговоркой. Вопросы ещё проверяются на людях, поэтому мы показываем диапазон и называем результат предварительным. После пилота точность вырастет.</p></details><details><summary>Нужна ли регистрация?</summary><p>Нет. Достаточно открыть страницу, поставить две галочки и начать.</p></details><details><summary>Сколько это займёт?</summary><p>Обычно 30–40 минут. Закрывать вкладку нельзя: прогресс не сохраняется, придётся начинать заново.</p></details><details><summary>Нужны ли наушники?</summary><p>Для третьей части да, либо колонки и тишина вокруг.</p></details><details><summary>Можно ли пройти тест повторно?</summary><p>Можно, но честнее всего тест работает при первом прохождении: вы уже знаете вопросы. Повторные попытки мы отмечаем в данных.</p></details><details><summary>Кому подходит тест?</summary><p>Взрослым и подросткам от 16 лет, изучающим английский. Сам тест и все вопросы на английском.</p></details><details><summary>Как удалить мои данные?</summary><p>Откройте обращение в репозитории проекта на GitHub и приложите номер сессии: это последние символы ссылки на результат.</p></details></div>
+  </div>
+</section>
+
+<section class="lp-cta">
+  <div class="lp-wrap lp-cta-in">
+    <div><h2>Помогите проверить тест</h2><p>Нам нужно около 300 человек, чтобы уточнить вопросы. Вы потратите полчаса и получите свой уровень, а открытый тест станет точнее.</p></div>
+    <div class="lp-actions"><span class="btn primary disabled on-dark" aria-disabled="true">Пилот откроется скоро</span></div>
+  </div>
+</section>
+</main>
+
+<footer class="lp-foot">
+  <div class="lp-wrap lp-foot-in">
+    <div><strong>Open English Test</strong><p>Пилотная версия. Не официальный сертификат.</p><p>Тексты и вопросы: CC BY-SA 4.0. Код: MIT.</p></div>
+    <ul>
+      <li><a href="https://github.com/logist888/Replica">Исходный код на GitHub</a></li>
+      <li><a href="pages/progress.html">Ход работ</a></li>
+      <li><a href="pages/dev.html">Для разработчиков и исследователей</a></li>
+    </ul>
+  </div>
+</footer>
+</div></body></html>

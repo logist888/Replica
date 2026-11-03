@@ -17,7 +17,7 @@ export default async function Result({ params }: { params: Promise<{ token: stri
   return (
     <main className="wrap stack">
       <h1>Your pilot result</h1>
-      <p className="alert">Provisional estimate. This is a pilot test: the questions are still being calibrated, so the range may change. It is not an official certificate.</p>
+      <p className="alert">Provisional estimate. This is a pilot, so treat the result as a guide. We are still checking the questions on real people, and your range may change. It is not an official certificate.</p>
       <section className="card stack" aria-labelledby="rd">
         <h2 id="rd" style={{ margin: 0 }}>Reading</h2>
         <p className="score">{range}</p>
@@ -42,9 +42,9 @@ export default async function Result({ params }: { params: Promise<{ token: stri
           <p>We could not estimate your vocabulary level: too many of the made-up words were marked as known. This does not affect the reading result.</p>
         )}
       </section>
-      <p>Thank you for taking part. Your answers help us build an open and free English test.</p>
-      <p className="muted small">Result code: {token.slice(-8)}. Keep this link private if you do not want others to see your result.</p>
-      <div><Link href="/en">Back to the start</Link></div>
+      <p>Thank you for taking part. Your answers help us make an open, free English test more accurate.</p>
+      <p className="muted small">Attempt ID: {token.slice(-8)}. Anyone with this link can see your result, so keep it private if you prefer.</p>
+      <div><Link href="/en">Back to the home page</Link></div>
     </main>
   );
 }
