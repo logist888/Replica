@@ -12,7 +12,7 @@ async function readingScreen(page: Page, answerCorrect = true) {
 
 test("F01-H1 полный путь с мобильного экрана", async ({ page }) => {
   await page.goto("/ru");
-  await page.getByRole("link", { name: "Начать тест" }).click();
+  await page.getByRole("link", { name: "Пройти тест" }).first().click();
   await expect(page).toHaveURL(/\/test$/);
   await page.getByLabel("I am at least 16 years old.").check();
   await page.getByLabel(/I agree that my answers/).check();

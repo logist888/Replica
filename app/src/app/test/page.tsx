@@ -201,14 +201,14 @@ export default function TestPage() {
     return (
       <main className="wrap stack">
         <h1>Before you start</h1>
-        <p>This is a pilot of an open English placement test. Results are provisional. The test takes about 30 minutes. Please do not use dictionaries, translators or other help.</p>
+        <p>This is a pilot of an open English test. It takes about 30 to 40 minutes. Please take it on your own, without dictionaries, translators or other help: honest answers are what make the test accurate. Your result will be an estimate for now, because we are still checking the questions on real people.</p>
         <div className="card stack">
           <label className="check"><input type="checkbox" checked={age} onChange={(e) => setAge(e.target.checked)} /><span>I am at least 16 years old.</span></label>
           <label className="check"><input type="checkbox" checked={consent} onChange={(e) => setConsent(e.target.checked)} />
-            <span>I agree that my answers and the optional details below are stored to calibrate the test, as described in the <a href="/en/privacy" target="_blank" rel="noreferrer">privacy notice</a>.</span></label>
+            <span>I agree that my answers and the optional details below are stored to improve the test, as described in the <a href="/en/privacy" target="_blank" rel="noreferrer">privacy notice</a>.</span></label>
         </div>
         <fieldset className="card stack">
-          <legend>Optional details (they help calibrate the test)</legend>
+          <legend>Optional: tell us a little about yourself. It helps us check the questions, and you can skip all of it.</legend>
           <label className="field">Native language<input type="text" maxLength={40} value={native} onChange={(e) => setNative(e.target.value)} /></label>
           <label className="field">Years of studying English<input type="number" min={0} max={80} value={years} onChange={(e) => setYears(e.target.value)} /></label>
           <label className="field">How would you rate your English?
@@ -234,7 +234,7 @@ export default function TestPage() {
     return (
       <main className="wrap stack">
         <ol className="steps" aria-label="Progress"><li aria-current="step">Part 1: Words</li><li>Part 2: Reading</li></ol>
-        {vi === 0 && <p className="muted">Is this a real English word that you know? Answer <strong>Yes</strong> only if you know what it means. Some words are not real English words.</p>}
+        {vi === 0 && <p className="muted">Do you know this word? Answer <strong>Yes</strong> only if you know what it means. Some of the words are made up, so don’t guess.</p>}
         <div className="card">
           <p className="muted small" aria-live="polite">Word {vi + 1} of {words.length}</p>
           <p className="word" lang="en">{words[vi]}</p>

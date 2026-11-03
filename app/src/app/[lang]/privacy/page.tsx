@@ -4,26 +4,62 @@ import { LANGS, type Lang } from "@/lib/copy";
 
 const text = {
   ru: {
-    h: "Конфиденциальность",
-    p: [
-      "Мы не просим имя, почту или телефон. Само приложение не сохраняет IP-адрес (но журналы хостинг-провайдера могут его содержать). Для связи ответов одного прохождения мы выдаём случайный номер сессии, а в браузере ставим случайный идентификатор (cookie), чтобы отсеивать повторные прохождения.",
-      "Мы сохраняем ваши ответы, время ответов, укороченную строку User-Agent и необязательные сведения, которые вы указали: родной язык, годы изучения, самооценка уровня, результат внешнего теста. Эти сведения нужны только для калибровки заданий и проверки результата.",
-      "Мы можем опубликовать статистику по заданиям и обобщённые результаты пилота в открытом виде без данных, которые позволяют установить личность. Данные отдельных людей не публикуются.",
-      "Ссылка на ваш результат содержит длинный случайный код. Любой, у кого она есть, может открыть результат, поэтому не публикуйте её, если не хотите, чтобы результат видели другие.",
-      "Данные пилота хранятся не дольше 24 месяцев. Чтобы удалить свои данные, пришлите номер сессии (последние символы ссылки на результат) оператору пилота.",
+    h: "Как мы обращаемся с вашими данными",
+    intro: "Коротко: мы собираем только то, что нужно, чтобы сделать вопросы теста точнее. Имя, почта и телефон нам не нужны.",
+    sections: [
+      { t: "Что мы сохраняем", p: [
+        "Ваши ответы на вопросы теста и время, за которое вы отвечали.",
+        "То, что вы сами решили указать в начале: родной язык, сколько лет учите английский, как оцениваете свой уровень, результат другого теста.",
+        "Случайный номер вашего прохождения и случайный идентификатор в браузере (cookie): по нему мы замечаем повторные прохождения.",
+        "Укороченную строку с названием вашего браузера и устройства.",
+      ] },
+      { t: "Чего мы не сохраняем", p: [
+        "Мы не спрашиваем имя, почту и телефон. Приложение не записывает ваш IP-адрес. Журналы хостинга могут его содержать: это зависит от провайдера, который размещает сайт.",
+      ] },
+      { t: "Зачем нам эти данные", p: [
+        "Чтобы понять, какие вопросы слишком лёгкие, слишком трудные или сбивают с толку, и уточнить уровень каждого вопроса. Больше ни для чего мы их не используем.",
+      ] },
+      { t: "Публикация", p: [
+        "Мы можем опубликовать статистику по вопросам и общие итоги пилота в открытом виде. В публикации не будет сведений, по которым можно узнать человека. Ответы отдельных людей мы не публикуем.",
+      ] },
+      { t: "Ссылка на результат", p: [
+        "Результат открывается по длинной случайной ссылке. Кто знает ссылку, тот видит результат, поэтому не публикуйте её, если не хотите, чтобы его видели другие.",
+      ] },
+      { t: "Сколько хранится и как удалить", p: [
+        "Данные пилота хранятся не дольше 24 месяцев. Чтобы удалить свои данные раньше, откройте обращение (issue) в репозитории проекта на GitHub и укажите номер прохождения: это последние восемь символов вашей ссылки на результат.",
+      ] },
     ],
-    back: "Назад",
+    note: "Текст составлен как рабочий черновик для пилота и не заменяет юридическую консультацию.",
+    back: "Назад на главную",
   },
   en: {
-    h: "Privacy",
-    p: [
-      "We do not ask for your name, email or phone number. The app itself does not store your IP address (the hosting provider's logs may contain it). We give each attempt a random session ID and set a random identifier (cookie) in your browser to filter out repeat attempts.",
-      "We store your answers, answer timings, a shortened User-Agent string, and the optional details you give: native language, years of study, self-assessed level, an external test result. These are used only to calibrate the questions and check the result.",
-      "We may publish item statistics and aggregate pilot results in open form, without data that identifies a person. Data of individual people is not published.",
-      "Your result link contains a long random code. Anyone who has the link can open the result, so do not share it if you do not want others to see it.",
-      "Pilot data is kept for no more than 24 months. To have your data deleted, send the session ID (the last characters of your result link) to the pilot operator.",
+    h: "How we handle your data",
+    intro: "In short: we collect only what we need to make the test questions more accurate. We don’t need your name, email or phone number.",
+    sections: [
+      { t: "What we keep", p: [
+        "Your answers to the test questions and how long you took to answer.",
+        "Whatever you chose to tell us at the start: native language, years of studying English, how you rate your level, the result of another test.",
+        "A random ID for your attempt and a random identifier in your browser (a cookie), which we use to notice repeat attempts.",
+        "A shortened line naming your browser and device.",
+      ] },
+      { t: "What we don’t keep", p: [
+        "We don’t ask for your name, email or phone number. The app does not record your IP address. The hosting provider’s logs may contain it; that depends on the provider that hosts the site.",
+      ] },
+      { t: "Why we need it", p: [
+        "To find out which questions are too easy, too hard or confusing, and to settle how hard each question is. We use it for nothing else.",
+      ] },
+      { t: "Publication", p: [
+        "We may publish statistics about the questions and overall results of the pilot in the open. Nothing in them will identify a person. We do not publish the answers of individual people.",
+      ] },
+      { t: "Your result link", p: [
+        "Your result opens through a long random link. Anyone who has the link can see the result, so don’t post it if you don’t want others to see it.",
+      ] },
+      { t: "How long we keep it and how to delete it", p: [
+        "Pilot data is kept for no more than 24 months. To have your data deleted sooner, open an issue in the project’s GitHub repository and include your attempt ID: the last eight characters of your result link.",
+      ] },
     ],
-    back: "Back",
+    note: "This text is a working draft for the pilot and is not legal advice.",
+    back: "Back to the home page",
   },
 } as const;
 
@@ -34,7 +70,14 @@ export default async function Privacy({ params }: { params: Promise<{ lang: stri
   return (
     <main className="wrap stack" lang={lang}>
       <h1>{t.h}</h1>
-      {t.p.map((x) => <p key={x}>{x}</p>)}
+      <p style={{ fontSize: 18 }}>{t.intro}</p>
+      {t.sections.map((s) => (
+        <section key={s.t}>
+          <h2>{s.t}</h2>
+          {s.p.map((x) => <p key={x}>{x}</p>)}
+        </section>
+      ))}
+      <p className="muted small">{t.note}</p>
       <Link href={`/${lang}`}>{t.back}</Link>
     </main>
   );

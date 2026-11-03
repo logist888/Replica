@@ -1,14 +1,8 @@
-import Link from "next/link";
+import { headers } from "next/headers";
+import { redirect } from "next/navigation";
 
-export default function Home() {
-  return (
-    <main className="wrap stack">
-      <h1>English level pilot</h1>
-      <p className="muted">Choose a language / Выберите язык</p>
-      <div className="row">
-        <Link className="btn primary" href="/ru">Русский</Link>
-        <Link className="btn secondary" href="/en">English</Link>
-      </div>
-    </main>
-  );
+// Корень ведёт на язык браузера: русский для ru, иначе английский.
+export default async function Home() {
+  const al = ((await headers()).get("accept-language") ?? "").toLowerCase();
+  redirect(al.startsWith("ru") || /(^|,)\s*ru/.test(al) ? "/ru" : "/en");
 }
