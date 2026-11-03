@@ -1,0 +1,140 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Дизайн-система</title><link rel="stylesheet" href="../assets/site.css"></head><body>
+<header class="top"><div class="wrap"><strong>Открытый тест английского</strong><a href="../index.html">Статус</a><a href="https://github.com/logist888/Replica">GitHub</a></div></header>
+<main class="wrap"><p class="muted"><a href="../index.html">← Статус проекта</a></p><h1>Компоненты</h1>
+<p>Источник значений: <code>tokens.json</code>. Здесь только поведение и состояния. Тексты внутри теста английские; тексты посадочной — ru/en. Иконки: Lucide (ISC), шрифт Inter (SIL OFL). Всё нарисовано заново, ассетов EF нет.</p>
+<p>Общие правила:</p>
+<ul>
+<li>цель касания не меньше 44x44 px (<code>min-touch-target</code>);</li>
+<li>фокус виден всегда: кольцо 2 px цвета <code>focus</code>, смещение 2 px;</li>
+<li>цвет не единственный носитель смысла: уровни CEFR всегда подписаны текстом;</li>
+<li>при <code>prefers-reduced-motion</code> переходы отключаются;</li>
+<li>язык документа <code>lang=&quot;en&quot;</code> внутри теста, <code>lang</code> посадочной по локали.</li>
+</ul>
+<h2>Button</h2>
+<pre><code>variants  primary, secondary, ghost, danger
+sizes     md 44px (по умолчанию), lg 52px
+states    default, hover, active, focus-visible, disabled, loading
+tokens    primary: bg accent, hover accent-hover, text on-accent, radius md, font base/600
+a11y      настоящий &lt;button&gt;; loading оставляет подпись и ставит aria-busy
+used on   S01-S03, S08, S09, S10, S11, S13
+</code></pre>
+<h2>OptionCard (вариант ответа, один из многих)</h2>
+<pre><code>element   &lt;input type=radio&gt; внутри &lt;label&gt;, группа в &lt;fieldset&gt; с &lt;legend&gt; = вопрос
+states    default, hover, selected, focus-visible, disabled
+selected  рамка accent 2px + заливка surface + индикатор-точка (не только цвет)
+size      на всю ширину колонки теста, высота от 52px
+a11y      клавиши: стрелки внутри группы, Space выбирает; ответ не помечается верным/неверным
+note      после выбора ответ можно сменить до нажатия Next; обратной связи о правильности нет
+used on   S10, S11, S16
+</code></pre>
+<h2>GapInput (C-test и пропуски)</h2>
+<pre><code>element   &lt;input&gt; по одной букве или одно поле на слово
+states    default, focus, filled, error (пустое поле при Next)
+a11y      aria-label &quot;Missing letters of word N&quot;; автопереход между полями без ловушки клавиатуры
+tokens    border-input, radius sm, mono не используется
+used on   S10 (если формат c_test)
+</code></pre>
+<h2>YesNoWord (проверка словаря)</h2>
+<pre><code>element   карточка слова + две кнопки Yes / No (радио-группа)
+states    default, selected-yes, selected-no, focus-visible
+a11y      подпись &quot;Is this a real English word?&quot;
+used on   S10
+</code></pre>
+<h2>Passage (текст для чтения)</h2>
+<pre><code>element   &lt;article&gt;, ширина test-max-width, font passage 18/30
+layout    на десктопе текст слева, вопросы справа от 1024px; на мобильном текст над вопросом
+a11y      заголовок, язык en; разметка абзацев; без фиксации высоты
+used on   S10
+</code></pre>
+<h2>AudioPlayer</h2>
+<pre><code>controls  Play/Pause, прогресс (только чтение), оставшиеся прослушивания
+states    idle, loading, playing, paused, ended, error, limit-reached
+rules     запуск только по нажатию (автовоспроизведение блокируется в Safari);
+          число прослушиваний задаётся заданием (1 или 2), показывается как &quot;Plays left: 1&quot;
+a11y      &lt;button&gt; с aria-label; обновление статуса через aria-live=&quot;polite&quot;
+no        транскрипт не показывается; скачивание отключено; ссылка подписанная, 60 секунд
+used on   S11
+</code></pre>
+<h2>Timer</h2>
+<pre><code>variants  общий таймер сессии (по умолчанию); таймер вопроса отключён в v1
+states    normal, low (последние 5 минут: фон timer-low-bg, текст danger), expired
+a11y      НЕ объявлять каждую секунду; aria-live=&quot;polite&quot; только на 10, 5, 1 минуту
+          и текстовая альтернатива &quot;12 minutes left&quot;; клиентский таймер сверяется с сервером
+tokens    sm/600, моно-цифры (font-variant-numeric: tabular-nums)
+used on   S10, S11
+</code></pre>
+<h2>StageProgress</h2>
+<pre><code>what      &quot;Part 1 of 3&quot; по стадиям ca-MST; число вопросов не показывается,
+          потому что оно не фиксировано при адаптивной схеме
+element   &lt;ol&gt; из трёх шагов + текст; aria-current=&quot;step&quot;
+states    done, current, upcoming
+used on   S10, S11
+</code></pre>
+<h2>QuestionCard</h2>
+<pre><code>slots     номер модуля (скрыт для читающих с экрана, не нужен), текст вопроса (question 20/30), опции, кнопка Next
+rules     кнопка Next неактивна, пока нет ответа, но не скрыта (disabled с пояснением aria-describedby)
+          возврата к предыдущему вопросу нет (правило теста), кнопки Back нет
+          выделение текста и копирование блокируются визуально (user-select: none) —
+          это не защита, а сдерживание; вспомогательным технологиям текст остаётся доступен
+used on   S10, S11, S16
+</code></pre>
+<h2>LevelBadge (CEFR)</h2>
+<pre><code>variants  pre-A1, A1, A2, B1, B2, C1, C2
+shape     pill, подпись всегда текстом (&quot;B1&quot;), цвет cefr-*-bg
+tokens    A1-B2 текст cefr-text-light; C1-C2 текст cefr-text-dark
+used on   S13, S14, S04
+</code></pre>
+<h2>LevelScale</h2>
+<pre><code>what      горизонтальная шкала A1...C2 с отметкой результата и диапазоном неопределённости (se)
+a11y      role=&quot;img&quot; + aria-label &quot;Reading: B2, between B1 and C1 likely&quot;; под шкалой таблица той же информации
+note      показывать диапазон, а не точку: до калибровки границы предварительные
+used on   S13, S14
+</code></pre>
+<h2>ScoreCard</h2>
+<pre><code>slots     навык (Reading / Listening), балл 0-100 (score 56/60), LevelBadge, LevelScale, подпись &quot;Provisional estimate&quot;
+states    ready, provisional (до калибровки), unavailable (сессия прервана)
+used on   S13, S14
+</code></pre>
+<h2>CertificateCard</h2>
+<pre><code>slots     имя, дата, баллы по навыкам, уровни, ссылка/QR на проверку, пометка &quot;Diagnostic result, not an official certificate&quot;
+states    public, hidden (is_public=false)
+print     вертикальный A4, поля 16 мм, чёрно-белая печать читаема (уровни подписаны)
+used on   S14, S15
+no        без логотипов и графики третьих лиц
+</code></pre>
+<h2>ConsentCheckbox</h2>
+<pre><code>element   &lt;input type=checkbox&gt; + label со ссылками на Terms и Privacy
+states    default, checked, error (&quot;Please accept to continue&quot;), disabled
+used on   S08
+</code></pre>
+<h2>LanguageSwitch (только посадочная и кабинет)</h2>
+<pre><code>variants  ru | en
+element   ссылка-переключатель с lang на каждом пункте; не &lt;select&gt;
+note      внутри теста переключателя нет
+used on   S01, S04-S07
+</code></pre>
+<h2>Alert / Banner</h2>
+<pre><code>variants  info, warning (warning-bg + warning), error (danger), success
+a11y      role=&quot;status&quot; для info/success, role=&quot;alert&quot; для error; иконка + текст
+used on   S08, S09, S12
+</code></pre>
+<h2>SessionDialog (фатальная ошибка, истёк таймер)</h2>
+<pre><code>variants  expired, error, offline
+actions   Resume (если разрешено архитектурой), Go to results, Close
+a11y      &lt;dialog&gt;, фокус внутрь, возврат фокуса, Esc не закрывает обязательный
+used on   S12
+</code></pre>
+<h2>Header / Footer</h2>
+<pre><code>header    56px, логотип-заглушка (будет заменён в replica-brand), LanguageSwitch
+test mode в тесте шапка минимальная: название, Timer, без навигации
+footer    Terms, Privacy, контакт; на посадочной
+</code></pre>
+<h2>Состояния экранов (минимум)</h2>
+<ul>
+<li>загрузка: скелетон вопроса, без спиннера на всю страницу;</li>
+<li>нет сети: SessionDialog offline, ответы сохраняются локально на 60 секунд;</li>
+<li>пусто: у кабинета без результатов — приглашение пройти тест;</li>
+<li>ошибка: Alert error с причиной и действием.</li>
+</ul>
+</main></body></html>

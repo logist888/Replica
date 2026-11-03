@@ -1,0 +1,39 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Открытый тест английского: ход работ</title><link rel="stylesheet" href="assets/site.css"></head><body>
+<header class="top"><div class="wrap"><strong>Открытый тест английского</strong><a href="index.html">Статус</a><a href="https://github.com/logist888/Replica">GitHub</a></div></header>
+<main class="wrap">
+<h1>Открытый бесплатный тест английского</h1>
+<p class="muted">Ход работ. Обновлено 2026-11-03. Репозиторий: <a href="https://github.com/logist888/Replica">logist888/Replica</a>.</p>
+<p class="warn">Это пилот: задания ещё не откалиброваны, уровни CEFR условные. Публичной версии теста пока нет, сайт показывает документы и макеты. Сам тест (Next.js + Postgres) требует сервера и размещается отдельно от этих страниц.</p>
+
+<h2>Что готово</h2>
+<div class="grid">
+<div class="card"><div class="stat">48</div><p>текста для чтения, 144 вопроса (A1–C2)</p></div>
+<div class="card"><div class="stat">36</div><p>сценариев аудирования, 108 вопроса; нужна озвучка</p></div>
+<div class="card"><div class="stat">340</div><p>слов по уровням CEFR и 56 псевдослов для проверки словаря</p></div>
+<div class="card"><div class="stat">71</div><p>автоматических теста: 40 сквозных, 8 на TypeScript, 23 на Python</p></div>
+</div>
+<ul>
+<li>Пилотное приложение: 60 слов, 10 текстов для чтения, 4 записи для аудирования (когда будут файлы), результат по ссылке, выгрузка данных для калибровки.</li>
+<li>Своя реализация модели Раша: калибровка по пилоту, симуляция точности, проверка заданий по профилю лексики CEFR-J.</li>
+<li>Лицензии: код MIT, содержимое CC BY-SA 4.0. Источники и условия — в разделе «Методология».</li>
+</ul>
+
+<h2>Что ещё не сделано</h2>
+<ul>
+<li>Нет аудиозаписей (сценарии написаны).</li>
+<li>Задания не проверены носителем и не откалиброваны на реальных людях: нужен пилот на 300 человек.</li>
+<li>Приложение не развёрнуто, юридические тексты — черновик.</li>
+</ul>
+
+<h2>Документы</h2>
+<div class="grid"><a class="card" style="text-decoration:none;color:inherit" href="pages/recon.html"><h3>Разведка EF SET</h3><p class="muted">Что известно об оригинале по публичным страницам и что нельзя копировать.</p></a>
+<a class="card" style="text-decoration:none;color:inherit" href="pages/architecture.html"><h3>Архитектура</h3><p class="muted">Стек, схема данных, API, контент и калибровка.</p></a>
+<a class="card" style="text-decoration:none;color:inherit" href="pages/methodology.html"><h3>Методология</h3><p class="muted">Какие открытые источники можно использовать, симуляции, решения.</p></a>
+<a class="card" style="text-decoration:none;color:inherit" href="pages/design.html"><h3>Дизайн-система</h3><p class="muted">Компоненты теста, состояния, доступность.</p></a>
+<a class="card" style="text-decoration:none;color:inherit" href="pages/test-plan.html"><h3>План тестирования</h3><p class="muted">Случаи по потокам: прохождение, результат, выгрузка, аудирование.</p></a>
+<a class="card" style="text-decoration:none;color:inherit" href="pages/bugs.html"><h3>Найденные баги</h3><p class="muted">Что нашли, что исправили, что осталось проверить.</p></a>
+<a class="card" style="text-decoration:none;color:inherit" href="pages/listening-guide.html"><h3>Руководство по записи аудирования</h3><p class="muted">Как озвучить 36 сценариев.</p></a>
+<a class="card" style="text-decoration:none;color:inherit" href="pages/design-preview/index.html"><h3>Макет интерфейса</h3><p class="muted">Палитра, экран вопроса, карточка результата.</p></a>
+</div>
+</main></body></html>
