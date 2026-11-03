@@ -1,0 +1,509 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Разведка EF SET</title><link rel="stylesheet" href="../assets/site.css"></head><body>
+<header class="top"><div class="wrap"><strong>Открытый тест английского</strong><a href="../index.html">Статус</a><a href="https://github.com/logist888/Replica">GitHub</a></div></header>
+<main class="wrap"><p class="muted"><a href="../index.html">← Статус проекта</a></p><h1>Recon map: EF SET (web)</h1>
+<p>Срез: прохождение сертифицирующего теста «Чтение и аудирование» (2 навыка, 50 мин), страница результата, публичный сертификат, практический тест (20 вопросов).
+Для кого: будущий собственный продукт; рынок и язык интерфейса не определены.
+Дата: 2026-11-02
+Статус: только публичные страницы (16 страниц прочитаны). Сам тест не проходился, внутренние экраны теста НЕ видены. Всё, что про них, помечено как вывод или предположение.</p>
+<h2>Sources</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>источник</th>
+<th>URL</th>
+<th>что дало</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>главная</td>
+<td><a href="https://www.efset.org/">https://www.efset.org/</a></td>
+<td>три теста, «free», 17 языков интерфейса, правообладатель Signum International AG</td>
+</tr>
+<tr>
+<td>2</td>
+<td>About / Research and Design</td>
+<td><a href="https://www.efset.org/about/">https://www.efset.org/about/</a></td>
+<td>заявленная методология, ссылки на EF SET Academic Report, корреляции с TOEFL и IELTS (PDF не читались)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>FAQ</td>
+<td><a href="https://www.efset.org/faq/">https://www.efset.org/faq/</a></td>
+<td>адаптивность, шкала 0-100, лимит 1 попытка в 90 дней, нет прокторинга, нет возобновления, консультанты</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Уровни</td>
+<td><a href="https://www.efset.org/english-score/">https://www.efset.org/english-score/</a></td>
+<td>таблица баллов и CEFR</td>
+</tr>
+<tr>
+<td>5</td>
+<td>CEFR</td>
+<td><a href="https://www.efset.org/cefr/">https://www.efset.org/cefr/</a></td>
+<td>другая таблица баллов (расхождение, см. ниже)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Тест 4 навыка</td>
+<td><a href="https://www.efset.org/4-skill/">https://www.efset.org/4-skill/</a></td>
+<td>90 мин, чтение, аудирование, письмо, говорение, ИИ-оценка</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Тест 2 навыка</td>
+<td><a href="https://www.efset.org/ef-set-50/">https://www.efset.org/ef-set-50/</a></td>
+<td>50 мин, чтение и аудирование</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Сертификат</td>
+<td><a href="https://www.efset.org/english-certificate/">https://www.efset.org/english-certificate/</a></td>
+<td>бесплатно, онлайн-ссылка и PDF, добавление в LinkedIn</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Условия использования</td>
+<td><a href="https://www.efset.org/terms/">https://www.efset.org/terms/</a></td>
+<td>пункта про копирование контента и конкурирующие сервисы в полученном тексте нет (текст мог быть усечён)</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Политика конфиденциальности</td>
+<td><a href="https://www.ef.com/legal/privacy-policy/">https://www.ef.com/legal/privacy-policy/</a></td>
+<td>общая для продуктов EF</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Research</td>
+<td><a href="https://www.efset.org/research/">https://www.efset.org/research/</a></td>
+<td>данные идут в EF EPI</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Wikipedia</td>
+<td><a href="https://en.wikipedia.org/wiki/EF_Standard_English_Test">https://en.wikipedia.org/wiki/EF_Standard_English_Test</a></td>
+<td>вторичный источник: 25 минут на чтение и 25 на аудирование</td>
+</tr>
+<tr>
+<td>13</td>
+<td>университетская оценка</td>
+<td><a href="https://h-bunkyo.repo.nii.ac.jp/record/67/files/kenkyukiyo56%28sugg%29.pdf">https://h-bunkyo.repo.nii.ac.jp/record/67/files/kenkyukiyo56%28sugg%29.pdf</a></td>
+<td>вторичный источник: тест не претендует на точную оценку уровня CEFR</td>
+</tr>
+</tbody></table>
+<p>Не прочитаны: PDF Academic Report, исследования корреляции, практический тест, страницы запуска теста.</p>
+<h2>Core loop</h2>
+<p>Человек бесплатно проходит адаптивный онлайн-тест английского, получает балл 0-100, привязанный к уровню CEFR, и публичную ссылку на сертификат, которую добавляет в резюме или LinkedIn.</p>
+<h2>Screens</h2>
+<p>Столбец «источник»: P = видно по публичным страницам, I = вывод, U = не видел, предположение.</p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>экран</th>
+<th>как попасть</th>
+<th>назначение</th>
+<th>ключевые компоненты</th>
+<th>состояния</th>
+<th>источник</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>S01</td>
+<td>Главная</td>
+<td>/</td>
+<td>выбор теста, доверие</td>
+<td>выбор языка (17), три карточки тестов, счётчик «30M+»</td>
+<td>десктоп, мобайл (U)</td>
+<td>P</td>
+</tr>
+<tr>
+<td>S02</td>
+<td>Описание теста 4 навыка</td>
+<td>/4-skill/</td>
+<td>описание, запуск</td>
+<td>кнопка старта, требования</td>
+<td></td>
+<td>P</td>
+</tr>
+<tr>
+<td>S03</td>
+<td>Описание теста 2 навыка</td>
+<td>/ef-set-50/</td>
+<td>то же</td>
+<td>кнопка старта</td>
+<td></td>
+<td>P</td>
+</tr>
+<tr>
+<td>S04</td>
+<td>Таблица уровней</td>
+<td>/english-score/, /cefr/</td>
+<td>объяснить шкалу</td>
+<td>таблица баллов и CEFR</td>
+<td></td>
+<td>P</td>
+</tr>
+<tr>
+<td>S05</td>
+<td>О тесте / Research</td>
+<td>/about/, /research/</td>
+<td>доверие, ссылки на PDF</td>
+<td>текст, ссылки</td>
+<td></td>
+<td>P</td>
+</tr>
+<tr>
+<td>S06</td>
+<td>FAQ</td>
+<td>/faq/</td>
+<td>правила и ограничения</td>
+<td>аккордеон (U)</td>
+<td></td>
+<td>P</td>
+</tr>
+<tr>
+<td>S07</td>
+<td>Условия</td>
+<td>/terms/</td>
+<td>юридическое</td>
+<td>текст</td>
+<td></td>
+<td>P</td>
+</tr>
+<tr>
+<td>S08</td>
+<td>Регистрация / согласие</td>
+<td>перед стартом</td>
+<td>принять условия</td>
+<td>форма, чекбокс согласия</td>
+<td>ошибка валидации (U)</td>
+<td>I (Terms: «indicate your acceptance during the registration process»)</td>
+</tr>
+<tr>
+<td>S09</td>
+<td>Проверка устройства и инструкции</td>
+<td>после S08</td>
+<td>звук, браузер</td>
+<td>инструкция</td>
+<td>нет звука, неподдерживаемый браузер</td>
+<td>U</td>
+</tr>
+<tr>
+<td>S10</td>
+<td>Вопрос на чтение</td>
+<td>внутри теста</td>
+<td>задание на понимание текста</td>
+<td>текст, варианты ответа, кнопка далее, таймер</td>
+<td>загрузка, истёк таймер</td>
+<td>U</td>
+</tr>
+<tr>
+<td>S11</td>
+<td>Вопрос на аудирование</td>
+<td>внутри теста</td>
+<td>задание на слух</td>
+<td>аудиоплеер, варианты ответа</td>
+<td>аудио не загрузилось</td>
+<td>U</td>
+</tr>
+<tr>
+<td>S12</td>
+<td>Фатальная ошибка</td>
+<td>при сбое сессии</td>
+<td>сессия отменена, результат не сохраняется</td>
+<td>сообщение</td>
+<td></td>
+<td>P (FAQ)</td>
+</tr>
+<tr>
+<td>S13</td>
+<td>Результат</td>
+<td>после теста</td>
+<td>балл по каждому навыку, уровень CEFR</td>
+<td>баллы, уровень, описание уровня</td>
+<td></td>
+<td>P (FAQ: score for each skill)</td>
+</tr>
+<tr>
+<td>S14</td>
+<td>Публичный сертификат</td>
+<td>cert.efset.org/<id></td>
+<td>проверяемая ссылка</td>
+<td>имя, баллы, уровень, дата</td>
+<td></td>
+<td>P (пример на сайте)</td>
+</tr>
+<tr>
+<td>S15</td>
+<td>PDF сертификата</td>
+<td>скачать</td>
+<td>выгрузка</td>
+<td>PDF</td>
+<td></td>
+<td>P</td>
+</tr>
+<tr>
+<td>S16</td>
+<td>Практический тест</td>
+<td>/quick-check/</td>
+<td>20 вопросов, процент верных, без сертификата</td>
+<td>вопрос, варианты, результат</td>
+<td></td>
+<td>P (FAQ)</td>
+</tr>
+<tr>
+<td>S17</td>
+<td>Добавить в LinkedIn</td>
+<td>/add-to-profile/</td>
+<td>шеринг</td>
+<td>кнопка</td>
+<td></td>
+<td>P</td>
+</tr>
+<tr>
+<td>S18</td>
+<td>Получение сертификата</td>
+<td>/retrieve-certificate/</td>
+<td>вернуть сертификат по данным</td>
+<td>форма</td>
+<td></td>
+<td>P (ссылка есть, страница не читалась)</td>
+</tr>
+<tr>
+<td>S19</td>
+<td>Блоки письма и говорения (только 4 навыка)</td>
+<td>внутри теста</td>
+<td>запись речи и текст</td>
+<td>поле ввода, запись с микрофона</td>
+<td></td>
+<td>U, вне среза</td>
+</tr>
+</tbody></table>
+<h2>Flows</h2>
+<pre><code>F01 Пройти сертифицирующий тест (2 навыка)
+    S01 -&gt; S03 -&gt; S08 -&gt; S09 -&gt; S10/S11 (адаптивно, до конца) -&gt; S13 -&gt; S14
+    happy path clicks: не определено (тест не пройден)
+    edge: обрыв сессии (результат теряется, продолжить нельзя), повторная попытка раньше 90 дней, возраст младше 16, не Chrome, нет звука
+
+F02 Получить и поделиться сертификатом
+    S13 -&gt; S14 -&gt; S15 / S17
+    edge: обновление сертификата после пересдачи (старый заменяется новым)
+
+F03 Практический тест
+    S01 -&gt; S16 -&gt; результат (процент из 20)
+    edge: без сертификата, неограниченные пересдачи
+
+F04 Корпоративная ссылка
+    custom-ссылка от школы или работодателя -&gt; F01, результат уходит организации
+    (по FAQ и странице 4-skill; детали неизвестны)
+
+F05 Найти сертификат
+    S18 -&gt; S14
+</code></pre>
+<h2>Components</h2>
+<table>
+<thead>
+<tr>
+<th>компонент</th>
+<th>варианты</th>
+<th>состояния</th>
+<th>используется на</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Карточка теста</td>
+<td>4 навыка, 2 навыка, практика</td>
+<td>default, hover</td>
+<td>S01</td>
+</tr>
+<tr>
+<td>Выбор языка</td>
+<td>список 17 языков</td>
+<td>open</td>
+<td>все</td>
+</tr>
+<tr>
+<td>Вопрос с вариантами</td>
+<td>один ответ</td>
+<td>выбран, не выбран</td>
+<td>S10, S11, S16</td>
+</tr>
+<tr>
+<td>Аудиоплеер</td>
+<td>воспроизведение, лимит повторов (U)</td>
+<td>загрузка, играет, ошибка</td>
+<td>S11</td>
+</tr>
+<tr>
+<td>Таймер</td>
+<td>на тест или на вопрос (U)</td>
+<td>норма, мало времени</td>
+<td>S10, S11</td>
+</tr>
+<tr>
+<td>Прогресс</td>
+<td>неизвестно, в адаптивном тесте может не показываться</td>
+<td></td>
+<td>S10, S11</td>
+</tr>
+<tr>
+<td>Блокировка копирования</td>
+<td></td>
+<td></td>
+<td>вопросы (FAQ: copy/paste blocking)</td>
+</tr>
+<tr>
+<td>Таблица уровней</td>
+<td></td>
+<td></td>
+<td>S04</td>
+</tr>
+<tr>
+<td>Карточка сертификата</td>
+<td></td>
+<td></td>
+<td>S14</td>
+</tr>
+</tbody></table>
+<h2>Inferred data model</h2>
+<pre><code>User         id, email, name, age_confirmed, locale
+             evidence: Terms (регистрация, возраст 16+), S08
+             confidence: medium
+
+TestSession  id, user_id, test_type (4skill | 2skill | practice), started_at, finished_at,
+             status (in_progress | completed | cancelled), ability_estimate
+             evidence: FAQ (фатальная ошибка отменяет сессию, возобновления нет)
+             confidence: high по статусам, guess по полям
+
+Item         id, skill (reading | listening), content, options, correct, difficulty (калибровка IRT), cefr_target
+             evidence: FAQ (претест, калибровка, «no answer key»)
+             confidence: guess (структура), high (факт существования банка)
+
+Response     session_id, item_id, answer, correct, time_ms, served_order
+             evidence: адаптивность по FAQ
+             confidence: medium
+
+Result       session_id, skill, score_0_100, cefr_level
+             evidence: FAQ («score for each skill»)
+             confidence: high
+
+Certificate  id (публичный токен), user_id, session_id, issued_at, updated_at
+             evidence: пример cert.efset.org/h4T3oX; FAQ: пересдача обновляет сертификат
+             confidence: high
+
+Attempt limit: не более 1 сертифицирующей сессии на 90 дней (FAQ) — правило, не сущность.
+</code></pre>
+<p>Связи: User 1-n TestSession; TestSession 1-n Response; Response n-1 Item; TestSession 1-n Result; User 1-1 Certificate (обновляется).</p>
+<h2>Расхождения в публичных данных</h2>
+<ul>
+<li>Шкала: /english-score/ даёт pre-A1 0-20, A1 21-30; /cefr/ даёт A1 1-30 без pre-A1. A2 31-40, B1 41-50, B2 51-60, C1 61-70, C2 71-100 совпадают.</li>
+<li>Время: Wikipedia: 25 минут на чтение и 25 на аудирование. Сайт этого не подтверждает.</li>
+<li>Число вопросов в сертифицирующих тестах нигде не указано.</li>
+</ul>
+<h2>Feature matrix</h2>
+<p>См. <code>features.csv</code>.</p>
+<h2>Out of scope (cannot or should not be cloned)</h2>
+<ul>
+<li>Банк вопросов и аудио EF: защищены, у EF права, по Terms/© Signum International AG.</li>
+<li>Калибровка заданий и нормирование на сотнях тысяч тестируемых: данные EF.</li>
+<li>Привязка баллов к CEFR (результаты standard setting) и соответствие TOEFL/IELTS: исследования EF.</li>
+<li>Бренд EF SET и данные для EF English Proficiency Index.</li>
+<li>Признание сертификата работодателями и вузами: сеть и репутация.</li>
+<li>ИИ-оценка письма и речи (4 навыка): отдельный большой проект, вне среза.</li>
+</ul>
+<h2>Size</h2>
+<p>Экранов 19 (из них внутри теста не видел 5), потоков 5, сущностей 6.
+Сложные части: (1) банк заданий и его калибровка, (2) адаптивный алгоритм (IRT + контроль экспозиции), (3) аудио и защита от копирования/прохождения без прокторинга.
+Размер движка и интерфейса без контента: M. Вместе с валидным контентом: L и выше, определяется в основном не кодом.</p>
+<h2>Методология: можно ли взять за основу</h2>
+<h3>Известно</h3>
+<ul>
+<li>EF создал тест с консультантами: Lyle Bachman (дизайн), Ric Luecht и John Willse (психометрия), Mari Pearlman (разработка). Источник: FAQ.</li>
+<li>Заявлено: претестирование на сотнях тысяч учащихся, формальное standard setting, адаптивный дизайн, соответствие стандартам APA/NCME 2014 (последнее со страницы EF на французском, найдено через поиск).</li>
+<li>Описание в открытом доступе есть только в EF SET Academic Report (PDF), который я не читал.</li>
+<li>Явной открытой лицензии на методику и задания нет. «Free» относится к цене. © Signum International AG.</li>
+</ul>
+<h3>Вывод</h3>
+<ul>
+<li>Идеи (адаптивное тестирование, IRT, привязка к CEFR, шкала 0-100) общие, они принадлежат науке, а не EF. Использовать их можно.</li>
+<li>Задания, аудио, калибровочные параметры, таблицы перевода баллов в уровни как данные EF использовать нельзя. У вас нет права ни на скачивание, ни на воспроизведение.</li>
+<li>Пересказ методики из Academic Report допустим для понимания, но само «калибровать как у EF» невозможно без их данных.</li>
+</ul>
+<h3>Предположение</h3>
+<ul>
+<li>Что копирование контента запрещено Terms: полученный текст Terms такого пункта не содержит, но он мог быть усечён. Авторское право действует и без пункта. Проверить текст целиком и, если нужен прямой ответ, юристу.</li>
+</ul>
+<h3>Вывод по рекомендации</h3>
+<p>Методологию EF брать за основу как готовый продукт нельзя. Брать можно открытые научные подходы и открытые материалы по CEFR. Без методиста безопасный путь — тест нижнего риска (размещение/диагностика, а не «сертификат»), с честной формулировкой «ориентировочный уровень».</p>
+<h2>Бесплатные и открытые опоры</h2>
+<table>
+<thead>
+<tr>
+<th>опора</th>
+<th>что даёт</th>
+<th>лицензия или условие</th>
+<th>статус проверки</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>CEFR-J (vocabulary и grammar profile), <a href="https://github.com/openlanguageprofiles/olp-en-cefrj">https://github.com/openlanguageprofiles/olp-en-cefrj</a></td>
+<td>списки слов и грамматики по уровням CEFR</td>
+<td>по странице проекта: свободно для исследований и коммерции при указании источника; правообладатель Tono Laboratory, TUFS</td>
+<td>прочитано через поиск; проверить на cefr-j.org до коммерческого использования</td>
+</tr>
+<tr>
+<td>Octanove Vocabulary Profile (C1/C2) в том же репозитории</td>
+<td>слова C1/C2</td>
+<td>CC BY-SA 4.0</td>
+<td>то же; обязательства share-alike</td>
+</tr>
+<tr>
+<td>DIALANG (Lancaster), <a href="https://wp.lancs.ac.uk/ltrg/?p=853">https://wp.lancs.ac.uk/ltrg/?p=853</a></td>
+<td>бесплатная система диагностики по CEFR, 14 языков, модель самооценки</td>
+<td>это готовый сервис, лицензия на контент неизвестна</td>
+<td>как образец структуры, не как источник заданий</td>
+</tr>
+<tr>
+<td>Duolingo English Test, Technical Manual (Cardwell et al., 2023) и Settles et al. 2020 (TACL)</td>
+<td>открытое описание методики: yes/no vocabulary, C-test, IRT, адаптивность</td>
+<td>публикации открыты для чтения; задания DET закрыты</td>
+<td>методика читается, контент не берём</td>
+</tr>
+<tr>
+<td>C-test</td>
+<td>автоматически генерируемые задания (вырезается вторая половина каждого второго слова), хороший прокси общего уровня</td>
+<td>метод общеизвестен, тексты нужны свои или с открытой лицензией</td>
+<td>метод; тексты брать из CC-лицензированных источников</td>
+</tr>
+<tr>
+<td>IRT и CAT (открытые библиотеки)</td>
+<td>расчёт сложности, адаптивный подбор</td>
+<td>стандартные научные методы</td>
+<td>реализуемо без методиста на уровне 1-2 параметров</td>
+</tr>
+<tr>
+<td>Словарь CEFR-уровней Council of Europe</td>
+<td>описания дескрипторов</td>
+<td>условия повторного использования не нашёл</td>
+<td>юридически не подтверждено, смотреть coe.int</td>
+</tr>
+<tr>
+<td>English Placement Suite (Product Hunt: «open-source, adaptive A1–C2.2+»)</td>
+<td>возможная готовая основа</td>
+<td>лицензия и репозиторий не проверены</td>
+<td>гипотеза, проверять напрямую</td>
+</tr>
+</tbody></table>
+<h2>Что рекомендую дальше</h2>
+<ol>
+<li>Читать EF SET Academic Report и исследования корреляции (PDF, публичные) как описание методики, не копируя таблицы.</li>
+<li>Считать вашим продуктом не клон сертификата, а диагностический тест на открытой основе: CEFR-J словари, C-test и yes/no vocabulary в качестве быстрых форматов, IRT калибровка по вашим пилотным данным.</li>
+<li>Обязательно на ранней стадии: пилот 200-300 человек и сверка с внешним тестом, иначе уровни CEFR будут ориентировочными. Это вопрос честности формулировок на сайте.</li>
+<li>Следующий шаг пакета: <code>/replica-architect</code> на этой recon-карте с исключением банка заданий (он заменяется вашей системой генерации заданий).</li>
+</ol>
+</main></body></html>

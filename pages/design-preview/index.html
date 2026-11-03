@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Design system preview</title>
+<link rel="stylesheet" href="tokens.css">
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:var(--color-bg);color:var(--color-text);font:400 16px/24px var(--font-sans)}
+.wrap{max-width:var(--layout-page-max-width);margin:0 auto;padding:32px 16px;display:grid;gap:40px}
+h1{font-size:28px;line-height:34px;margin:0}h2{font-size:20px;line-height:28px;margin:0 0 12px}
+.muted{color:var(--color-text-muted)}
+.swatches{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px}
+.sw{border:1px solid var(--color-border);border-radius:var(--radius-md);overflow:hidden;font-size:12px;line-height:16px}
+.sw i{display:block;height:36px}.sw span{display:block;padding:6px 8px}
+.btn{min-height:44px;min-width:44px;padding:0 20px;border-radius:var(--radius-md);border:1px solid transparent;font:600 16px var(--font-sans);cursor:pointer}
+.btn.primary{background:var(--color-accent);color:var(--color-on-accent)}
+.btn.secondary{background:var(--color-bg);border-color:var(--color-border-input);color:var(--color-text)}
+.btn:disabled{opacity:.5;cursor:not-allowed}
+:focus-visible{outline:2px solid var(--color-focus);outline-offset:2px}
+.card{background:var(--color-surface-raised);border:1px solid var(--color-border);border-radius:var(--radius-lg);padding:24px;box-shadow:var(--shadow-card)}
+.test{max-width:var(--layout-test-max-width);display:grid;gap:16px}
+.bar{display:flex;justify-content:space-between;align-items:center}
+.steps{display:flex;gap:8px;list-style:none;padding:0;margin:0;font-size:14px;line-height:20px}
+.steps li{padding:4px 12px;border-radius:var(--radius-pill);background:var(--color-surface)}
+.steps li[aria-current=step]{background:var(--color-accent);color:var(--color-on-accent);font-weight:600}
+.timer{font:600 14px var(--font-sans);font-variant-numeric:tabular-nums;padding:6px 12px;border-radius:var(--radius-pill);background:var(--color-surface)}
+.timer.low{background:var(--color-timer-low-bg);color:var(--color-danger)}
+fieldset{border:0;padding:0;margin:0;display:grid;gap:8px}
+legend{font:500 20px/30px var(--font-sans);margin-bottom:12px;padding:0}
+.opt{display:flex;gap:12px;align-items:center;min-height:52px;padding:0 16px;border:1px solid var(--color-border-input);border-radius:var(--radius-md);background:var(--color-bg);cursor:pointer}
+.opt.sel{border:2px solid var(--color-accent);background:var(--color-surface);padding:0 15px}
+.dot{width:20px;height:20px;border-radius:50%;border:2px solid var(--color-border-input);display:grid;place-items:center;flex:none}
+.opt.sel .dot{border-color:var(--color-accent)}.opt.sel .dot::after{content:"";width:10px;height:10px;border-radius:50%;background:var(--color-accent)}
+.audio{display:flex;gap:16px;align-items:center}
+.play{width:52px;height:52px;border-radius:50%;background:var(--color-accent);color:var(--color-on-accent);border:0;font-size:18px}
+.track{flex:1;height:6px;border-radius:3px;background:var(--color-border)}.track b{display:block;width:35%;height:100%;border-radius:3px;background:var(--color-accent)}
+.badge{display:inline-block;padding:2px 12px;border-radius:var(--radius-pill);font:600 14px/20px var(--font-sans)}
+.l1{background:var(--color-cefr-a1-bg);color:var(--color-cefr-text-light)}.l2{background:var(--color-cefr-a2-bg);color:var(--color-cefr-text-light)}
+.l3{background:var(--color-cefr-b1-bg);color:var(--color-cefr-text-light)}.l4{background:var(--color-cefr-b2-bg);color:var(--color-cefr-text-light)}
+.l5{background:var(--color-cefr-c1-bg);color:var(--color-cefr-text-dark)}.l6{background:var(--color-cefr-c2-bg);color:var(--color-cefr-text-dark)}
+.scale{position:relative;display:grid;grid-template-columns:repeat(6,1fr);gap:2px;margin:12px 0 4px}
+.scale span{text-align:center;padding:6px 0;font:600 14px var(--font-sans)}
+.range{position:absolute;top:-6px;bottom:-6px;left:33.3%;width:50%;border:2px solid var(--color-text);border-radius:var(--radius-sm)}
+.score{font:700 56px/60px var(--font-sans)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media (max-width:640px){.grid2{grid-template-columns:1fr}}
+</style></head>
+<body><main class="wrap">
+<header><h1>Design system preview</h1><p class="muted">Generated from tokens.json. Placeholder accent; brand comes later.</p></header>
+
+<section><h2>Colour roles</h2><div class="swatches" id="sw"></div></section>
+
+<section><h2>Test screen (English only)</h2>
+<div class="card test">
+  <div class="bar"><ol class="steps" aria-label="Progress"><li>Part 1</li><li aria-current="step">Part 2</li><li>Part 3</li></ol><span class="timer low" role="timer">04:12 left</span></div>
+  <div class="audio"><button class="play" aria-label="Play audio">&#9654;</button><div class="track" aria-hidden="true"><b></b></div><span class="muted" style="font-size:14px">Plays left: 1</span></div>
+  <fieldset><legend>What is the speaker mainly doing?</legend>
+    <label class="opt"><span class="dot"></span>Making a complaint</label>
+    <label class="opt sel"><span class="dot"></span>Asking for directions</label>
+    <label class="opt"><span class="dot"></span>Booking a table</label>
+    <label class="opt"><span class="dot"></span>Describing a trip</label>
+  </fieldset>
+  <div class="bar"><span class="muted" style="font-size:14px">You cannot go back to a previous question.</span><button class="btn primary">Next</button></div>
+</div></section>
+
+<section class="grid2">
+  <div class="card"><h2>Result card</h2>
+    <p class="muted" style="margin:0">Reading</p><div class="score">62</div>
+    <span class="badge l4">B2</span> <span class="muted" style="font-size:14px">Provisional estimate</span>
+    <div class="scale" role="img" aria-label="Reading: B2, between B1 and C1 likely"><span class="badge l1">A1</span><span class="badge l2">A2</span><span class="badge l3">B1</span><span class="badge l4">B2</span><span class="badge l5">C1</span><span class="badge l6">C2</span><div class="range"></div></div>
+    <p class="muted" style="font-size:14px;margin:8px 0 0">Likely range: B1 to C1.</p></div>
+  <div class="card"><h2>Buttons</h2><div style="display:flex;gap:12px;flex-wrap:wrap">
+    <button class="btn primary">Start test</button><button class="btn secondary">Practice</button><button class="btn primary" disabled>Next</button></div>
+    <p class="muted" style="font-size:14px">Tab to see the focus ring.</p></div>
+</section>
+</main>
+<script src="tokens.js"></script>
+<script>
+const el=document.getElementById('sw');
+for(const [k,v] of Object.entries(window.TOKENS.color)){el.insertAdjacentHTML('beforeend',`<div class="sw"><i style="background:${v}"></i><span>${k}<br>${v}</span></div>`)}
+</script></body></html>
