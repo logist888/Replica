@@ -1,0 +1,1178 @@
+[
+ {
+  "id": "R-A1-01",
+  "level": "A1",
+  "genre": "notice",
+  "title": "Library Rules",
+  "text": "Welcome to the Town Library. The library is open from Monday to Saturday. It opens at 9 o'clock and closes at 6 o'clock. It is closed on Sunday. You can take five books home for two weeks. Please be quiet. You can not eat or drink in the library, but you can drink water. Children under eight must stay with their mother or father.",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-A1-01-1",
+    "type": "detail",
+    "stem": "How many books can you take home?",
+    "options": [
+     "Five",
+     "Two",
+     "Eight",
+     "Ten"
+    ],
+    "answer": 0
+   },
+   {
+    "id": "R-A1-01-2",
+    "type": "detail",
+    "stem": "When is the library closed?",
+    "options": [
+     "On Monday",
+     "On Sunday",
+     "On Saturday",
+     "In the evening"
+    ],
+    "answer": 1
+   },
+   {
+    "id": "R-A1-01-3",
+    "type": "detail",
+    "stem": "What can you drink in the library?",
+    "options": [
+     "Tea",
+     "Milk",
+     "Water",
+     "Juice"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "R-A1-02",
+  "level": "A1",
+  "genre": "message",
+  "title": "Shopping for Dinner",
+  "text": "Hi Tom! I am at the shop now. I want to buy food for dinner. I have bread and eggs, but I do not have tomatoes. Do you want fish or chicken? Please tell me. I will be home at six. Can you put the cups on the table? Love, Anna",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-A1-02-1",
+    "type": "detail",
+    "stem": "Where is Anna now?",
+    "options": [
+     "At home",
+     "At the shop",
+     "At school",
+     "At the station"
+    ],
+    "answer": 1
+   },
+   {
+    "id": "R-A1-02-2",
+    "type": "detail",
+    "stem": "What food does Anna have at home?",
+    "options": [
+     "Tomatoes",
+     "Fish",
+     "Eggs",
+     "Chicken"
+    ],
+    "answer": 2
+   },
+   {
+    "id": "R-A1-02-3",
+    "type": "detail",
+    "stem": "What time will Anna be home?",
+    "options": [
+     "At five",
+     "At seven",
+     "At eight",
+     "At six"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "R-A1-03",
+  "level": "A1",
+  "genre": "description",
+  "title": "My Small Room",
+  "text": "This is my room. It is small, but I like it. There is a bed near the window. There is a blue desk by the door. On the desk there is a clock and two books. My cat sleeps on the bed all day. I do my homework at the desk every evening. I do not have a TV in my room.",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-A1-03-1",
+    "type": "detail",
+    "stem": "Where is the bed?",
+    "options": [
+     "By the door",
+     "On the desk",
+     "Near the window",
+     "Under the desk"
+    ],
+    "answer": 2
+   },
+   {
+    "id": "R-A1-03-2",
+    "type": "detail",
+    "stem": "What is on the desk?",
+    "options": [
+     "A cat and a clock",
+     "Two clocks and a book",
+     "A TV and two books",
+     "A clock and two books"
+    ],
+    "answer": 3
+   },
+   {
+    "id": "R-A1-03-3",
+    "type": "main_idea",
+    "stem": "What is the text about?",
+    "options": [
+     "The writer's bedroom",
+     "A cat's day",
+     "A homework lesson",
+     "A shop for desks"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "R-A1-04",
+  "level": "A1",
+  "genre": "advert",
+  "title": "Luna Pizza",
+  "text": "Come to Luna Pizza! Small pizza: 6 dollars. Big pizza: 9 dollars. A drink is 2 dollars. On Tuesday, all small pizzas are 4 dollars. We are open every day from 11 in the morning to 10 at night. Come to 12 River Street. We bring the pizzas to your home for free when you buy two.",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-A1-04-1",
+    "type": "detail",
+    "stem": "How much is a small pizza on Tuesday?",
+    "options": [
+     "2 dollars",
+     "6 dollars",
+     "9 dollars",
+     "4 dollars"
+    ],
+    "answer": 3
+   },
+   {
+    "id": "R-A1-04-2",
+    "type": "detail",
+    "stem": "When does Luna Pizza close?",
+    "options": [
+     "At 10 at night",
+     "At 11 at night",
+     "At 6 in the evening",
+     "At 10 in the morning"
+    ],
+    "answer": 0
+   },
+   {
+    "id": "R-A1-04-3",
+    "type": "detail",
+    "stem": "When do they bring pizza to your home for free?",
+    "options": [
+     "When you buy a drink",
+     "When you buy two pizzas",
+     "On Tuesdays only",
+     "When you buy a big pizza"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "R-A1-05",
+  "level": "A1",
+  "genre": "story",
+  "title": "The Red Hat",
+  "text": "Sam has a red hat. He loves it. One day, Sam and his dog go to the park. The wind is strong. The hat goes up in the air! The dog runs after it. The hat comes down in the water. The dog jumps in and gets the hat. Sam laughs. Sam is happy. He gives the dog some food.",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-A1-05-1",
+    "type": "detail",
+    "stem": "What colour is Sam's hat?",
+    "options": [
+     "Red",
+     "Blue",
+     "Green",
+     "Black"
+    ],
+    "answer": 0
+   },
+   {
+    "id": "R-A1-05-2",
+    "type": "detail",
+    "stem": "Who gets the hat from the water?",
+    "options": [
+     "Sam",
+     "The dog",
+     "A man",
+     "The wind"
+    ],
+    "answer": 1
+   },
+   {
+    "id": "R-A1-05-3",
+    "type": "inference",
+    "stem": "Why does the hat go up in the air?",
+    "options": [
+     "Sam throws it",
+     "The dog takes it",
+     "The wind is strong",
+     "The park is high"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "R-A1-06",
+  "level": "A1",
+  "genre": "instructions",
+  "title": "How to Make Tea",
+  "text": "How to make tea. First, make the water hot. Then put a tea bag in a cup. Put the hot water in the cup. Wait for three minutes. Take the tea bag out. You can add milk or sugar. Be careful: the water is very hot!",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-A1-06-1",
+    "type": "detail",
+    "stem": "What do you put in the cup first?",
+    "options": [
+     "Milk",
+     "A tea bag",
+     "Hot water",
+     "Sugar"
+    ],
+    "answer": 1
+   },
+   {
+    "id": "R-A1-06-2",
+    "type": "detail",
+    "stem": "How long do you wait?",
+    "options": [
+     "One minute",
+     "Five minutes",
+     "Three minutes",
+     "Ten minutes"
+    ],
+    "answer": 2
+   },
+   {
+    "id": "R-A1-06-3",
+    "type": "detail",
+    "stem": "Why must you be careful?",
+    "options": [
+     "The cup is small",
+     "The tea is cold",
+     "The bag is new",
+     "The water is very hot"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "R-A1-07",
+  "level": "A1",
+  "genre": "email",
+  "title": "A Message to My Teacher",
+  "text": "Dear Mr Green, I am sorry, but I can not come to class on Wednesday. I have a bad cold. The doctor says I must stay at home for two days. I will come back on Friday. Please tell me the homework. Thank you. Best wishes, Li",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-A1-07-1",
+    "type": "detail",
+    "stem": "Why can't Li come to class?",
+    "options": [
+     "He is on a trip",
+     "He is at work",
+     "He is ill",
+     "He has no homework"
+    ],
+    "answer": 2
+   },
+   {
+    "id": "R-A1-07-2",
+    "type": "detail",
+    "stem": "When will Li come back?",
+    "options": [
+     "On Wednesday",
+     "On Thursday",
+     "On Monday",
+     "On Friday"
+    ],
+    "answer": 3
+   },
+   {
+    "id": "R-A1-07-3",
+    "type": "detail",
+    "stem": "What does Li ask the teacher to do?",
+    "options": [
+     "Tell him the homework",
+     "Call the doctor",
+     "Change the class day",
+     "Buy him a book"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "R-A1-08",
+  "level": "A1",
+  "genre": "dialogue-text",
+  "title": "At the Bus Stop",
+  "text": "A: Excuse me, does bus 12 go to the station?\nB: Yes, it does. But it is late today.\nA: How long must I wait?\nB: Maybe ten minutes. The next bus is at ten past three.\nA: Thank you. How much is a ticket?\nB: Two dollars. You pay the driver.\nA: Great. I have the right money.",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-A1-08-1",
+    "type": "detail",
+    "stem": "Where does bus 12 go?",
+    "options": [
+     "To the shop",
+     "To the park",
+     "To the school",
+     "To the station"
+    ],
+    "answer": 3
+   },
+   {
+    "id": "R-A1-08-2",
+    "type": "detail",
+    "stem": "How much is a ticket?",
+    "options": [
+     "Two dollars",
+     "Three dollars",
+     "Ten dollars",
+     "Twelve dollars"
+    ],
+    "answer": 0
+   },
+   {
+    "id": "R-A1-08-3",
+    "type": "inference",
+    "stem": "What is true about bus 12 today?",
+    "options": [
+     "It is full",
+     "It is late",
+     "It is free",
+     "It is new"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "R-A2-01",
+  "level": "A2",
+  "genre": "blog",
+  "title": "A Day in the Hills",
+  "text": "Last Saturday my brother and I went walking in the hills near our village. We left at seven in the morning because we wanted to avoid the afternoon heat. The path was long, and I was tired after an hour, but the view from the top was wonderful. We could see our whole town and a long, blue river. We had sandwiches and apples for lunch. On the way down, it began to rain, so we ran to a small wooden house and waited there. I want to go again next month.",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-A2-01-1",
+    "type": "detail",
+    "stem": "Why did the writer and his brother leave early?",
+    "options": [
+     "It would be too hot later in the day",
+     "The path was closed in the afternoon",
+     "They wanted to be home for lunch",
+     "The rain was coming early"
+    ],
+    "answer": 0
+   },
+   {
+    "id": "R-A2-01-2",
+    "type": "vocab_in_context",
+    "stem": "In the text, \"wonderful\" means...",
+    "options": [
+     "very long",
+     "very good",
+     "very strange",
+     "very sad"
+    ],
+    "answer": 1
+   },
+   {
+    "id": "R-A2-01-3",
+    "type": "inference",
+    "stem": "What does the writer probably think about the day?",
+    "options": [
+     "It was boring and cold",
+     "It was too difficult",
+     "It was a good experience",
+     "It was a waste of time"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "R-A2-02",
+  "level": "A2",
+  "genre": "notice",
+  "title": "Pool Closing Notice",
+  "text": "Notice to members. The Riverside Pool will be closed for cleaning from 3 to 7 March. During this time, you can use the smaller pool at the Hill Centre for free. Just show your member card at the desk. The pool will open again on 8 March, but the lessons for children will start one week later, on 15 March. All other activities will go back to normal on 8 March. We are sorry for any problems.",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-A2-02-1",
+    "type": "main_idea",
+    "stem": "What is the notice mainly about?",
+    "options": [
+     "A new swimming class for children",
+     "A pool that closes for a short time",
+     "A change in ticket prices this month",
+     "A competition for pool members"
+    ],
+    "answer": 1
+   },
+   {
+    "id": "R-A2-02-2",
+    "type": "detail",
+    "stem": "What must members do to use the Hill pool?",
+    "options": [
+     "Pay a small fee",
+     "Book a place online",
+     "Show their member card",
+     "Bring a letter from Riverside"
+    ],
+    "answer": 2
+   },
+   {
+    "id": "R-A2-02-3",
+    "type": "inference",
+    "stem": "When can children start lessons at Riverside again?",
+    "options": [
+     "On 3 March",
+     "On 7 March",
+     "On 8 March",
+     "On 15 March"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "R-A2-03",
+  "level": "A2",
+  "genre": "email",
+  "title": "Come to My Party",
+  "text": "Hi Maria, I'm having a small party for my birthday on Saturday 14th at my flat. It starts at seven. I'm going to cook pasta, and my sister is making a big chocolate cake. Could you bring some drinks? Nothing too sweet, please, because there will be a lot of cake! The bus from the city centre stops right outside my building. It's number 23. Please tell me by Thursday if you can come. It will be fun! Jenny",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-A2-03-1",
+    "type": "main_idea",
+    "stem": "Why is Jenny writing to Maria?",
+    "options": [
+     "To ask for cooking help",
+     "To say sorry for being late",
+     "To invite her to a party",
+     "To give her bus times"
+    ],
+    "answer": 2
+   },
+   {
+    "id": "R-A2-03-2",
+    "type": "detail",
+    "stem": "What should Maria bring?",
+    "options": [
+     "A cake",
+     "Pasta",
+     "Chocolate",
+     "Some drinks"
+    ],
+    "answer": 3
+   },
+   {
+    "id": "R-A2-03-3",
+    "type": "inference",
+    "stem": "Why does Jenny ask for drinks that are not too sweet?",
+    "options": [
+     "There will already be a lot of sweet food",
+     "Her sister does not like sweet things",
+     "The party starts in the morning",
+     "Maria always prefers sweet drinks"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "R-A2-04",
+  "level": "A2",
+  "genre": "news",
+  "title": "School Turns Yard into Garden",
+  "text": "Students at Hillside School have turned an empty yard into a vegetable garden. The work began in September, when a group of twelve students asked their teachers for help. They planted carrots, beans and potatoes, and every class takes turns to water the plants. Last week the school used the first vegetables in its lunch menu. \"The soup was nicer because we grew the carrots ourselves,\" said one student. The school now plans to sell extra vegetables at a small market to buy new tools.",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-A2-04-1",
+    "type": "main_idea",
+    "stem": "What is the news story mainly about?",
+    "options": [
+     "A new menu for the school lunch",
+     "A market run by local farmers",
+     "A cooking class about making soup",
+     "A school project that grows food"
+    ],
+    "answer": 3
+   },
+   {
+    "id": "R-A2-04-2",
+    "type": "inference",
+    "stem": "Why did the student say the soup was nicer?",
+    "options": [
+     "The students grew the vegetables",
+     "The cooks used a different recipe",
+     "The soup was served very hot",
+     "The soup had more beans in it"
+    ],
+    "answer": 0
+   },
+   {
+    "id": "R-A2-04-3",
+    "type": "detail",
+    "stem": "What will the school do with extra vegetables?",
+    "options": [
+     "Give them to local families",
+     "Sell them to pay for tools",
+     "Send them to other schools",
+     "Cook them for a party"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "R-A2-05",
+  "level": "A2",
+  "genre": "description",
+  "title": "Grandmother's Village",
+  "text": "My grandmother lives in a small village by the sea. There is only one shop, one café and a tiny school with twenty children. In the morning, the fishing boats come back and people buy fresh fish on the beach. Life is quiet there, and everybody knows everybody. In summer, many visitors arrive, so the café is always full and my grandmother helps there two days a week. I love staying with her because we cook together and walk by the water every evening. But in winter it can be very lonely.",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-A2-05-1",
+    "type": "main_idea",
+    "stem": "What is the text mainly about?",
+    "options": [
+     "A quiet village the writer visits",
+     "The best way to catch fresh fish",
+     "A summer job in a busy café",
+     "A school trip to the sea"
+    ],
+    "answer": 0
+   },
+   {
+    "id": "R-A2-05-2",
+    "type": "detail",
+    "stem": "How many children go to the village school?",
+    "options": [
+     "Ten",
+     "Twenty",
+     "Fifty",
+     "Two"
+    ],
+    "answer": 1
+   },
+   {
+    "id": "R-A2-05-3",
+    "type": "inference",
+    "stem": "Why is the café always full in summer?",
+    "options": [
+     "It has cheaper food than the shop",
+     "The fishing boats stop there",
+     "Many visitors come to the village",
+     "The school children go there"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "R-A2-06",
+  "level": "A2",
+  "genre": "advert",
+  "title": "Bikes by the Lake",
+  "text": "Green Wheel Bikes. Explore the lake on two wheels! We have city bikes, mountain bikes and children's bikes. Prices start at 8 euros for two hours, and a full day costs 18 euros. A helmet and a lock are free with every bike. Groups of five or more pay less for each bike. We are open from 9 to 6, every day from April to October. Book online or just walk in, but at weekends it's better to book early because we are often full. Our shop is next to the lake café.",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-A2-06-1",
+    "type": "detail",
+    "stem": "What comes free with every bike?",
+    "options": [
+     "A map and a bottle",
+     "A helmet and a lock",
+     "A helmet and a drink",
+     "A lock and a basket"
+    ],
+    "answer": 1
+   },
+   {
+    "id": "R-A2-06-2",
+    "type": "inference",
+    "stem": "Why should people book early at weekends?",
+    "options": [
+     "The prices go up on Saturday",
+     "The lake closes early",
+     "Many people want bikes then",
+     "Helmets are not free then"
+    ],
+    "answer": 2
+   },
+   {
+    "id": "R-A2-06-3",
+    "type": "inference",
+    "stem": "Who would pay a cheaper price?",
+    "options": [
+     "Two people for a full day",
+     "A child on a mountain bike",
+     "Someone who books online",
+     "A group of six friends"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "R-A2-07",
+  "level": "A2",
+  "genre": "story",
+  "title": "The Last Train",
+  "text": "Nina missed the last train home. It was almost midnight and the station was empty. She felt worried because her phone had no battery. Then she saw an old man with a small dog sitting on a bench. He told her there was a night bus from the square outside. Nina thanked him and walked quickly in the dark. When she reached the square, the bus was just leaving. She waved her arms and shouted, and the driver stopped. At last she sat down, tired but relieved, and watched the lights of the city go by.",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-A2-07-1",
+    "type": "detail",
+    "stem": "Why was Nina worried at the station?",
+    "options": [
+     "She lost her bag",
+     "The station was closed",
+     "Her phone had no battery",
+     "The old man was angry"
+    ],
+    "answer": 2
+   },
+   {
+    "id": "R-A2-07-2",
+    "type": "reference",
+    "stem": "In \"He told her there was a night bus\", who is \"he\"?",
+    "options": [
+     "The driver",
+     "A friend of Nina's",
+     "A station worker",
+     "The old man"
+    ],
+    "answer": 3
+   },
+   {
+    "id": "R-A2-07-3",
+    "type": "vocab_in_context",
+    "stem": "In the last sentence, \"relieved\" means...",
+    "options": [
+     "glad that a problem was over",
+     "angry about the late hour",
+     "surprised by the city lights",
+     "sorry about the old man"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "R-A2-08",
+  "level": "A2",
+  "genre": "instructions",
+  "title": "Rubbish Rules at Park House",
+  "text": "Rules for rubbish at Park House. Please put paper in the blue box and glass in the green box. Plastic bottles go in the yellow box, but empty them first. Food goes in the small brown box in the kitchen of each flat; the cleaner takes it out on Tuesdays and Fridays. If you have a big paper box, fold it so it takes less space. Do not leave bags next to the colour boxes, because animals come to them. If you are not sure, look at the paper by the front door or ask the building manager.",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-A2-08-1",
+    "type": "detail",
+    "stem": "Where should plastic bottles go?",
+    "options": [
+     "In the blue box",
+     "In the green box",
+     "In the brown box",
+     "In the yellow box"
+    ],
+    "answer": 3
+   },
+   {
+    "id": "R-A2-08-2",
+    "type": "inference",
+    "stem": "Why should people fold big paper boxes?",
+    "options": [
+     "To save space",
+     "To keep animals away",
+     "To help the cleaner on Tuesday",
+     "To make the paper softer"
+    ],
+    "answer": 0
+   },
+   {
+    "id": "R-A2-08-3",
+    "type": "main_idea",
+    "stem": "What is this text for?",
+    "options": [
+     "Asking for money for boxes",
+     "Explaining how to sort rubbish",
+     "Introducing the new cleaner",
+     "Saying when boxes are empty"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "R-B1-01",
+  "level": "B1",
+  "genre": "blog",
+  "title": "My Bread Experiment",
+  "text": "Three months ago, I decided to learn how to bake bread. I had never cooked anything difficult, so my first loaf was a disaster: it was flat, hard and almost impossible to cut. I nearly gave up, but my neighbour, who bakes every weekend, told me that most beginners use too much flour and too little patience. She showed me how to leave the dough in a warm place until it doubles in size. That small change made a huge difference. Now I bake twice a week, and my loaves are soft inside with a crisp outside. What I enjoy most isn't the eating, though. It's the quiet hour while the dough rises, when I have no phone, no emails and nothing to do except wait. Next, I'd like to try making bread with seeds and nuts.",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-B1-01-1",
+    "type": "detail",
+    "stem": "What does the neighbour say many beginners get wrong?",
+    "options": [
+     "They rush and add too much flour",
+     "They bake at too low a heat",
+     "They choose recipes with seeds",
+     "They use water that is too cold"
+    ],
+    "answer": 0
+   },
+   {
+    "id": "R-B1-01-2",
+    "type": "vocab_in_context",
+    "stem": "In the text, \"disaster\" means...",
+    "options": [
+     "a hard exam",
+     "a very bad result",
+     "an unusual recipe",
+     "a small mistake"
+    ],
+    "answer": 1
+   },
+   {
+    "id": "R-B1-01-3",
+    "type": "inference",
+    "stem": "Why does the writer enjoy the time while the dough rises?",
+    "options": [
+     "The bread tastes the best then",
+     "A neighbour usually comes to visit",
+     "It is a calm break from screens",
+     "It is the only time she can cook"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "R-B1-02",
+  "level": "B1",
+  "genre": "news",
+  "title": "Tool Library Opens in Eastbrook",
+  "text": "A new \"tool library\" opened on Saturday in the town of Eastbrook, and by lunchtime more than a hundred people had visited. Instead of buying expensive equipment that they will use only once or twice, residents can borrow drills, ladders, garden tools and even sewing machines for a small yearly fee. The idea came from a retired builder, Hugo Marsh, who noticed that many garages in his street were full of unused tools. \"People spend money on things that sit on a shelf,\" he said. \"Sharing is cheaper, and it also brings neighbours together.\" Volunteers will teach short classes on basic repairs every Thursday evening. The organisers hope to add a repair café for broken electrical items by the end of the year. However, they are still looking for more volunteers to help with opening hours.",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-B1-02-1",
+    "type": "main_idea",
+    "stem": "What is the article mainly about?",
+    "options": [
+     "A builder who sells his old tools",
+     "A new place where people share tools",
+     "A class for fixing electrical items",
+     "A shop that sells garden tools"
+    ],
+    "answer": 1
+   },
+   {
+    "id": "R-B1-02-2",
+    "type": "detail",
+    "stem": "How can residents use the tools?",
+    "options": [
+     "Pay a small fee for each tool",
+     "Take a class first",
+     "Pay a small fee each year",
+     "Join a repair group first"
+    ],
+    "answer": 2
+   },
+   {
+    "id": "R-B1-02-3",
+    "type": "inference",
+    "stem": "What does the tool library still need?",
+    "options": [
+     "A bigger building",
+     "More expensive tools",
+     "A new manager",
+     "More people to help"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "R-B1-03",
+  "level": "B1",
+  "genre": "email",
+  "title": "Changes to Our Monday Meeting",
+  "text": "Subject: Changes to our weekly meeting. Hi everyone, After last week's discussion, I have looked at the calendar again and I think we can solve the problem with our Monday meeting. At the moment, it starts at 9 a.m., and several of you have said that this is too early because of the school run or the long journey. From next week, we will move it to 10.30 and keep it to forty-five minutes. In return, I'd like everyone to send me a short written update by Friday afternoon, so that we don't need to repeat the same information in the room. If you are working from home on Mondays, you can join by video as usual. Please let me know by Wednesday if this new plan causes any difficulty for you. Thanks for your patience, Clara",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-B1-03-1",
+    "type": "detail",
+    "stem": "What does Clara want everyone to send by Friday?",
+    "options": [
+     "A video recording",
+     "A list of problems",
+     "A short written update",
+     "A new calendar"
+    ],
+    "answer": 2
+   },
+   {
+    "id": "R-B1-03-2",
+    "type": "reference",
+    "stem": "In \"this is too early\", what does \"this\" refer to?",
+    "options": [
+     "The length of the meeting",
+     "The written update",
+     "The video call",
+     "The 9 a.m. start time"
+    ],
+    "answer": 3
+   },
+   {
+    "id": "R-B1-03-3",
+    "type": "inference",
+    "stem": "Why is Clara changing the meeting time?",
+    "options": [
+     "Some people find 9 a.m. too early",
+     "The meeting was often too short",
+     "Few people are in on Mondays",
+     "She wants to try more video calls"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "R-B1-04",
+  "level": "B1",
+  "genre": "notice",
+  "title": "Ferry Notice for Passengers",
+  "text": "Important notice for passengers on the Pine Island ferry. Because of strong winds forecast for this weekend, the 8.00 and 10.00 sailings on Saturday will not run. Passengers with tickets for these sailings can travel on the 12.00 sailing instead, or ask for a full refund at the ticket office. You do not need to book again. The afternoon sailings should run as normal, but we may have to make further changes at short notice, so please check the screen in the waiting hall or call our information line before you leave home. Cars must arrive 30 minutes before departure. Passengers with small children or heavy bags can ask a member of staff for help. We are sorry for the problems and thank you for your patience.",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-B1-04-1",
+    "type": "detail",
+    "stem": "What can passengers with a cancelled sailing do?",
+    "options": [
+     "Go at 14.00 and pay extra",
+     "Travel on Sunday for free",
+     "Exchange their ticket by phone only",
+     "Go at 12.00 or ask for a refund"
+    ],
+    "answer": 3
+   },
+   {
+    "id": "R-B1-04-2",
+    "type": "vocab_in_context",
+    "stem": "In the notice, \"at short notice\" means...",
+    "options": [
+     "with very little warning",
+     "after a long delay",
+     "in writing",
+     "for a short time"
+    ],
+    "answer": 0
+   },
+   {
+    "id": "R-B1-04-3",
+    "type": "inference",
+    "stem": "Why are passengers asked to check the screen or call before leaving home?",
+    "options": [
+     "Tickets may sell out",
+     "The timetable may change again",
+     "The ferry may be full of cars",
+     "The ticket office may be closed"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "R-B1-05",
+  "level": "B1",
+  "genre": "story",
+  "title": "The Quiet Singer",
+  "text": "Young Ben had a beautiful voice, but he only used it in the shower. When his music teacher told the school about a concert, she asked him to sing alone. His stomach turned over just thinking about it. For two weeks he practised in his room, and each night he promised himself that he would say no tomorrow. On the evening of the concert, he waited behind the curtain with his hands shaking. Then he noticed his little sister in the front row, holding a sign she had painted, which said \"Go Ben!\" in big letters. He breathed in deeply and stepped out. His first note was weak, but by the second line his voice was calm and strong. When he finished, the room was quiet for a second, and then everyone started to shout happily. Ben could not stop smiling.",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-B1-05-1",
+    "type": "detail",
+    "stem": "Where did Ben usually sing?",
+    "options": [
+     "In the shower",
+     "In music class",
+     "In front of friends",
+     "In his sister's room"
+    ],
+    "answer": 0
+   },
+   {
+    "id": "R-B1-05-2",
+    "type": "reference",
+    "stem": "In \"His stomach turned over just thinking about it\", what does \"it\" refer to?",
+    "options": [
+     "Practising in his room",
+     "Singing alone at the concert",
+     "Going to music class",
+     "Meeting his sister"
+    ],
+    "answer": 1
+   },
+   {
+    "id": "R-B1-05-3",
+    "type": "inference",
+    "stem": "What most helped Ben to go on stage?",
+    "options": [
+     "A word from his teacher",
+     "A drink of water",
+     "Seeing his sister's sign",
+     "The quiet in the room"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "R-B1-06",
+  "level": "B1",
+  "genre": "dialogue-text",
+  "title": "Changing a Jacket",
+  "text": "Customer: Hello. I bought this jacket here last week, but it doesn't fit properly. The sleeves are too long.\nAssistant: I'm sorry to hear that. Do you have your receipt?\nCustomer: Yes, here it is. I'd like to change it for a smaller size.\nAssistant: Let me check. Oh, we don't have the same jacket in a smaller size at the moment, but we're getting more on Thursday.\nCustomer: I can't wait that long, because I need it for a trip on Wednesday.\nAssistant: In that case, I can give you your money back, or you can choose something else from the shop.\nCustomer: I'll take the money, thanks. Actually, do you have any similar jackets in black?\nAssistant: We have one in the window, but it's a little more expensive. Shall I bring it to you?\nCustomer: Yes, please. I'll try it on and then decide.",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-B1-06-1",
+    "type": "detail",
+    "stem": "Why can't the customer wait until Thursday?",
+    "options": [
+     "The shop closes on Thursday",
+     "A trip starts before then",
+     "The receipt ends on Wednesday",
+     "The price goes up on Thursday"
+    ],
+    "answer": 1
+   },
+   {
+    "id": "R-B1-06-2",
+    "type": "main_idea",
+    "stem": "What is the customer's problem?",
+    "options": [
+     "The jacket is the wrong colour",
+     "The jacket is too expensive",
+     "The jacket is too big",
+     "The jacket is broken"
+    ],
+    "answer": 2
+   },
+   {
+    "id": "R-B1-06-3",
+    "type": "inference",
+    "stem": "What will the customer probably do next?",
+    "options": [
+     "Buy a smaller jacket on Thursday",
+     "Leave without a jacket",
+     "Ask for a different receipt",
+     "Try on the black jacket"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "R-B1-07",
+  "level": "B1",
+  "genre": "description",
+  "title": "The Forest at Dawn",
+  "text": "Early in the morning, before the sun is fully up, the forest behind our house feels like a different world. The air is cool and slightly damp, and a white cloud sits low between the trees. At this hour the birds are at their loudest; their songs seem to come from every direction at once. If you stay very still, you may see a rabbit coming carefully out of the bushes, or a big bird flying home after the night. By nine o'clock, however, the cloud has gone, people have arrived with their dogs, and the animals have disappeared deeper into the trees. That is why I always set my alarm for five. For me, the best part of the forest is not what you see but the feeling of having it all to yourself.",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-B1-07-1",
+    "type": "detail",
+    "stem": "What happens by nine o'clock?",
+    "options": [
+     "The birds begin their loud singing",
+     "A rabbit comes out to drink water",
+     "People arrive and animals leave",
+     "The cloud becomes thicker again"
+    ],
+    "answer": 2
+   },
+   {
+    "id": "R-B1-07-2",
+    "type": "vocab_in_context",
+    "stem": "In the text, \"damp\" means...",
+    "options": [
+     "quite warm",
+     "very dark",
+     "rather loud",
+     "slightly wet"
+    ],
+    "answer": 3
+   },
+   {
+    "id": "R-B1-07-3",
+    "type": "inference",
+    "stem": "Why does the writer set an alarm for five?",
+    "options": [
+     "To enjoy it before other people come",
+     "To get to work before the traffic",
+     "To walk the dog before breakfast",
+     "To take photos of the birds there"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "R-B1-08",
+  "level": "B1",
+  "genre": "instructions",
+  "title": "Getting Ready for an Interview",
+  "text": "A good interview begins long before you walk into the room. First, read the job advert carefully and make a list of the skills it asks for. Then think of one real example for each skill, for instance a time when you solved a problem or helped a team. Next, find out a little about the company; most firms have a website that explains what they do. Prepare two or three questions of your own, because this shows that you are interested. On the day, plan your journey so that you arrive about ten minutes early, not half an hour early, which can make the staff feel rushed. During the interview, listen to each question fully before you answer, and don't worry if you need a moment to think. Finally, send a short thank-you message the same day.",
+  "source": {
+   "type": "own",
+   "license": "CC-BY-SA-4.0"
+  },
+  "questions": [
+   {
+    "id": "R-B1-08-1",
+    "type": "detail",
+    "stem": "Why should you prepare questions of your own?",
+    "options": [
+     "It makes the interview shorter",
+     "The company asks for them",
+     "It helps you feel calm",
+     "It shows that you are interested"
+    ],
+    "answer": 3
+   },
+   {
+    "id": "R-B1-08-2",
+    "type": "reference",
+    "stem": "In \"half an hour early, which can make the staff feel rushed\", what does \"which\" refer to?",
+    "options": [
+     "Arriving half an hour early",
+     "Making a list of skills",
+     "Thinking before you answer",
+     "Sending a message"
+    ],
+    "answer": 0
+   },
+   {
+    "id": "R-B1-08-3",
+    "type": "main_idea",
+    "stem": "What is the text mainly about?",
+    "options": [
+     "How to write a good job advert",
+     "How to get ready for an interview",
+     "How to find a new job quickly",
+     "How to work well in a team"
+    ],
+    "answer": 1
+   }
+  ]
+ }
+]
