@@ -133,6 +133,17 @@ wr("pages/progress.html", docShell("Ход работ", `
 <p>Подробнее — в <a href="dev.html">документах проекта</a>.</p>
 `, 1));
 
+
+// --- политика конфиденциальности (те же тексты, что в приложении) ---
+const privacy = JSON.parse(rd("app/src/lib/privacy.json"));
+for (const lang of ["ru", "en"]) {
+  const t = privacy[lang];
+  const body = `<h1>${esc(t.h)}</h1><p class="lede">${esc(t.intro)}</p>` +
+    t.sections.map((s) => `<h2>${esc(s.t)}</h2>${s.p.map((x) => `<p>${esc(x)}</p>`).join("")}`).join("") +
+    `<p class="muted">${esc(t.note)}</p><p><a href="../${lang === "ru" ? "index.html" : "en/index.html"}">${esc(t.back)}</a></p>`;
+  wr(`pages/privacy-${lang}.html`, docShell(t.h, body, 1).replace('<html lang="ru">', `<html lang="${lang}">`));
+}
+
 // --- главная (ru) и английская версия ---
 const page = (t, other, o) => `<!doctype html><html lang="${t.lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(t.meta.title)}</title><meta name="description" content="${esc(t.meta.description)}">
@@ -143,7 +154,7 @@ const common = (lang) => ({
   followHref: REPO,
   repoHref: REPO,
 });
-wr("index.html", page(landing.ru, "en", { ...common("ru"), up: "", switchHref: "en/index.html", switchLabel: "English", privacyHref: PILOT_URL ? `${PILOT_URL.replace(/\/$/, "")}/ru/privacy` : "pages/progress.html", devHref: "pages/dev.html", progressHref: "pages/progress.html" }));
-wr("en/index.html", page(landing.en, "ru", { ...common("en"), up: "../", switchHref: "../index.html", switchLabel: "Русский", privacyHref: PILOT_URL ? `${PILOT_URL.replace(/\/$/, "")}/en/privacy` : "../pages/progress.html", devHref: "../pages/dev.html", progressHref: "../pages/progress.html" }));
+wr("index.html", page(landing.ru, "en", { ...common("ru"), up: "", switchHref: "en/index.html", switchLabel: "English", privacyHref: "pages/privacy-ru.html", devHref: "pages/dev.html", progressHref: "pages/progress.html" }));
+wr("en/index.html", page(landing.en, "ru", { ...common("en"), up: "../", switchHref: "../index.html", switchLabel: "Русский", privacyHref: "../pages/privacy-en.html", devHref: "../pages/dev.html", progressHref: "../pages/progress.html" }));
 wr(".nojekyll", "");
 console.log("built", { reading, listening, realWords, pseudo: pool.pseudo.length, pilot: PILOT_URL });
