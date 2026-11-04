@@ -1,0 +1,13 @@
+.git
+**/node_modules
+**/.next
+app/content
+app/e2e-shots
+app/test-results
+app/playwright-report
+site
+pages
+assets
+en
+index.html
+.pgtest

@@ -1,0 +1,11 @@
+# SITE_ADDRESS=:80 — по IP без шифрования (для проверки); домен вида example.ru — автоматический HTTPS.
+{$SITE_ADDRESS::80} {
+	encode gzip
+	header {
+		-Server
+		X-Content-Type-Options nosniff
+		Referrer-Policy same-origin
+	}
+	# Caddy дописывает адрес клиента в конец X-Forwarded-For: приложение берёт именно последний элемент.
+	reverse_proxy app:3000
+}

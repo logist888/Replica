@@ -1,0 +1,16 @@
+#cloud-config
+# Шаблон автоматической установки пилота на чистый сервер Ubuntu 22.04/24.04 (передаётся при создании сервера).
+# Секреты генерируются на самом сервере и лежат в /root/pilot-secrets.txt (права 600). В логи не выводятся.
+package_update: true
+packages: [git, ca-certificates, curl, docker.io, docker-compose-v2, openssl]
+runcmd:
+  - systemctl enable --now docker
+  - git clone --depth 1 https://github.com/logist888/Replica.git /opt/pilot
+  - |
+    cd /opt/pilot/deploy
+    DB_PASSWORD=$(openssl rand -hex 24)
+    ADMIN_TOKEN=$(openssl rand -hex 24)
+    umask 077
+    printf 'DB_PASSWORD=%s\nADMIN_TOKEN=%s\nSITE_ADDRESS=:80\n' "$DB_PASSWORD" "$ADMIN_TOKEN" > .env
+    cp .env /root/pilot-secrets.txt
+  - cd /opt/pilot && docker compose -f deploy/docker-compose.yml --env-file deploy/.env up -d --build

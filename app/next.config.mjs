@@ -1,6 +1,7 @@
-/** @type {import('next').NextConfig} */
+/** @type {import("next").NextConfig} */
 export default {
   poweredByHeader: false,
+  output: "standalone",
   async headers() {
     return [{
       source: "/:path*",
