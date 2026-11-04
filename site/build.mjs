@@ -28,7 +28,10 @@ const DOCS = [
 mkdirSync(path.join(repo, "assets"), { recursive: true });
 wr("assets/tokens.css", rd("replica/design/tokens.css"));
 wr("assets/landing.css", rd("app/src/app/landing.css"));
+mkdirSync(path.join(repo, "assets/fonts"), { recursive: true });
+cpSync(path.join(repo, "app/src/app/fonts"), path.join(repo, "assets/fonts"), { recursive: true });
 wr("assets/site.css", `
+@import "fonts/fonts.css";
 @import "tokens.css";
 *{box-sizing:border-box}
 body{margin:0;background:#fff;color:var(--color-text);font:400 17px/1.7 var(--font-sans);-webkit-font-smoothing:antialiased}
