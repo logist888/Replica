@@ -4,6 +4,12 @@
 package_update: true
 packages: [git, ca-certificates, curl, docker.io, docker-compose-v2, openssl]
 runcmd:
+  # swap 2 ГБ: сборка Next.js на сервере с 2 ГБ памяти иначе может упасть
+  - |
+    if [ ! -f /swapfile ]; then
+      fallocate -l 2G /swapfile && chmod 600 /swapfile && mkswap /swapfile && swapon /swapfile
+      echo '/swapfile none swap sw 0 0' >> /etc/fstab
+    fi
   - systemctl enable --now docker
   - git clone --depth 1 https://github.com/logist888/Replica.git /opt/pilot
   - |
